@@ -1,0 +1,97 @@
+['uploadwork', [1, 1]]
+['2', [1, 3, 1, 4]]
+['seemywork', [3, 3, 1, 1]]
+['3', [1, 3, 1, 4]]
+['del', [4, 4]]
+
+[((1, 3), 2), ((1, 4), 2), ((3, 4), 2)]
+
+1 [4]
+2 [2, 3]
+2 [3, 1]
+
+[1, 2, 3, 1, 2, 3, 1, 4, 1, 4]
+1 member: [0, 3, 6, 8]
+  LCS: []
+  url key: dict_keys([])
+  content key: dict_keys(['action', 'work_id'])
+  method: POST
+
+2 member: [1, 4]
+  LCS: [2, 3]
+  url key: dict_keys([])
+  content key: dict_keys([' name', ' filename'])
+  method: POST
+
+3 member: [2, 5]
+  LCS: [3, 1]
+  url key: dict_keys(['action', 'work_id'])
+  content key: dict_keys([])
+  method: GET
+
+4 member: [7, 9]
+  LCS: [4]
+  url key: dict_keys(['action', 'filename', 'work_id'])
+  content key: dict_keys([])
+  method: GET
+
+Index = 0, Group = 1
+url key: {}
+content key: {'action': ['uploadwork'], 'work_id': ['2']}
+cookies: {}
+
+
+Index = 1, Group = 2
+url key: {}
+content key: {' name': ['"work_id"\r\n\r\n2\r\n-----------------------------32730220815415780751555678295\r\nContent-Disposition: form-data', '"action"\r\n\r\nuploadstuwork\r\n-----------------------------32730220815415780751555678295\r\nContent-Disposition: form-data', '"uploadfile1"'], ' filename': ['"test1"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n-----------------------------32730220815415780751555678295--\r\n']}
+cookies: {}
+
+
+Index = 2, Group = 3
+url key: {'action': ['seemywork'], 'work_id': ['2']}
+content key: {}
+cookies: {}
+
+
+Index = 3, Group = 1
+url key: {}
+content key: {'action': ['uploadwork'], 'work_id': ['3']}
+cookies: {}
+
+
+Index = 4, Group = 2
+url key: {}
+content key: {' name': ['"work_id"\r\n\r\n3\r\n-----------------------------7594109662179570392030205466\r\nContent-Disposition: form-data', '"action"\r\n\r\nuploadstuwork\r\n-----------------------------7594109662179570392030205466\r\nContent-Disposition: form-data', '"uploadfile1"'], ' filename': ['"test2"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n-----------------------------7594109662179570392030205466--\r\n']}
+cookies: {}
+
+
+Index = 5, Group = 3
+url key: {'action': ['seemywork'], 'work_id': ['3']}
+content key: {}
+cookies: {}
+
+
+Index = 6, Group = 1
+url key: {}
+content key: {'action': ['seemywork'], 'work_id': ['2']}
+cookies: {}
+
+
+Index = 7, Group = 4
+url key: {'action': ['del'], 'filename': ['606410079_46729b'], 'work_id': ['2']}
+content key: {}
+cookies: {}
+
+
+Index = 8, Group = 1
+url key: {}
+content key: {'action': ['seemywork'], 'work_id': ['3']}
+cookies: {}
+
+
+Index = 9, Group = 4
+url key: {'action': ['del'], 'filename': ['606410079_91e159'], 'work_id': ['3']}
+content key: {}
+cookies: {}
+
+

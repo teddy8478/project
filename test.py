@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-from mitmproxy import io
+from mitmproxy import io 
 from mitmproxy.exceptions import FlowReadException
 import pprint
 import difflib
