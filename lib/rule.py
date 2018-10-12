@@ -22,15 +22,17 @@ def calc_value(group, flow_list):
     order_list = [x for x in record.keys() if len(record[x])>1]
     order_tup = map(tuple, order_list)
     order_cnt = sorted(list(Counter(order_tup).items()), key = lambda s:s[1], reverse = True)
-    ''' 
-    for item in order_cnt:
-        sys.stdout.write(str(item)+' ') 
-        for i in record:
-            if(record[i] == item):
-                sys.stdout.write(str(i)+' ')
-        print('')
-    '''
+    
     return order_list 
+
+def cookie_change(group, flow_list):
+    pre = set()
+    for index in range(len(group)):
+        if(group[index] != 0 and flow_list[index].cookies):
+            if set(flow_list[index].cookies.items()) - pre:
+                sys.stdout.write('Group: ' + str(group[index]) + ' ')
+                print(set(flow_list[index].cookies.items()) - pre)
+                pre = set(flow_list[index].cookies.items())
 
 class rule:
     def __init__(self, key, index, location):

@@ -6,17 +6,21 @@ from difflib import *
 from . import flow
 import re
 import json
+from collections import Counter
 
 def key_cmp(key1, key2):
-    diff = set(key1) - set(key2)
+    diff1 = list(set(key1) - set(key2))
+    diff2 = list(set(key2) - set(key1))
     if(len(key1) != len(key2)):
         return False
-    if(len(diff) == 0):
+    if(len(diff1) == 0):
         return True
 
-    for i in range(0, len(key1)-1):
-        parse1 = re.split('[-.#$_]', key1[i])
-        parse2 = re.split('[-.#$_]', key2[i])
+    for i in range(0, len(diff1)):
+        parse1 = re.split('[-.#$_]', diff1[i])
+        parse2 = re.split('[-.#$_]', diff2[i])
+        if(len(parse1) == 1):
+            return False
         for j in range(0, len(parse1)):
             if(len(parse1[j]) != len(parse2[j])):
                 return False
@@ -88,18 +92,22 @@ def find_LCS(group, group_list):
         mem.pop() 
         group_list[i].set_LCS(pre)
 
+
 class group_obj:
     def __init__(self, flow, index):
         self.member = list()
         self.member.append(index)
         self.url_dict = flow.url_dict
         self.LCS = []
+        self.pre_group = Counter() 
         self.content_dict = flow.content_dict
         self.diff_key = list()
+        self.dup = 0
         self.method = flow.stream.request.method
  
     def __repr__(self):
         re = 'member: ' + str(self.member) + '\n  LCS: ' + str(self.LCS) + '\n'
+        re += '  previous group: ' + self.cnt_prob() + '\n'
         re += '  url key: ' + str(self.url_dict.keys()) + '\n'
         re += '  content key: ' + str(self.content_dict.keys()) + '\n'
         re += '  method: ' + str(self.method) + '\n'
@@ -113,3 +121,9 @@ class group_obj:
 
     def set_LCS(self, LCS):
         self.LCS = LCS
+
+    def cnt_prob(self):
+        for key in self.pre_group:
+            self.pre_group[key] /= self.dup 
+            self.pre_group[key] = round(self.pre_group[key] * 100)
+        return str(self.pre_group)

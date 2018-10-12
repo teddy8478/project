@@ -4,6 +4,8 @@ import urllib
 from difflib import *
 import json
 from http.cookies import SimpleCookie
+from mitmproxy.net.http import headers
+from mitmproxy.net.http import multipart
 
 def url_to_dict(url):  #return the query key list of the given url
     query = urllib.parse.urlsplit(url).query
@@ -16,8 +18,13 @@ class flow:
         self.stream = stream
         self.url_dict = url_to_dict(stream.request.url)
 
-        self.raw_content = bytes.decode(stream.request.content)
-        self.content_dict = urllib.parse.parse_qs(self.raw_content)
+        self.raw_content = stream.request.content.decode(encoding="utf-8", errors="replace")
+        if((str(stream.request.headers.get("content-type")).find('multipart')) > -1):
+            form = multipart.decode(stream.request.headers, stream.request.content)
+            form = [(tup[0].decode('utf-8', errors="replace"), [tup[1].decode('utf-8', errors="replace")]) for tup in form]
+            self.content_dict = dict(form)
+        else:
+            self.content_dict = urllib.parse.parse_qs(self.raw_content)
         #self.content_key = list(self.content.keys())
         raw_cookie = dict(stream.request.headers.fields).get(b'cookie')
         cookie = SimpleCookie()
@@ -37,10 +44,11 @@ class flow:
                 self.resp_cookies[key] = value.value
     
     def __repr__(self):
-        re = 'url key: ' + str(self.url_dict) + '\n'
-        re += 'content key: ' + str(self.content_dict) + '\n'
+        re = 'url query: ' + str(self.url_dict) + '\n'
+        re += 'content query: ' + str(self.content_dict) + '\n'
         #re += str(self.stream) + '\n'
-        re += 'cookies: ' + str(self.cookies) + '\n\n'
+        re += 'url: ' + str(self.stream.request.url) + '\n'
+#        re += 'cookies: ' + str(self.cookies) + '\n\n'
         return re
 
     def is_json(self):
