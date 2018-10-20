@@ -16,12 +16,10 @@ def request(flow):
     ctx.master.commands.call("replay.client", [flow])
 
 
-logfile = open('log/a', "rb")
+logfile = open('log/amazon/addCart', "rb")
 output = open('copy', "wb")
 freader = io.FlowReader(logfile)
 fwriter = io.FlowWriter(output)
 for f in freader.stream():
+    #print(dir(f.request))
     fwriter.add(f)
-   
-os.system('mitmproxy -C copy -w copy')
-

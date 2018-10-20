@@ -10,7 +10,9 @@ from collections import Counter
 
 def key_cmp(key1, key2):
     diff1 = list(set(key1) - set(key2))
+    diff1.sort(key = len)
     diff2 = list(set(key2) - set(key1))
+    diff2.sort(key = len)
     if(len(key1) != len(key2)):
         return False
     if(len(diff1) == 0):
@@ -97,24 +99,26 @@ class group_obj:
     def __init__(self, flow, index):
         self.member = list()
         self.member.append(index)
-        self.url_dict = flow.url_dict
+        self.url_dict = [flow.url_dict]
         self.LCS = []
         self.pre_group = Counter() 
-        self.content_dict = flow.content_dict
-        self.diff_key = list()
+        self.content_dict = [flow.content_dict]
+        #self.diff_key = list()
         self.dup = 0
         self.method = flow.stream.request.method
  
     def __repr__(self):
         re = 'member: ' + str(self.member) + '\n  LCS: ' + str(self.LCS) + '\n'
-        re += '  previous group: ' + self.cnt_prob() + '\n'
-        re += '  url key: ' + str(self.url_dict.keys()) + '\n'
-        re += '  content key: ' + str(self.content_dict.keys()) + '\n'
+        #re += '  previous group: ' + self.cnt_prob() + '\n'
+        re += '  url key: ' + str(self.url_dict[0].keys()) + '\n'
+        re += '  content key: ' + str(self.content_dict[0].keys()) + '\n'
         re += '  method: ' + str(self.method) + '\n'
         return re
 
-    def add(self, index):
+    def add(self, flow, index):
         self.member.append(index)
+        self.url_dict.append(flow.url_dict)
+        self.content_dict.append(flow.content_dict)
 
     def get_member(self):
         return self.member

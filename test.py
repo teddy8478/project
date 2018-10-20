@@ -9,8 +9,8 @@ import itertools
 from lib.group import *
 from lib.flow import *
 from lib.rule import *
+from lib.fuzz import *
 
-similarity = 0.999
 
 def filter(f): #define rules to be filtered out
     try:
@@ -57,15 +57,14 @@ with open(sys.argv[1], "rb") as logfile:
         for f in freader.stream():
             if filter(f):
                 flow_list.append(flow(f))
-    #        if hasattr(f.response, 'headers'):
-    #            pp.pprint(f.response.headers)
+                #pp.pprint(f.get_state())
     #        print("")
         group = [0] * len(flow_list)
         group_list = list()          #list of group_obj
         group_list.append(0)
         i = 1
         group_flag = 0
-    #    print(is_similar(flow_list[0], flow_list[1]))
+        #print(is_similar(flow_list[13], flow_list[96]))
         for index in range(0, len(flow_list)): #filter and group
             for index2 in range(index+1, len(flow_list)):
                 if is_similar(flow_list[index], flow_list[index2]) and group[index2] == 0:
@@ -73,7 +72,7 @@ with open(sys.argv[1], "rb") as logfile:
                         group_list.append(group_obj(flow_list[index], index))
                         group[index] = i
                         group_flag = 1
-                    group_list[i].add(index2)
+                    group_list[i].add(flow_list[index], index2)
                     group[index2] = i                          
                         
             if group_flag:
@@ -82,7 +81,7 @@ with open(sys.argv[1], "rb") as logfile:
         
         #cookie_change(group, flow_list)
 
-
+        '''
         find_LCS(group, group_list)
         LCS_list = list()
         for i in range(1, len(group_list)):
@@ -98,7 +97,7 @@ with open(sys.argv[1], "rb") as logfile:
                     break
         for i in range(0, len(rm)): 
             LCS_list.remove(rm[i])
-        
+        '''
         dup_value = calc_value(group, flow_list)
         rule_dict = dict()
         for index in range(0, len(group)):
@@ -117,29 +116,56 @@ with open(sys.argv[1], "rb") as logfile:
                             rule_dict[value].add(item, index, 'url')
                         except KeyError:
                             rule_dict[value] = rule(item, index, 'url')
+        '''
         matrix = trans_matrix(len(group_list)+1)
         for i in rule_dict:
             matrix.add(rule_dict[i].group_order(group))
-            matrix.subset_cnt(set(rule_dict[i].group_order(group)))
-        #count previous group
+            matrix.subset_cnt(unique(rule_dict[i].group_order(group)))
+        '''
+        for r in rule_dict.values():
+            r.group_order(group) 
+        result = {}
+        for key,value in rule_dict.items():
+            if not rule_exist(value, result):
+                result[key] = value
+        rule_dict = result
+                
+        first_mem = [0]  #record the first member of each group
+        for i in range(1, len(group_list)):
+            first_mem.append(flow_list[group_list[i].member[0]])
+        
+        for m in first_mem[1:]:
+            try:
+                for key in m.content_dict.keys():
+                    try:
+                        m.content_dict[key] = m.content_dict[key][0]
+                    except:
+                        pass
+            except:
+                pass
+
+        fuzz_list = list() 
+        output = open('fuzz_log', "wb")
+        fwriter = io.FlowWriter(output)
         for i in rule_dict:
-            order = rule_dict[i].group_order(group)
+            order = rule_dict[i].g_order
             if len(set(order)) == 1:
                 continue
-            print([i, rule_dict[i].group_order(group)])
+            #print(rule_dict[i].fuzz_order(group))
+            '''
             for index in range(len(order)):
                 cur_group = order[index]
                 group_list[cur_group].pre_group.update(set(order[:index]))
                 group_list[cur_group].dup += 1
-            
+            '''
+            print([i, unique(order)])
+            #fuzz_list += rule_fuzz(rule_dict[i], first_mem, group)
+        fuzz_list += other_fuzz(first_mem)
+        for i in fuzz_list:
+            fwriter.add(i) 
         #print([x for x in sorted(matrix.cnt.items(), key=lambda x:x[1], reverse=True) if x[1]>1])
+
         print('')
-        '''
-        for i in LCS_list:
-            sys.stdout.write(str(len(i))+' ')
-            print(i) 
-        print('')
-        '''
         print_info(flow_list, group, group_list)
 
     except FlowReadException as e:

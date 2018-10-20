@@ -16,6 +16,7 @@ def url_to_dict(url):  #return the query key list of the given url
 class flow:
     def __init__(self, stream):
         self.stream = stream
+        self.group = 0
         self.url_dict = url_to_dict(stream.request.url)
 
         self.raw_content = stream.request.content.decode(encoding="utf-8", errors="replace")

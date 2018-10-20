@@ -1,191 +1,167 @@
-['ATVPDKIKX0DER', [1, 2, 3, 1, 2, 3]]
+['ATVPDKIKX0DER', [1, 2, 3]]
 ['B017YEAJTG', [1, 2, 3, 9, 13]]
-['130-7417922-1464243', [2, 3, 7, 7, 7, 2, 3, 7, 7]]
+['130-7417922-1464243', [2, 3, 7]]
 ['ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D', [2, 9, 13]]
-['0', [2, 9, 10, 13, 17, 2, 17, 9, 10, 17, 10, 13, 10, 13, 10, 17, 10]]
-['1', [2, 4, 7, 8, 9, 10, 4, 11, 13, 7, 4, 4, 7, 8, 14, 17, 2, 17, 4, 7, 8, 9, 10, 4, 11, 14, 17, 8, 4, 8, 10, 11, 4, 13, 10, 4, 11, 13, 7, 10, 4, 11, 11, 17, 4, 10]]
-['A1ZI30EZE3ZKCH', [3, 7, 7, 7, 3, 7, 7]]
-['UTF8', [4, 4, 4, 4, 14, 4, 4, 14, 4, 4, 4, 4, 4]]
-['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q', [6, 12, 6, 6, 6]]
-['FB3Q34MV5JW9FJW0V959', [7, 9, 10, 11, 13, 7, 11, 10]]
-['ShoppingCart', [7, 12, 7, 7, 7, 12, 12, 7]]
+['0', [2, 9, 10, 13, 17]]
+['1', [2, 4, 7, 8, 9, 10, 11, 13, 14, 17]]
+['A1ZI30EZE3ZKCH', [3, 7]]
+['UTF8', [4, 14]]
+['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q', [6, 12]]
+['FB3Q34MV5JW9FJW0V959', [7, 9, 10, 11, 13]]
+['ShoppingCart', [7, 12]]
 ['1538139112', [9, 13]]
 ['gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA', [9, 13]]
 ['C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||', [9, 13]]
 ['C597157b4-0c21-4f19-bb82-9fad02d53426', [9, 13]]
-['310', [10, 17, 17, 10, 17, 10, 10, 10, 17, 10]]
+['310', [10, 17]]
 ['0HAVWS3ATWK81CSV21XQ', [7, 14]]
-['B0778TY7XP', [14, 16, 1, 2, 3, 16, 9, 13]]
-['Detail', [16, 12, 16, 16]]
+['B0778TY7XP', [14, 16, 1, 2, 3, 9, 13]]
+['Detail', [16, 12]]
 ['https://www.amazon.com/gp/cart/view.html/ref=attachSidesheet', [6, 12]]
-['popUp', [20, 21, 20, 21]]
-['yF0B8CXy8xGddE%2FaA5ZggelVYKmQJS%2FUAKgGzm1dGiz7esQnsuIUAkJLpa30tii59QIR07y0YGqtC%2BcUntpDi%2By6bJ%2FRlm%2Fk6JCgykylrwHUybouqHYVnw%3D%3D', [2, 9, 13]]
+['popUp', [20, 21]]
 ['165793011', [2, 16]]
-['https://www.amazon.com/Should-Have-Known-That-Trivia/dp/B0778TY7XP/ref=pd_cart_vw_1_2?_encoding=UTF8&pd_rd_i=B0778TY7XP&pd_rd_r=0HAVWS3ATWK81CSV21XQ&pd_rd_w=BEqcj&pd_rd_wg=duEQ7&psc=1&refRID=0HAVWS3ATWK81CSV21XQ', [6, 12]]
 ['J710DM1V0X29XXFG2ES8', [7, 9, 10, 11]]
-['Cd93e35e0-b8a9-4e04-a09a-01ca50acee05', [9, 13]]
-['B004S8F7QM', [14, 16, 13]]
-['https://www.amazon.com/gp/huc/view.html?ie=UTF8&newItems=C679af13b-3ecf-424b-9df8-0fd31493556f%2C1', [6, 12]]
-['3WFDS00XR7HQNM9GC3K9', [10, 11, 13, 10, 11, 13, 7, 10, 11]]
+['B004S8F7QM', [14, 16, 9, 13]]
+['1538139342', [9, 13]]
+['gG9rKIMfJ8NAFnrLt9h4e8xSSbfiNB6cuSOnnpAAAAAJAAAAAFuuJM5yYXcAAAAA', [9, 13]]
+['3WFDS00XR7HQNM9GC3K9', [9, 10, 11, 13, 7]]
+['cgWElqdIt%2BYRlvjs1Q%2B5AO80Clr4GFEcsiHGi10WiSDsPGR11otnUegcWc4VsG%2BsVn9hI1JN1PNjI%2F57YHJcyIqDl%2FNTPC80E5%2Bzo%2Bks%2F6CCtz0sw5dUODIf2iULkiAxsqP7jN7MgDNBShHWdqjc2w%3D%3D', [9, 13]]
 
-[0, 0, 1, 0, 2, 3, 0, 4, 5, 6, 7, 8, 0, 9, 0, 10, 4, 11, 12, 0, 0, 0, 5, 0, 6, 13, 7, 4, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 5, 0, 6, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 8, 14, 15, 15, 15, 16, 17, 6, 18, 18, 18, 18, 19, 20, 0, 21, 0, 0, 19, 19, 12, 0, 1, 0, 2, 3, 22, 0, 16, 15, 15, 0, 17, 15, 0, 0, 22, 0, 4, 6, 5, 7, 8, 9, 0, 10, 4, 0, 11, 0, 12, 0, 0, 14, 16, 15, 15, 15, 18, 19, 18, 18, 18, 6, 0, 17, 0, 20, 21, 0, 0, 6, 8, 0, 0, 0, 0, 4, 5, 6, 8, 0, 0, 0, 10, 11, 0, 4, 13, 0, 10, 4, 11, 12, 13, 7, 0, 10, 4, 11, 0, 23, 0, 11, 0, 23, 6, 17, 0, 0, 4, 0, 10, 0, 0, 0, 0]
+[0, 0, 1, 0, 2, 3, 0, 4, 5, 6, 7, 8, 0, 9, 0, 10, 4, 11, 12, 0, 0, 0, 5, 0, 6, 13, 7, 4, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 5, 0, 6, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 8, 14, 15, 15, 15, 16, 17, 6, 18, 18, 18, 18, 19, 20, 0, 21, 0, 0, 19, 19, 12, 0, 1, 0, 2, 3, 22, 0, 16, 15, 15, 0, 17, 15, 0, 0, 22, 0, 4, 6, 5, 7, 8, 9, 0, 10, 4, 0, 11, 0, 12, 0, 0, 14, 16, 15, 15, 15, 18, 19, 18, 18, 18, 6, 0, 17, 0, 20, 21, 0, 0, 6, 8, 0, 0, 0, 0, 4, 5, 6, 8, 0, 0, 9, 10, 11, 0, 4, 13, 0, 10, 4, 11, 12, 13, 7, 0, 10, 4, 11, 0, 23, 0, 11, 0, 23, 6, 17, 0, 0, 4, 0, 10, 0, 0, 0, 0]
 1 member: [2, 75]
-  LCS: [1, 2, 3, 4, 6, 7, 8, 9, 10, 4, 11, 12, 14, 15, 15, 15, 18, 18, 18, 18, 20, 21, 12]
-  previous group: Counter({1: 25, 2: 25, 3: 25, 16: 25, 14: 25})
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['asinList', 'marketplaceId', 'asin', 'deviceType', 'attachWeblabsToTrigger'])
   method: POST
 
 2 member: [4, 77]
-  LCS: [2, 3, 4, 6, 7, 8, 9, 10, 4, 11, 12, 14, 15, 15, 15, 18, 18, 18, 18, 20, 21, 12]
-  previous group: Counter({1: 31, 2: 31, 3: 15, 7: 15, 9: 15, 10: 15, 13: 15, 17: 15, 14: 15, 4: 8, 8: 8, 11: 8, 16: 8})
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['session-id', 'ASIN', 'offerListingID', 'isMerchantExclusive', 'merchantID', 'isAddon', 'nodeID', 'sellingCustomerID', 'storeID', 'tagActionCode', 'viewID', 'rsid', 'quantity', 'dropdown-selection', 'dropdown-selection-ubb'])
   method: POST
 
 3 member: [5, 78]
-  LCS: [3, 4, 6, 7, 8, 9, 10, 4, 11, 12, 14, 15, 15, 15, 18, 18, 18, 18, 20, 21, 12]
-  previous group: Counter({2: 75, 1: 50, 3: 38, 7: 25, 16: 12, 14: 12})
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['marketplaceId', 'customerId', 'sessionId', 'asin', 'languageOfPreference'])
   method: POST
 
 4 member: [7, 16, 27, 34, 91, 99, 130, 140, 144, 151, 163]
-  LCS: [4]
-  previous group: Counter({4: 91, 14: 64, 2: 50, 7: 45, 8: 45, 9: 45, 10: 45, 11: 41, 13: 41, 17: 32})
+  LCS: []
   url key: dict_keys(['ie', 'checkAuthentication', 'checkDefaults', 'cartInitiateId'])
   content key: dict_keys([])
   method: GET
 
 5 member: [8, 22, 39, 93, 131]
-  LCS: [5, 7, 4]
-  previous group: Counter()
+  LCS: []
   url key: dict_keys(['_'])
   content key: dict_keys([])
   method: GET
 
 6 member: [9, 24, 41, 60, 92, 116, 124, 132, 159]
-  LCS: [6]
-  previous group: Counter({12: 43, 6: 43})
+  LCS: []
   url key: dict_keys(['type', 'isPrime', 'referrer', 'height', 'width', '_'])
   content key: dict_keys([])
   method: GET
 
 7 member: [10, 26, 49, 94, 148]
-  LCS: [7, 4, 6]
-  previous group: Counter({7: 68, 2: 40, 3: 40, 10: 24, 11: 24, 13: 24, 4: 20, 9: 20, 8: 16, 12: 16, 14: 8, 17: 8})
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['parentSession', 'currentSubPageType', 'relatedRequestId', 'customerId', 'currentPageType', 'isAUI'])
   method: POST
 
 8 member: [11, 53, 95, 125, 133]
-  LCS: [8, 4]
-  previous group: Counter({2: 100, 4: 100, 7: 100, 8: 80, 9: 80, 10: 80, 11: 80, 13: 80, 14: 60, 17: 60})
+  LCS: []
   url key: dict_keys(['prefetchSPP'])
   content key: dict_keys([])
   method: GET
 
-9 member: [13, 96]
-  LCS: [9, 10, 4, 11, 12, 14, 15, 15, 15, 18, 18, 18, 18, 20, 21, 6, 5, 7]
-  previous group: Counter({2: 53, 7: 27, 1: 13, 3: 13, 9: 13, 10: 13, 13: 13, 17: 13, 8: 13, 4: 13, 14: 13, 11: 7, 16: 7})
+9 member: [13, 96, 136]
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['hasMoreItems', 'timeStamp', 'token', 'requestID', 'activeItems', 'closeAddonUpsell', 'flcExpanded', 'quantity.C597157b4-0c21-4f19-bb82-9fad02d53426', 'pageAction', 'submit.update-quantity.C597157b4-0c21-4f19-bb82-9fad02d53426', 'displayedSavedItemNum', 'actionItemID', 'actionType', 'asin', 'encodedOffering'])
   method: POST
 
 10 member: [15, 98, 137, 143, 150, 165]
-  LCS: [10]
-  previous group: Counter({10: 75, 9: 62, 17: 62, 13: 54, 2: 50, 7: 42, 11: 33, 4: 25, 8: 25, 14: 21})
+  LCS: []
   url key: dict_keys(['cartItems', 'rid', 'isFullWidthPrime', 'isPrime', 'dynamicRequest', 'primeMenuWidth', '_'])
   content key: dict_keys([])
   method: GET
 
 11 member: [17, 101, 138, 145, 152, 156]
-  LCS: [11]
-  previous group: Counter({10: 100, 7: 83, 9: 75, 11: 67, 13: 67, 2: 50, 4: 50, 8: 50, 14: 42, 17: 42})
+  LCS: []
   url key: dict_keys(['isAUI', 'relatedRequestId', '_'])
   content key: dict_keys([])
   method: GET
 
 12 member: [18, 73, 103, 146]
-  LCS: [12, 6]
-  previous group: Counter({6: 50, 7: 38, 12: 25, 16: 12})
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['path', 'queryString', 'pageType', 'referer'])
   method: POST
 
 13 member: [25, 141, 147]
-  LCS: [13, 10, 4, 11]
-  previous group: Counter({9: 84, 2: 53, 10: 47, 11: 32, 13: 26, 17: 21, 7: 21, 14: 21, 4: 16, 8: 16, 1: 11, 3: 11, 16: 11})
+  LCS: []
   url key: dict_keys([])
   content key: dict_keys(['hasMoreItems', 'timeStamp', 'token', 'requestID', 'activeItems', 'closeAddonUpsell', 'flcExpanded', 'submit.delete.C597157b4-0c21-4f19-bb82-9fad02d53426', 'pageAction', 'displayedSavedItemNum', 'actionItemID', 'actionType', 'asin', 'encodedOffering'])
   method: POST
 
 14 member: [54, 106]
-  LCS: [14, 15, 15, 15, 18, 18, 18, 18, 20, 21, 6, 5, 8, 10, 4, 11, 12]
-  previous group: Counter({4: 57, 7: 43, 2: 29, 8: 29, 9: 29, 10: 29, 11: 29, 13: 29, 14: 29, 17: 14})
+  LCS: []
   url key: dict_keys(['_encoding', 'pd_rd_i', 'pd_rd_r', 'pd_rd_w', 'pd_rd_wg', 'psc', 'refRID'])
   content key: dict_keys([])
   method: GET
 
 15 member: [55, 56, 57, 82, 83, 86, 108, 109, 110]
   LCS: []
-  previous group: Counter()
   url key: dict_keys(['src', 'slot', 'rid', 'callback'])
   content key: dict_keys([])
   method: GET
 
 16 member: [58, 81, 107]
-  LCS: [16, 17, 6, 12]
-  previous group: Counter({14: 43, 16: 43, 2: 29, 12: 29, 1: 14, 3: 14})
+  LCS: []
   url key: dict_keys(['pa', 'c', 'pc', 'pt', 'u', 'src', 'sz', 'ad-sid', 'pj', 'ad-uid', 'slot'])
   content key: dict_keys([])
   method: GET
 
 17 member: [59, 85, 118, 160]
-  LCS: [17]
-  previous group: Counter({10: 100, 17: 75, 9: 67, 2: 67, 13: 67, 4: 33, 7: 33, 8: 33, 11: 33, 14: 33})
+  LCS: []
   url key: dict_keys(['timelineTooltipContent', 'metricKey', 'rid', 'isFullWidthPrime', 'isPrime', 'dynamicRequest', 'primeMenuWidth', '_'])
   content key: dict_keys([])
   method: GET
 
 18 member: [61, 62, 63, 64, 111, 113, 114, 115]
   LCS: []
-  previous group: Counter()
   url key: dict_keys(['pl'])
   content key: dict_keys([])
   method: GET
 
 19 member: [65, 71, 72, 112]
   LCS: []
-  previous group: Counter()
   url key: dict_keys(['d', 'ex-fch', 'ex-fargs', 'cb'])
   content key: dict_keys([])
   method: GET
 
 20 member: [66, 120]
-  LCS: [20, 21, 6, 5, 8, 10, 4, 11, 12, 6, 17]
-  previous group: Counter({20: 50, 21: 50})
+  LCS: []
   url key: dict_keys(['hitType'])
   content key: dict_keys([])
   method: GET
 
 21 member: [68, 121]
-  LCS: [21, 6, 5, 8, 10, 4, 11, 12, 6, 17]
-  previous group: Counter({20: 100, 21: 50})
+  LCS: []
   url key: dict_keys(['pageType', 'hitType'])
   content key: dict_keys([])
   method: GET
 
 22 member: [79, 89]
-  LCS: [22, 16, 15, 15, 15]
-  previous group: Counter()
+  LCS: []
   url key: dict_keys(['ref'])
   content key: dict_keys([])
   method: GET
 
 23 member: [154, 158]
-  LCS: [23]
-  previous group: Counter()
+  LCS: []
   url key: dict_keys(['params'])
   content key: dict_keys([])
   method: POST
@@ -202,7 +178,7 @@ url: https://www.amazon.com/gp/navigation/ajax/recordevent.html?trigger=167383%3
 
 Index = 2, Group = 1
 url query: {}
-content query: {'asinList': ['[B01NAFRSZZ, B012WF7ORW, B009N72TAA]'], 'marketplaceId': ['ATVPDKIKX0DER'], 'asin': ['B017YEAJTG'], 'deviceType': ['desktop'], 'attachWeblabsToTrigger': ['ATTACH_DSS_ACCESSORY_ONLY_IMPACT_159972']}
+content query: {'asinList': '[B01NAFRSZZ, B012WF7ORW, B009N72TAA]', 'marketplaceId': 'ATVPDKIKX0DER', 'asin': 'B017YEAJTG', 'deviceType': 'desktop', 'attachWeblabsToTrigger': 'ATTACH_DSS_ACCESSORY_ONLY_IMPACT_159972'}
 url: https://www.amazon.com/gp/product/features/aloha-ppd/udp-ajax-handler/attach-render-desktop.html
 
 Index = 3, Group = 0
@@ -212,12 +188,12 @@ url: https://www.amazon.com/gp/cobrandcard/dss-maple-banner.html
 
 Index = 4, Group = 2
 url query: {}
-content query: {'session-id': ['130-7417922-1464243'], 'ASIN': ['B017YEAJTG'], 'offerListingID': ['ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D'], 'isMerchantExclusive': ['0'], 'merchantID': ['ATVPDKIKX0DER'], 'isAddon': ['0'], 'nodeID': ['2335752011'], 'sellingCustomerID': ['A2R2RITDJNW1Q6'], 'storeID': ['wireless'], 'tagActionCode': ['2335752011'], 'viewID': ['glance'], 'rsid': ['130-7417922-1464243'], 'quantity': ['1'], 'dropdown-selection': ['jmonothuqqkq'], 'dropdown-selection-ubb': ['jmonothuqqkq']}
+content query: {'session-id': '130-7417922-1464243', 'ASIN': 'B017YEAJTG', 'offerListingID': 'ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D', 'isMerchantExclusive': '0', 'merchantID': 'ATVPDKIKX0DER', 'isAddon': '0', 'nodeID': '2335752011', 'sellingCustomerID': 'A2R2RITDJNW1Q6', 'storeID': 'wireless', 'tagActionCode': '2335752011', 'viewID': 'glance', 'rsid': '130-7417922-1464243', 'quantity': '1', 'dropdown-selection': 'jmonothuqqkq', 'dropdown-selection-ubb': 'jmonothuqqkq'}
 url: https://www.amazon.com/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance
 
 Index = 5, Group = 3
 url query: {}
-content query: {'marketplaceId': ['ATVPDKIKX0DER'], 'customerId': ['A1ZI30EZE3ZKCH'], 'sessionId': ['130-7417922-1464243'], 'asin': ['B017YEAJTG'], 'languageOfPreference': ['en_US']}
+content query: {'marketplaceId': 'ATVPDKIKX0DER', 'customerId': 'A1ZI30EZE3ZKCH', 'sessionId': '130-7417922-1464243', 'asin': 'B017YEAJTG', 'languageOfPreference': 'en_US'}
 url: https://www.amazon.com/gp/product/features/aloha-ppd/udp-ajax-handler/attach-get-cart-description.html
 
 Index = 6, Group = 0
@@ -242,7 +218,7 @@ url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&i
 
 Index = 10, Group = 7
 url query: {}
-content query: {'parentSession': ['130-7417922-1464243'], 'currentSubPageType': ['Cart'], 'relatedRequestId': ['FB3Q34MV5JW9FJW0V959'], 'customerId': ['A1ZI30EZE3ZKCH'], 'currentPageType': ['ShoppingCart'], 'isAUI': ['1']}
+content query: {'parentSession': '130-7417922-1464243', 'currentSubPageType': 'Cart', 'relatedRequestId': 'FB3Q34MV5JW9FJW0V959', 'customerId': 'A1ZI30EZE3ZKCH', 'currentPageType': 'ShoppingCart', 'isAUI': '1'}
 url: https://www.amazon.com/gp/recent-history-footer/external/rhf-handler.html
 
 Index = 11, Group = 8
@@ -257,7 +233,7 @@ url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
 
 Index = 13, Group = 9
 url query: {}
-content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139112'], 'token': ['gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA'], 'requestID': ['FB3Q34MV5JW9FJW0V959'], 'activeItems': ['C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'quantity.C597157b4-0c21-4f19-bb82-9fad02d53426': ['2'], 'pageAction': ['update-quantity'], 'submit.update-quantity.C597157b4-0c21-4f19-bb82-9fad02d53426': ['1'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['C597157b4-0c21-4f19-bb82-9fad02d53426'], 'actionType': ['update-quantity'], 'asin': ['B017YEAJTG'], 'encodedOffering': ['ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D']}
+content query: {'hasMoreItems': '0', 'timeStamp': '1538139112', 'token': 'gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA', 'requestID': 'FB3Q34MV5JW9FJW0V959', 'activeItems': 'C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||', 'closeAddonUpsell': '1', 'flcExpanded': '0', 'quantity.C597157b4-0c21-4f19-bb82-9fad02d53426': '2', 'pageAction': 'update-quantity', 'submit.update-quantity.C597157b4-0c21-4f19-bb82-9fad02d53426': '1', 'displayedSavedItemNum': '0', 'actionItemID': 'C597157b4-0c21-4f19-bb82-9fad02d53426', 'actionType': 'update-quantity', 'asin': 'B017YEAJTG', 'encodedOffering': 'ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D'}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_update_quantity_1|1|2
 
 Index = 14, Group = 0
@@ -282,7 +258,7 @@ url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestI
 
 Index = 18, Group = 12
 url query: {}
-content query: {'path': ['/gp/cart/view.html'], 'queryString': ['?ie=UTF8'], 'pageType': ['ShoppingCart'], 'referer': ['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q']}
+content query: {'path': '/gp/cart/view.html', 'queryString': '?ie=UTF8', 'pageType': 'ShoppingCart', 'referer': 'https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q'}
 url: https://www.amazon.com/gp/redirection/mexico.html
 
 Index = 19, Group = 0
@@ -317,7 +293,7 @@ url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&i
 
 Index = 25, Group = 13
 url query: {}
-content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139112'], 'token': ['gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA'], 'requestID': ['FB3Q34MV5JW9FJW0V959'], 'activeItems': ['C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'submit.delete.C597157b4-0c21-4f19-bb82-9fad02d53426': ['1'], 'pageAction': ['delete-active'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['C597157b4-0c21-4f19-bb82-9fad02d53426'], 'actionType': ['delete'], 'asin': ['B017YEAJTG'], 'encodedOffering': ['ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D']}
+content query: {'hasMoreItems': '0', 'timeStamp': '1538139112', 'token': 'gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA', 'requestID': 'FB3Q34MV5JW9FJW0V959', 'activeItems': 'C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||', 'closeAddonUpsell': '1', 'flcExpanded': '0', 'submit.delete.C597157b4-0c21-4f19-bb82-9fad02d53426': '1', 'pageAction': 'delete-active', 'displayedSavedItemNum': '0', 'actionItemID': 'C597157b4-0c21-4f19-bb82-9fad02d53426', 'actionType': 'delete', 'asin': 'B017YEAJTG', 'encodedOffering': 'ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D'}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_cart_delete_1
 
 Index = 26, Group = 7
@@ -870,7 +846,7 @@ url query: {}
 content query: {}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
 
-Index = 136, Group = 0
+Index = 136, Group = 9
 url query: {}
 content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139342'], 'token': ['gG9rKIMfJ8NAFnrLt9h4e8xSSbfiNB6cuSOnnpAAAAAJAAAAAFuuJM5yYXcAAAAA'], 'requestID': ['3WFDS00XR7HQNM9GC3K9'], 'activeItems': ['C679af13b-3ecf-424b-9df8-0fd31493556f|1|0|1|25|||0||', 'Cd93e35e0-b8a9-4e04-a09a-01ca50acee05|1|0|4|20|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'quantity.C679af13b-3ecf-424b-9df8-0fd31493556f': ['2'], 'pageAction': ['update-quantity'], 'submit.update-quantity.C679af13b-3ecf-424b-9df8-0fd31493556f': ['1'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['C679af13b-3ecf-424b-9df8-0fd31493556f'], 'actionType': ['update-quantity'], 'asin': ['B004S8F7QM'], 'encodedOffering': ['cgWElqdIt%2BYRlvjs1Q%2B5AO80Clr4GFEcsiHGi10WiSDsPGR11otnUegcWc4VsG%2BsVn9hI1JN1PNjI%2F57YHJcyIqDl%2FNTPC80E5%2Bzo%2Bks%2F6CCtz0sw5dUODIf2iULkiAxsqP7jN7MgDNBShHWdqjc2w%3D%3D']}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_update_quantity_1|1|2

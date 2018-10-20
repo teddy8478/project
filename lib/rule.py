@@ -23,7 +23,11 @@ def calc_value(group, flow_list):
     order_tup = map(tuple, order_list)
     order_cnt = sorted(list(Counter(order_tup).items()), key = lambda s:s[1], reverse = True)
     
-    return order_list 
+    return order_list
+ 
+def unique(sequence): #remove duplicate value and keep the order in list
+    seen = set()
+    return [x for x in sequence if not (x in seen or seen.add(x))]
 
 def cookie_change(group, flow_list):
     pre = set()
@@ -34,30 +38,77 @@ def cookie_change(group, flow_list):
                 print(set(flow_list[index].cookies.items()) - pre)
                 pre = set(flow_list[index].cookies.items())
 
+def is_sameRule(rule1, rule2):
+    if rule1.url != rule2.url:
+        return False
+    if rule1.content != rule2.content:
+        return False          
+    if unique(rule1.g_order) != unique(rule2.g_order):
+        return False
+    return True
+
+def rule_exist(rule, rule_dict):
+    for r in rule_dict.values():
+        if is_sameRule(rule, r):
+            return True
+    return False
+
 class rule:
     def __init__(self, key, index, location):
         self.location = [location]
-        self.key = [[key]]
+        self.url = list()
+        self.content = list()
+        if location == 'url':
+            self.url.append([key])
+            self.content.append([''])
+        else:
+            self.content.append([key])
+            self.url.append([''])
+            
         self.order = [index]
-    
+        self.g_order = [] 
     def __repr__(self):
         re = ''
         for index in range(0, len(self.order)):
-            re += 'Flow ' + str(self.order[index]) 
-            re += ' ' + str(self.location[index]) + ' key: '
-            re += str(self.key[index]) + '\n-> '
+            re += 'Flow ' + str(self.order[index]) + '\n' 
+            #re += ' ' + str(self.location[index]) + ' key: '
+            re += 'url key: ' + str(self.url[index]) + '\n'
+            re += 'content key: ' + str(self.content[index]) + '\n-> '
         return re
 
     def add(self, key, index, location):
-        if(self.order[-1] == index):
-            self.key[-1].append(key)
+        if(self.order[-1] == index): #in the same flow
+            if location == 'url':
+                self.url[-1].append(key)
+            else:
+                self.content[-1].append(key)
         else:
-            self.location.append(location)
-            self.key.append([key])
+            #self.location.append(location)
+            if location == 'url':
+                self.url.append([key])
+                self.content.append([''])
+            else:
+                self.content.append([key])
+                self.url.append([''])
             self.order.append(index)
 
     def group_order(self, group):
+        self.g_order = [group[x] for x in self.order]
         return [group[x] for x in self.order]
+
+    def fuzz_order(self, group):
+        index_tup = [(index, group[index]) for index in self.order]
+        seen = list()
+        re = list()
+        for tup in index_tup:
+            if tup[1] in seen:
+                pass
+            else:
+                seen.append(tup[1])
+                re.append(tup[0])
+        return re
+
+            
 
 class trans_matrix:
     def __init__(self, size):
