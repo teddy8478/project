@@ -1,7 +1,6 @@
 import mitmproxy
 import sys
 import urllib
-import numpy as np
 from difflib import *
 from . import flow
 import re
@@ -28,6 +27,14 @@ def key_cmp(key1, key2):
                 return False
     return True
 
+def json_struct(obj):
+    if isinstance(obj, dict):
+        return sorted((k, json_struct(v)) for k, v in obj.items())
+    if isinstance(obj, list):
+        return sorted(json_struct(x) for x in obj)
+    else:
+        return obj            
+
 def is_similar(f1, f2):
     if(f1.stream.request.method != f2.stream.request.method):
         return False
@@ -35,17 +42,22 @@ def is_similar(f1, f2):
         pass
     elif key_cmp(list(f1.url_dict.keys()), list(f2.url_dict.keys())):
         return True
-
-    if(len(f1.content_dict.keys()) == 0 or len(f2.content_dict.keys()) == 0):
-        pass
-    elif(f1.is_json() and f2.is_json()):
-        a, b = json.dumps(f1.raw_content, sort_keys=True), json.dumps(f2.raw_content, sort_keys=True)
-        if a == b:
+    if f1.content_type != f2.content_type:
+        return False
+    if f1.content_type == 'urlencode':
+        if(len(f1.content_dict.keys()) == 0 or len(f2.content_dict.keys()) == 0):
+            pass
+        else:
+            if(key_cmp(list(f1.content_dict.keys()), list(f2.content_dict.keys()))):
+                return True
+    elif f1.content_type == 'json':
+        #a, b = json.dumps(f1.raw_content, sort_keys=True), json.dumps(f2.raw_content, sort_keys=True)
+        a = json.loads(f1.raw_content)
+        b = json.loads(f2.raw_content)
+        if json_struct(a) == json_struct(b):
             return True
     else:
-        if(key_cmp(list(f1.content_dict.keys()), list(f2.content_dict.keys()))):
-            return True
-
+        pass
     return False
 
 
@@ -105,11 +117,13 @@ class group_obj:
         self.content_dict = [flow.content_dict]
         #self.diff_key = list()
         self.dup = 0
+        self.content_type = flow.content_type 
         self.method = flow.stream.request.method
  
     def __repr__(self):
-        re = 'member: ' + str(self.member) + '\n  LCS: ' + str(self.LCS) + '\n'
+        re = 'member: ' + str(self.member) + '\n' 
         #re += '  previous group: ' + self.cnt_prob() + '\n'
+        re += '  content type: ' + str(self.content_type) + '\n'
         re += '  url key: ' + str(self.url_dict[0].keys()) + '\n'
         re += '  content key: ' + str(self.content_dict[0].keys()) + '\n'
         re += '  method: ' + str(self.method) + '\n'

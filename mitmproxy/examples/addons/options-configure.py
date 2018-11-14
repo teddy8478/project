@@ -12,7 +12,6 @@ class AddHeader:
             default = None,
             help = "Add a header to responses",
         )
-
     def configure(self, updates):
         if "addheader" in updates:
             if ctx.options.addheader is not None and ctx.options.addheader > 100:

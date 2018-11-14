@@ -1,167 +1,1050 @@
-['ATVPDKIKX0DER', [1, 2, 3]]
-['B017YEAJTG', [1, 2, 3, 9, 13]]
-['130-7417922-1464243', [2, 3, 7]]
-['ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D', [2, 9, 13]]
-['0', [2, 9, 10, 13, 17]]
-['1', [2, 4, 7, 8, 9, 10, 11, 13, 14, 17]]
-['A1ZI30EZE3ZKCH', [3, 7]]
-['UTF8', [4, 14]]
-['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q', [6, 12]]
-['FB3Q34MV5JW9FJW0V959', [7, 9, 10, 11, 13]]
-['ShoppingCart', [7, 12]]
-['1538139112', [9, 13]]
-['gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA', [9, 13]]
-['C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||', [9, 13]]
-['C597157b4-0c21-4f19-bb82-9fad02d53426', [9, 13]]
-['310', [10, 17]]
-['0HAVWS3ATWK81CSV21XQ', [7, 14]]
-['B0778TY7XP', [14, 16, 1, 2, 3, 9, 13]]
-['Detail', [16, 12]]
-['https://www.amazon.com/gp/cart/view.html/ref=attachSidesheet', [6, 12]]
-['popUp', [20, 21]]
-['165793011', [2, 16]]
-['J710DM1V0X29XXFG2ES8', [7, 9, 10, 11]]
-['B004S8F7QM', [14, 16, 9, 13]]
-['1538139342', [9, 13]]
-['gG9rKIMfJ8NAFnrLt9h4e8xSSbfiNB6cuSOnnpAAAAAJAAAAAFuuJM5yYXcAAAAA', [9, 13]]
-['3WFDS00XR7HQNM9GC3K9', [9, 10, 11, 13, 7]]
-['cgWElqdIt%2BYRlvjs1Q%2B5AO80Clr4GFEcsiHGi10WiSDsPGR11otnUegcWc4VsG%2BsVn9hI1JN1PNjI%2F57YHJcyIqDl%2FNTPC80E5%2Bzo%2Bks%2F6CCtz0sw5dUODIf2iULkiAxsqP7jN7MgDNBShHWdqjc2w%3D%3D', [9, 13]]
+desktop
+[[1, 1], Direction: req
+Flow 2
+url key: ['']
+content key: ['deviceType']
+-> Flow 75
+url key: ['']
+content key: ['deviceType']
+-> 
+]
+ATTACH_DSS_ACCESSORY_ONLY_IMPACT_159972
+[[1, 1], Direction: req
+Flow 2
+url key: ['']
+content key: ['attachWeblabsToTrigger']
+-> Flow 75
+url key: ['']
+content key: ['attachWeblabsToTrigger']
+-> 
+]
+130-7417922-1464243
+[[11], Direction: resp
+Set-cookie: 
+Response content: session-id
+Flow 152
+url key: ['']
+content key: ['']
+-> 
+]
+0
+[[13, 10, 17, 10], Direction: resp
+Set-cookie: 
+Response content: features,nav-cart,cartQty
+Flow 147
+url key: ['']
+content key: ['']
+-> Flow 150
+url key: ['isFullWidthPrime', 'isPrime']
+content key: ['']
+-> Flow 160
+url key: ['isFullWidthPrime', 'isPrime']
+content key: ['']
+-> Flow 165
+url key: ['isFullWidthPrime', 'isPrime']
+content key: ['']
+-> 
+]
+2335752011
+[[2], Direction: req
+Flow 4
+url key: ['']
+content key: ['nodeID', 'tagActionCode']
+-> 
+]
+A2R2RITDJNW1Q6
+[[2, 2], Direction: req
+Flow 4
+url key: ['']
+content key: ['sellingCustomerID']
+-> Flow 77
+url key: ['']
+content key: ['sellingCustomerID']
+-> 
+]
+glance
+[[2, 2], Direction: req
+Flow 4
+url key: ['']
+content key: ['viewID']
+-> Flow 77
+url key: ['']
+content key: ['viewID']
+-> 
+]
+1
+[[13, 10, 4, 11, 13, 7, 10, 4, 11, 11, 17, 4, 10], Direction: resp
+Set-cookie: 
+Response content: features,desktop/active-cart,items,1,itemcount
+Flow 141
+url key: ['']
+content key: ['']
+-> Flow 143
+url key: ['dynamicRequest']
+content key: ['']
+-> Flow 144
+url key: ['checkAuthentication', 'checkDefaults']
+content key: ['']
+-> Flow 145
+url key: ['isAUI']
+content key: ['']
+-> Flow 147
+url key: ['']
+content key: ['closeAddonUpsell', 'submit.delete.Cd93e35e0-b8a9-4e04-a09a-01ca50acee05']
+-> Flow 148
+url key: ['']
+content key: ['isAUI']
+-> Flow 150
+url key: ['dynamicRequest']
+content key: ['']
+-> Flow 151
+url key: ['checkAuthentication', 'checkDefaults']
+content key: ['']
+-> Flow 152
+url key: ['isAUI']
+content key: ['']
+-> Flow 156
+url key: ['isAUI']
+content key: ['']
+-> Flow 160
+url key: ['dynamicRequest']
+content key: ['']
+-> Flow 163
+url key: ['checkAuthentication', 'checkDefaults']
+content key: ['']
+-> Flow 165
+url key: ['dynamicRequest']
+content key: ['']
+-> 
+]
+jmonothuqqkq
+[[2, 2], Direction: req
+Flow 4
+url key: ['']
+content key: ['dropdown-selection', 'dropdown-selection-ubb']
+-> Flow 77
+url key: ['']
+content key: ['dropdown-selection', 'dropdown-selection-ubb']
+-> 
+]
+en_US
+[[3, 3], Direction: req
+Flow 5
+url key: ['']
+content key: ['languageOfPreference']
+-> Flow 78
+url key: ['']
+content key: ['languageOfPreference']
+-> 
+]
+load
+[[6, 6, 6, 6, 6, 6, 6, 6, 6], Direction: req
+Flow 9
+url key: ['type']
+content key: ['']
+-> Flow 24
+url key: ['type']
+content key: ['']
+-> Flow 41
+url key: ['type']
+content key: ['']
+-> Flow 60
+url key: ['type']
+content key: ['']
+-> Flow 92
+url key: ['type']
+content key: ['']
+-> Flow 116
+url key: ['type']
+content key: ['']
+-> Flow 124
+url key: ['type']
+content key: ['']
+-> Flow 132
+url key: ['type']
+content key: ['']
+-> Flow 159
+url key: ['type']
+content key: ['']
+-> 
+]
+false
+[[6, 6, 6, 6, 6, 6, 6, 6, 6], Direction: req
+Flow 9
+url key: ['isPrime']
+content key: ['']
+-> Flow 24
+url key: ['isPrime']
+content key: ['']
+-> Flow 41
+url key: ['isPrime']
+content key: ['']
+-> Flow 60
+url key: ['isPrime']
+content key: ['']
+-> Flow 92
+url key: ['isPrime']
+content key: ['']
+-> Flow 116
+url key: ['isPrime']
+content key: ['']
+-> Flow 124
+url key: ['isPrime']
+content key: ['']
+-> Flow 132
+url key: ['isPrime']
+content key: ['']
+-> Flow 159
+url key: ['isPrime']
+content key: ['']
+-> 
+]
+639
+[[6, 6, 6, 6, 6, 6, 6, 6, 6], Direction: req
+Flow 9
+url key: ['height']
+content key: ['']
+-> Flow 24
+url key: ['height']
+content key: ['']
+-> Flow 41
+url key: ['height']
+content key: ['']
+-> Flow 60
+url key: ['height']
+content key: ['']
+-> Flow 92
+url key: ['height']
+content key: ['']
+-> Flow 116
+url key: ['height']
+content key: ['']
+-> Flow 124
+url key: ['height']
+content key: ['']
+-> Flow 132
+url key: ['height']
+content key: ['']
+-> Flow 159
+url key: ['height']
+content key: ['']
+-> 
+]
+1039
+[[6, 6, 6, 6, 6, 6, 6, 6, 6], Direction: req
+Flow 9
+url key: ['width']
+content key: ['']
+-> Flow 24
+url key: ['width']
+content key: ['']
+-> Flow 41
+url key: ['width']
+content key: ['']
+-> Flow 60
+url key: ['width']
+content key: ['']
+-> Flow 92
+url key: ['width']
+content key: ['']
+-> Flow 116
+url key: ['width']
+content key: ['']
+-> Flow 124
+url key: ['width']
+content key: ['']
+-> Flow 132
+url key: ['width']
+content key: ['']
+-> Flow 159
+url key: ['width']
+content key: ['']
+-> 
+]
+Cart
+[[7, 7, 7, 7, 7], Direction: req
+Flow 10
+url key: ['']
+content key: ['currentSubPageType']
+-> Flow 26
+url key: ['']
+content key: ['currentSubPageType']
+-> Flow 49
+url key: ['']
+content key: ['currentSubPageType']
+-> Flow 94
+url key: ['']
+content key: ['currentSubPageType']
+-> Flow 148
+url key: ['']
+content key: ['currentSubPageType']
+-> 
+]
+2
+[[9], Direction: resp
+Set-cookie: 
+Response content: features,desktop/active-cart,items,1,itemcount
+Flow 136
+url key: ['']
+content key: ['']
+-> 
+]
+update-quantity
+[[9, 9, 9], Direction: req
+Flow 13
+url key: ['']
+content key: ['pageAction', 'actionType']
+-> Flow 96
+url key: ['']
+content key: ['pageAction', 'actionType']
+-> Flow 136
+url key: ['']
+content key: ['pageAction', 'actionType']
+-> 
+]
+C597157b4-0c21-4f19-bb82-9fad02d53426
+[[13], Direction: resp
+Set-cookie: 
+Response content: features,desktop/active-cart,items,0,id
+Flow 25
+url key: ['']
+content key: ['']
+-> 
+]
+cart
+[[10, 10, 10, 10, 10, 10], Direction: req
+Flow 15
+url key: ['cartItems']
+content key: ['']
+-> Flow 98
+url key: ['cartItems']
+content key: ['']
+-> Flow 137
+url key: ['cartItems']
+content key: ['']
+-> Flow 143
+url key: ['cartItems']
+content key: ['']
+-> Flow 150
+url key: ['cartItems']
+content key: ['']
+-> Flow 165
+url key: ['cartItems']
+content key: ['']
+-> 
+]
+/gp/cart/view.html
+[[12, 12, 12], Direction: req
+Flow 18
+url key: ['']
+content key: ['path']
+-> Flow 103
+url key: ['']
+content key: ['path']
+-> Flow 146
+url key: ['']
+content key: ['path']
+-> 
+]
+?ie=UTF8
+[[12, 12], Direction: req
+Flow 18
+url key: ['']
+content key: ['queryString']
+-> Flow 146
+url key: ['']
+content key: ['queryString']
+-> 
+]
+delete-active
+[[13, 13, 13], Direction: req
+Flow 25
+url key: ['']
+content key: ['pageAction']
+-> Flow 141
+url key: ['']
+content key: ['pageAction']
+-> Flow 147
+url key: ['']
+content key: ['pageAction']
+-> 
+]
+delete
+[[13, 13, 13], Direction: req
+Flow 25
+url key: ['']
+content key: ['actionType']
+-> Flow 141
+url key: ['']
+content key: ['actionType']
+-> Flow 147
+url key: ['']
+content key: ['actionType']
+-> 
+]
+500
+[[15, 15, 15, 15, 15, 15, 15, 15, 15], Direction: req
+Flow 55
+url key: ['src']
+content key: ['']
+-> Flow 56
+url key: ['src']
+content key: ['']
+-> Flow 57
+url key: ['src']
+content key: ['']
+-> Flow 82
+url key: ['src']
+content key: ['']
+-> Flow 83
+url key: ['src']
+content key: ['']
+-> Flow 86
+url key: ['src']
+content key: ['']
+-> Flow 108
+url key: ['src']
+content key: ['']
+-> Flow 109
+url key: ['src']
+content key: ['']
+-> Flow 110
+url key: ['src']
+content key: ['']
+-> 
+]
+dp-ads-center-promo
+[[15, 15, 15], Direction: req
+Flow 55
+url key: ['slot']
+content key: ['']
+-> Flow 82
+url key: ['slot']
+content key: ['']
+-> Flow 108
+url key: ['slot']
+content key: ['']
+-> 
+]
+0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8
+[[15, 15, 15, 15, 15, 15], Direction: req
+Flow 55
+url key: ['rid']
+content key: ['']
+-> Flow 56
+url key: ['rid']
+content key: ['']
+-> Flow 57
+url key: ['rid']
+content key: ['']
+-> Flow 82
+url key: ['rid']
+content key: ['']
+-> Flow 83
+url key: ['rid']
+content key: ['']
+-> Flow 86
+url key: ['rid']
+content key: ['']
+-> 
+]
+aax_xsp_render_ad
+[[15, 15, 15, 15, 15, 15, 15, 15, 15], Direction: req
+Flow 55
+url key: ['callback']
+content key: ['']
+-> Flow 56
+url key: ['callback']
+content key: ['']
+-> Flow 57
+url key: ['callback']
+content key: ['']
+-> Flow 82
+url key: ['callback']
+content key: ['']
+-> Flow 83
+url key: ['callback']
+content key: ['']
+-> Flow 86
+url key: ['callback']
+content key: ['']
+-> Flow 108
+url key: ['callback']
+content key: ['']
+-> Flow 109
+url key: ['callback']
+content key: ['']
+-> Flow 110
+url key: ['callback']
+content key: ['']
+-> 
+]
+100
+[[16, 16, 16], Direction: req
+Flow 58
+url key: ['c']
+content key: ['']
+-> Flow 81
+url key: ['c']
+content key: ['']
+-> Flow 107
+url key: ['c']
+content key: ['']
+-> 
+]
+166220011
+[[16, 16], Direction: req
+Flow 58
+url key: ['pc']
+content key: ['']
+-> Flow 81
+url key: ['pc']
+content key: ['']
+-> 
+]
+https://www.amazon.com/gp/product/B0778TY7XP
+[[16, 16], Direction: req
+Flow 58
+url key: ['u']
+content key: ['']
+-> Flow 81
+url key: ['u']
+content key: ['']
+-> 
+]
+501
+[[16, 16, 16], Direction: req
+Flow 58
+url key: ['src']
+content key: ['']
+-> Flow 81
+url key: ['src']
+content key: ['']
+-> Flow 107
+url key: ['src']
+content key: ['']
+-> 
+]
+245x250
+[[16, 16, 16], Direction: req
+Flow 58
+url key: ['sz']
+content key: ['']
+-> Flow 81
+url key: ['sz']
+content key: ['']
+-> Flow 107
+url key: ['sz']
+content key: ['']
+-> 
+]
+010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648
+[[16, 16, 16], Direction: req
+Flow 58
+url key: ['ad-sid']
+content key: ['']
+-> Flow 81
+url key: ['ad-sid']
+content key: ['']
+-> Flow 107
+url key: ['ad-sid']
+content key: ['']
+-> 
+]
+{"asins":"B0778TY7XP","st":"amzn.us.dp.toys_games.games","prid":"0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8","bn":"166220011"}
+[[16, 16], Direction: req
+Flow 58
+url key: ['pj']
+content key: ['']
+-> Flow 81
+url key: ['pj']
+content key: ['']
+-> 
+]
+010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2
+[[16, 16, 16], Direction: req
+Flow 58
+url key: ['ad-uid']
+content key: ['']
+-> Flow 81
+url key: ['ad-uid']
+content key: ['']
+-> Flow 107
+url key: ['ad-uid']
+content key: ['']
+-> 
+]
+ams-detail-right-v2
+[[16, 16, 16], Direction: req
+Flow 58
+url key: ['slot']
+content key: ['']
+-> Flow 81
+url key: ['slot']
+content key: ['']
+-> Flow 107
+url key: ['slot']
+content key: ['']
+-> 
+]
+timelinetooltip
+[[17, 17, 17, 17], Direction: req
+Flow 59
+url key: ['timelineTooltipContent']
+content key: ['']
+-> Flow 85
+url key: ['timelineTooltipContent']
+content key: ['']
+-> Flow 118
+url key: ['timelineTooltipContent']
+content key: ['']
+-> Flow 160
+url key: ['timelineTooltipContent']
+content key: ['']
+-> 
+]
+timelineTooltipMetric
+[[17, 17, 17, 17], Direction: req
+Flow 59
+url key: ['metricKey']
+content key: ['']
+-> Flow 85
+url key: ['metricKey']
+content key: ['']
+-> Flow 118
+url key: ['metricKey']
+content key: ['']
+-> Flow 160
+url key: ['metricKey']
+content key: ['']
+-> 
+]
+C7GETPWTXV0H6TCFYC6Z
+[[17, 17], Direction: req
+Flow 59
+url key: ['rid']
+content key: ['']
+-> Flow 85
+url key: ['rid']
+content key: ['']
+-> 
+]
+forester-did
+[[19, 19, 19, 19], Direction: req
+Flow 65
+url key: ['d']
+content key: ['']
+-> Flow 71
+url key: ['d']
+content key: ['']
+-> Flow 72
+url key: ['d']
+content key: ['']
+-> Flow 112
+url key: ['d']
+content key: ['']
+-> 
+]
+416731613
+[[19, 19, 19, 19], Direction: req
+Flow 65
+url key: ['ex-fch']
+content key: ['']
+-> Flow 71
+url key: ['ex-fch']
+content key: ['']
+-> Flow 72
+url key: ['ex-fch']
+content key: ['']
+-> Flow 112
+url key: ['ex-fch']
+content key: ['']
+-> 
+]
+LocalServicesWidget
+[[21, 21], Direction: req
+Flow 68
+url key: ['pageType']
+content key: ['']
+-> Flow 121
+url key: ['pageType']
+content key: ['']
+-> 
+]
+nav_cart
+[[22, 22], Direction: req
+Flow 79
+url key: ['ref']
+content key: ['']
+-> Flow 89
+url key: ['ref']
+content key: ['']
+-> 
+]
+4
+[[10], Direction: resp
+Set-cookie: 
+Response content: cartItems,count
+Flow 143
+url key: ['']
+content key: ['']
+-> 
+]
+35X63K1AP64WE4Q33QYB
+[[14], Direction: req
+Flow 106
+url key: ['pd_rd_r', 'refRID']
+content key: ['']
+-> 
+]
+01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99
+[[15, 15, 15], Direction: req
+Flow 108
+url key: ['rid']
+content key: ['']
+-> Flow 109
+url key: ['rid']
+content key: ['']
+-> Flow 110
+url key: ['rid']
+content key: ['']
+-> 
+]
+2T14B438P9JRQNB3W2AA
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['cs,dct,#1']]
+-> Flow 128
+url key: ['']
+content key: [['cs,dct,#1']]
+-> 
+]
+2018-09-28T12:55:29.767Z
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,0,data,#6', 'events,1,data,#6']]
+-> Flow 128
+url key: ['']
+content key: [['events,0,data,#6', 'events,1,data,#6']]
+-> 
+]
+F1YYG3R15FY9V6ADRY9J-1538139329767-2
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,0,data,#7']]
+-> Flow 128
+url key: ['']
+content key: [['events,0,data,#7']]
+-> 
+]
+#11
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,0,data,#10', 'events,1,data,#10']]
+-> Flow 128
+url key: ['']
+content key: [['events,0,data,#10', 'events,1,data,#10']]
+-> 
+]
+#15
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,1,data,#14']]
+-> Flow 128
+url key: ['']
+content key: [['events,1,data,#14']]
+-> 
+]
+#18
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,1,data,#4']]
+-> Flow 128
+url key: ['']
+content key: [['events,1,data,#4']]
+-> 
+]
+F1YYG3R15FY9V6ADRY9J-1538139329767-3
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,1,data,#7']]
+-> Flow 128
+url key: ['']
+content key: [['events,1,data,#7']]
+-> 
+]
+2018-09-28T12:55:41.278Z
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,2,data,#10']]
+-> Flow 128
+url key: ['']
+content key: [['events,2,data,#10']]
+-> 
+]
+2T14B438P9JRQNB3W2AA-1538139341278-1
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,2,data,#11']]
+-> Flow 128
+url key: ['']
+content key: [['events,2,data,#11']]
+-> 
+]
+2018-09-28T12:55:41.603Z
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,3,data,#10', 'events,4,data,#10']]
+-> Flow 128
+url key: ['']
+content key: [['events,3,data,#10', 'events,4,data,#10']]
+-> 
+]
+2T14B438P9JRQNB3W2AA-1538139341603-2
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,3,data,#11']]
+-> Flow 128
+url key: ['']
+content key: [['events,3,data,#11']]
+-> 
+]
+2T14B438P9JRQNB3W2AA-1538139341603-3
+[[23, 23], Direction: req
+Flow 126
+url key: ['']
+content key: [['events,4,data,#11']]
+-> Flow 128
+url key: ['']
+content key: [['events,4,data,#11']]
+-> 
+]
+T31K4VD7T7XD7QHQR5RJ
+[[24, 24], Direction: req
+Flow 127
+url key: ['']
+content key: [['cs,dct,#1']]
+-> Flow 129
+url key: ['']
+content key: [['cs,dct,#1']]
+-> 
+]
+2018-09-28T12:55:41.422Z
+[[24, 24], Direction: req
+Flow 127
+url key: ['']
+content key: [['events,0,data,#10']]
+-> Flow 129
+url key: ['']
+content key: [['events,0,data,#10']]
+-> 
+]
+T31K4VD7T7XD7QHQR5RJ-1538139341422-1
+[[24, 24], Direction: req
+Flow 127
+url key: ['']
+content key: [['events,0,data,#11']]
+-> Flow 129
+url key: ['']
+content key: [['events,0,data,#11']]
+-> 
+]
+2018-09-28T12:55:41.599Z
+[[24, 24], Direction: req
+Flow 127
+url key: ['']
+content key: [['events,1,data,#10', 'events,2,data,#10']]
+-> Flow 129
+url key: ['']
+content key: [['events,1,data,#10', 'events,2,data,#10']]
+-> 
+]
+T31K4VD7T7XD7QHQR5RJ-1538139341599-2
+[[24, 24], Direction: req
+Flow 127
+url key: ['']
+content key: [['events,1,data,#11']]
+-> Flow 129
+url key: ['']
+content key: [['events,1,data,#11']]
+-> 
+]
+T31K4VD7T7XD7QHQR5RJ-1538139341599-3
+[[24, 24], Direction: req
+Flow 127
+url key: ['']
+content key: [['events,2,data,#11']]
+-> Flow 129
+url key: ['']
+content key: [['events,2,data,#11']]
+-> 
+]
+Cd93e35e0-b8a9-4e04-a09a-01ca50acee05|1|0|4|20|||0||
+[[13], Direction: req
+Flow 147
+url key: ['']
+content key: ['activeItems']
+-> 
+]
 
-[0, 0, 1, 0, 2, 3, 0, 4, 5, 6, 7, 8, 0, 9, 0, 10, 4, 11, 12, 0, 0, 0, 5, 0, 6, 13, 7, 4, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 5, 0, 6, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 8, 14, 15, 15, 15, 16, 17, 6, 18, 18, 18, 18, 19, 20, 0, 21, 0, 0, 19, 19, 12, 0, 1, 0, 2, 3, 22, 0, 16, 15, 15, 0, 17, 15, 0, 0, 22, 0, 4, 6, 5, 7, 8, 9, 0, 10, 4, 0, 11, 0, 12, 0, 0, 14, 16, 15, 15, 15, 18, 19, 18, 18, 18, 6, 0, 17, 0, 20, 21, 0, 0, 6, 8, 0, 0, 0, 0, 4, 5, 6, 8, 0, 0, 9, 10, 11, 0, 4, 13, 0, 10, 4, 11, 12, 13, 7, 0, 10, 4, 11, 0, 23, 0, 11, 0, 23, 6, 17, 0, 0, 4, 0, 10, 0, 0, 0, 0]
+[0, 0, 1, 0, 2, 3, 0, 4, 5, 6, 7, 8, 0, 9, 0, 10, 4, 11, 12, 0, 0, 0, 5, 0, 6, 13, 7, 4, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 5, 0, 6, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 8, 14, 15, 15, 15, 16, 17, 6, 18, 18, 18, 18, 19, 20, 0, 21, 0, 0, 19, 19, 12, 0, 1, 0, 2, 3, 22, 0, 16, 15, 15, 0, 17, 15, 0, 0, 22, 0, 4, 6, 5, 7, 8, 9, 0, 10, 4, 0, 11, 0, 12, 0, 0, 14, 16, 15, 15, 15, 18, 19, 18, 18, 18, 6, 0, 17, 0, 20, 21, 0, 0, 6, 8, 23, 24, 23, 24, 4, 5, 6, 8, 0, 0, 9, 10, 11, 0, 4, 13, 0, 10, 4, 11, 12, 13, 7, 0, 10, 4, 11, 0, 25, 0, 11, 0, 25, 6, 17, 0, 0, 4, 0, 10, 0, 0, 0, 0]
 1 member: [2, 75]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['asinList', 'marketplaceId', 'asin', 'deviceType', 'attachWeblabsToTrigger'])
   method: POST
 
 2 member: [4, 77]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['session-id', 'ASIN', 'offerListingID', 'isMerchantExclusive', 'merchantID', 'isAddon', 'nodeID', 'sellingCustomerID', 'storeID', 'tagActionCode', 'viewID', 'rsid', 'quantity', 'dropdown-selection', 'dropdown-selection-ubb'])
   method: POST
 
 3 member: [5, 78]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['marketplaceId', 'customerId', 'sessionId', 'asin', 'languageOfPreference'])
   method: POST
 
 4 member: [7, 16, 27, 34, 91, 99, 130, 140, 144, 151, 163]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['ie', 'checkAuthentication', 'checkDefaults', 'cartInitiateId'])
   content key: dict_keys([])
   method: GET
 
 5 member: [8, 22, 39, 93, 131]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['_'])
   content key: dict_keys([])
   method: GET
 
 6 member: [9, 24, 41, 60, 92, 116, 124, 132, 159]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['type', 'isPrime', 'referrer', 'height', 'width', '_'])
   content key: dict_keys([])
   method: GET
 
 7 member: [10, 26, 49, 94, 148]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['parentSession', 'currentSubPageType', 'relatedRequestId', 'customerId', 'currentPageType', 'isAUI'])
   method: POST
 
 8 member: [11, 53, 95, 125, 133]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['prefetchSPP'])
   content key: dict_keys([])
   method: GET
 
 9 member: [13, 96, 136]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['hasMoreItems', 'timeStamp', 'token', 'requestID', 'activeItems', 'closeAddonUpsell', 'flcExpanded', 'quantity.C597157b4-0c21-4f19-bb82-9fad02d53426', 'pageAction', 'submit.update-quantity.C597157b4-0c21-4f19-bb82-9fad02d53426', 'displayedSavedItemNum', 'actionItemID', 'actionType', 'asin', 'encodedOffering'])
   method: POST
 
 10 member: [15, 98, 137, 143, 150, 165]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['cartItems', 'rid', 'isFullWidthPrime', 'isPrime', 'dynamicRequest', 'primeMenuWidth', '_'])
   content key: dict_keys([])
   method: GET
 
 11 member: [17, 101, 138, 145, 152, 156]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['isAUI', 'relatedRequestId', '_'])
   content key: dict_keys([])
   method: GET
 
 12 member: [18, 73, 103, 146]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['path', 'queryString', 'pageType', 'referer'])
   method: POST
 
 13 member: [25, 141, 147]
-  LCS: []
+  content type: urlencode
   url key: dict_keys([])
   content key: dict_keys(['hasMoreItems', 'timeStamp', 'token', 'requestID', 'activeItems', 'closeAddonUpsell', 'flcExpanded', 'submit.delete.C597157b4-0c21-4f19-bb82-9fad02d53426', 'pageAction', 'displayedSavedItemNum', 'actionItemID', 'actionType', 'asin', 'encodedOffering'])
   method: POST
 
 14 member: [54, 106]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['_encoding', 'pd_rd_i', 'pd_rd_r', 'pd_rd_w', 'pd_rd_wg', 'psc', 'refRID'])
   content key: dict_keys([])
   method: GET
 
 15 member: [55, 56, 57, 82, 83, 86, 108, 109, 110]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['src', 'slot', 'rid', 'callback'])
   content key: dict_keys([])
   method: GET
 
 16 member: [58, 81, 107]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['pa', 'c', 'pc', 'pt', 'u', 'src', 'sz', 'ad-sid', 'pj', 'ad-uid', 'slot'])
   content key: dict_keys([])
   method: GET
 
 17 member: [59, 85, 118, 160]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['timelineTooltipContent', 'metricKey', 'rid', 'isFullWidthPrime', 'isPrime', 'dynamicRequest', 'primeMenuWidth', '_'])
   content key: dict_keys([])
   method: GET
 
 18 member: [61, 62, 63, 64, 111, 113, 114, 115]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['pl'])
   content key: dict_keys([])
   method: GET
 
 19 member: [65, 71, 72, 112]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['d', 'ex-fch', 'ex-fargs', 'cb'])
   content key: dict_keys([])
   method: GET
 
 20 member: [66, 120]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['hitType'])
   content key: dict_keys([])
   method: GET
 
 21 member: [68, 121]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['pageType', 'hitType'])
   content key: dict_keys([])
   method: GET
 
 22 member: [79, 89]
-  LCS: []
+  content type: urlencode
   url key: dict_keys(['ref'])
   content key: dict_keys([])
   method: GET
 
-23 member: [154, 158]
-  LCS: []
+23 member: [126, 128]
+  content type: json
+  url key: dict_keys([])
+  content key: dict_keys(['cs,dct,#0', 'cs,dct,#1', 'cs,dct,#2', 'cs,dct,#3', 'cs,dct,#4', 'cs,dct,#5', 'cs,dct,#6', 'cs,dct,#7', 'cs,dct,#8', 'cs,dct,#9', 'cs,dct,#10', 'cs,dct,#11', 'cs,dct,#12', 'cs,dct,#13', 'cs,dct,#14', 'cs,dct,#15', 'cs,dct,#16', 'cs,dct,#17', 'cs,dct,#18', 'cs,dct,#19', 'events,0,data,#0', 'events,0,data,#2', 'events,0,data,#4', 'events,0,data,#6', 'events,0,data,#7', 'events,0,data,#8', 'events,0,data,#10', 'events,0,data,#12', 'events,1,data,#14', 'events,1,data,#16', 'events,1,data,#17', 'events,1,data,#2', 'events,1,data,#4', 'events,1,data,#6', 'events,1,data,#7', 'events,1,data,#8', 'events,1,data,#10', 'events,1,data,#12', 'events,2,data,#0', 'events,2,data,#2', 'events,2,data,#4', 'events,2,data,#6', 'events,2,data,#8', 'events,2,data,#10', 'events,2,data,#11', 'events,2,data,#12', 'events,3,data,#2', 'events,3,data,#6', 'events,3,data,#8', 'events,3,data,#10', 'events,3,data,#11', 'events,3,data,#12', 'events,3,data,#0', 'events,3,data,#4', 'events,4,data,#15', 'events,4,data,#17', 'events,4,data,#18', 'events,4,data,#6', 'events,4,data,#8', 'events,4,data,#10', 'events,4,data,#11', 'events,4,data,#12', 'events,4,data,#0', 'events,4,data,#4'])
+  method: POST
+
+24 member: [127, 129]
+  content type: json
+  url key: dict_keys([])
+  content key: dict_keys(['cs,dct,#0', 'cs,dct,#1', 'cs,dct,#2', 'cs,dct,#3', 'cs,dct,#4', 'cs,dct,#5', 'cs,dct,#6', 'cs,dct,#7', 'cs,dct,#8', 'cs,dct,#9', 'cs,dct,#10', 'cs,dct,#11', 'cs,dct,#12', 'cs,dct,#13', 'cs,dct,#14', 'cs,dct,#15', 'cs,dct,#16', 'cs,dct,#17', 'cs,dct,#18', 'cs,dct,#19', 'events,0,data,#0', 'events,0,data,#2', 'events,0,data,#4', 'events,0,data,#6', 'events,0,data,#8', 'events,0,data,#10', 'events,0,data,#11', 'events,0,data,#12', 'events,1,data,#2', 'events,1,data,#6', 'events,1,data,#8', 'events,1,data,#10', 'events,1,data,#11', 'events,1,data,#12', 'events,1,data,#0', 'events,1,data,#4', 'events,2,data,#15', 'events,2,data,#17', 'events,2,data,#18', 'events,2,data,#6', 'events,2,data,#8', 'events,2,data,#10', 'events,2,data,#11', 'events,2,data,#12', 'events,2,data,#0', 'events,2,data,#4'])
+  method: POST
+
+25 member: [154, 158]
+  content type: urlencode
   url key: dict_keys(['params'])
   content key: dict_keys([])
   method: POST
@@ -170,849 +1053,1189 @@ Index = 0, Group = 0
 url query: {'timelineContent': ['timeline'], 'pageType': ['Detail'], 'metricKey': ['timelineMetric'], 'rid': ['FBGCSX8H1SGYW100GW4Z'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139094038']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?timelineContent=timeline&pageType=Detail&subPageType=&metricKey=timelineMetric&rid=FBGCSX8H1SGYW100GW4Z&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139094038
+Response type: json
+
 
 Index = 1, Group = 0
 url query: {'trigger': ['167383:52036'], 'when': ['1'], 'sid': ['130-7417922-1464243'], 'rid': ['FBGCSX8H1SGYW100GW4Z']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/recordevent.html?trigger=167383%3A52036&exposure=&when=1&sid=130-7417922-1464243&rid=FBGCSX8H1SGYW100GW4Z
+Response type: 
+
 
 Index = 2, Group = 1
 url query: {}
 content query: {'asinList': '[B01NAFRSZZ, B012WF7ORW, B009N72TAA]', 'marketplaceId': 'ATVPDKIKX0DER', 'asin': 'B017YEAJTG', 'deviceType': 'desktop', 'attachWeblabsToTrigger': 'ATTACH_DSS_ACCESSORY_ONLY_IMPACT_159972'}
 url: https://www.amazon.com/gp/product/features/aloha-ppd/udp-ajax-handler/attach-render-desktop.html
+Response type: html
+
 
 Index = 3, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cobrandcard/dss-maple-banner.html
+Response type: 
+
 
 Index = 4, Group = 2
 url query: {}
 content query: {'session-id': '130-7417922-1464243', 'ASIN': 'B017YEAJTG', 'offerListingID': 'ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D', 'isMerchantExclusive': '0', 'merchantID': 'ATVPDKIKX0DER', 'isAddon': '0', 'nodeID': '2335752011', 'sellingCustomerID': 'A2R2RITDJNW1Q6', 'storeID': 'wireless', 'tagActionCode': '2335752011', 'viewID': 'glance', 'rsid': '130-7417922-1464243', 'quantity': '1', 'dropdown-selection': 'jmonothuqqkq', 'dropdown-selection-ubb': 'jmonothuqqkq'}
 url: https://www.amazon.com/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance
+Response type: html
+
 
 Index = 5, Group = 3
 url query: {}
 content query: {'marketplaceId': 'ATVPDKIKX0DER', 'customerId': 'A1ZI30EZE3ZKCH', 'sessionId': '130-7417922-1464243', 'asin': 'B017YEAJTG', 'languageOfPreference': 'en_US'}
 url: https://www.amazon.com/gp/product/features/aloha-ppd/udp-ajax-handler/attach-get-cart-description.html
+Response type: json
+
 
 Index = 6, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'feature', 'cs,dct,#1': 'dss', 'cs,dct,#2': 'baseAsin', 'cs,dct,#3': 'B017YEAJTG', 'cs,dct,#4': 'baseItemPrice', 'cs,dct,#5': '$11.99', 'cs,dct,#6': 'quantity', 'cs,dct,#7': 'accessories', 'cs,dct,#8': 'asin', 'cs,dct,#9': 'B01NAFRSZZ', 'cs,dct,#10': 'displayPosition', 'cs,dct,#11': 'price', 'cs,dct,#12': '$7.99', 'cs,dct,#13': 'B012WF7ORW', 'cs,dct,#14': '$7.49', 'cs,dct,#15': 'B009N72TAA', 'cs,dct,#16': '$6.79', 'cs,dct,#17': 'producerId', 'cs,dct,#18': 'atch', 'cs,dct,#19': 'schemaId', 'cs,dct,#20': 'attach.AccessoryImpressions.3', 'cs,dct,#21': 'timestamp', 'cs,dct,#22': 'messageId', 'cs,dct,#23': 'sessionId', 'cs,dct,#24': '130-7417922-1464243', 'cs,dct,#25': 'requestId', 'cs,dct,#26': 'FBGCSX8H1SGYW100GW4Z', 'cs,dct,#27': 'obfuscatedMarketplaceId', 'cs,dct,#28': 'ATVPDKIKX0DER', 'cs,dct,#29': 'violationType', 'cs,dct,#30': 'unresponsive-clicks', 'cs,dct,#31': 'violationCount', 'cs,dct,#32': 'totalScanned', 'cs,dct,#33': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': 1, 'events,0,data,#7,0,#8': '#9', 'events,0,data,#7,0,#10': 1, 'events,0,data,#7,0,#11': '#12', 'events,0,data,#7,1,#8': '#13', 'events,0,data,#7,1,#10': 2, 'events,0,data,#7,1,#11': '#14', 'events,0,data,#7,2,#8': '#15', 'events,0,data,#7,2,#10': 3, 'events,0,data,#7,2,#11': '#16', 'events,0,data,#17': '#18', 'events,0,data,#19': '#20', 'events,0,data,#21': '2018-09-28T12:51:46.335Z', 'events,0,data,#22': 'FBGCSX8H1SGYW100GW4Z-1538139106335-2', 'events,0,data,#23': '#24', 'events,0,data,#25': '#26', 'events,0,data,#27': '#28', 'events,1,data,#29': '#30', 'events,1,data,#31': 0, 'events,1,data,#32': 2, 'events,1,data,#17': 'csm', 'events,1,data,#19': '#33', 'events,1,data,#21': '2018-09-28T12:51:52.118Z', 'events,1,data,#22': 'FBGCSX8H1SGYW100GW4Z-1538139112118-3', 'events,1,data,#23': '#24', 'events,1,data,#25': '#26', 'events,1,data,#27': '#28'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 7, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139114531']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139114531&
+Response type: 
+
 
 Index = 8, Group = 5
 url query: {'_': ['1538139115244']}
 content query: {}
 url: https://d2h8zr0m6mus4x.cloudfront.net/primesignup/package.json?_=1538139115244
+Response type: json
+
 
 Index = 9, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q'], 'height': ['639'], 'width': ['1039'], '_': ['1538139115072']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2FAmazonBasics-Lightning-USB-Cable-Certified%2Fdp%2FB017YEAJTG%2Fref%3Dpd_cart_vw_2_1%3F_encoding%3DUTF8%26pd_rd_i%3DB017YEAJTG%26pd_rd_r%3D5H6X4HC2QSTR5BMAJ50Q%26pd_rd_w%3DG6cCM%26pd_rd_wg%3DYHW99%26psc%3D1%26refRID%3D5H6X4HC2QSTR5BMAJ50Q&height=639&width=1039&_=1538139115072
+Response type: json
+
 
 Index = 10, Group = 7
 url query: {}
 content query: {'parentSession': '130-7417922-1464243', 'currentSubPageType': 'Cart', 'relatedRequestId': 'FB3Q34MV5JW9FJW0V959', 'customerId': 'A1ZI30EZE3ZKCH', 'currentPageType': 'ShoppingCart', 'isAUI': '1'}
 url: https://www.amazon.com/gp/recent-history-footer/external/rhf-handler.html
+Response type: json
+
 
 Index = 11, Group = 8
 url query: {'prefetchSPP': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/buy/prefetch/pipeline-assets.html?prefetchSPP=1
+Response type: html
+
 
 Index = 12, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': 'TWJYFVX493V7ZXKY9V51', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'cs,dct,#14': '$7.49', 'cs,dct,#15': 'B009N72TAA', 'cs,dct,#16': '$6.79', 'cs,dct,#17': 'producerId', 'cs,dct,#18': 'atch', 'cs,dct,#19': 'schemaId', 'cs,dct,#20': 'attach.AccessoryImpressions.3', 'cs,dct,#21': 'timestamp', 'cs,dct,#22': 'messageId', 'cs,dct,#23': 'sessionId', 'cs,dct,#24': '130-7417922-1464243', 'cs,dct,#25': 'requestId', 'cs,dct,#26': 'FBGCSX8H1SGYW100GW4Z', 'cs,dct,#27': 'obfuscatedMarketplaceId', 'cs,dct,#28': 'ATVPDKIKX0DER', 'cs,dct,#29': 'violationType', 'cs,dct,#30': 'unresponsive-clicks', 'cs,dct,#31': 'violationCount', 'cs,dct,#32': 'totalScanned', 'cs,dct,#33': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': 1, 'events,0,data,#7,0,#8': '#9', 'events,0,data,#7,0,#10': 1, 'events,0,data,#7,0,#11': '#12', 'events,0,data,#7,1,#8': '#13', 'events,0,data,#7,1,#10': 2, 'events,0,data,#7,1,#11': '#14', 'events,0,data,#7,2,#8': '#15', 'events,0,data,#7,2,#10': 3, 'events,0,data,#7,2,#11': '#16', 'events,0,data,#17': '#18', 'events,0,data,#19': '#20', 'events,0,data,#21': '2018-09-28T12:51:46.335Z', 'events,0,data,#22': 'FBGCSX8H1SGYW100GW4Z-1538139106335-2', 'events,0,data,#23': '#24', 'events,0,data,#25': '#26', 'events,0,data,#27': '#28', 'events,1,data,#29': '#30', 'events,1,data,#31': 0, 'events,1,data,#32': 2, 'events,1,data,#17': 'csm', 'events,1,data,#19': '#33', 'events,1,data,#21': '2018-09-28T12:51:52.118Z', 'events,1,data,#22': 'FBGCSX8H1SGYW100GW4Z-1538139112118-3', 'events,1,data,#23': '#24', 'events,1,data,#25': '#26', 'events,1,data,#27': '#28', 'events,2,data,#0': '#1', 'events,2,data,#2': '#3', 'events,2,data,#4': '#5', 'events,2,data,#6': '#7', 'events,2,data,#8': '#9', 'events,2,data,#10': '2018-09-28T12:51:58.140Z', 'events,2,data,#11': 'TWJYFVX493V7ZXKY9V51-1538139118140-1', 'events,2,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 13, Group = 9
 url query: {}
 content query: {'hasMoreItems': '0', 'timeStamp': '1538139112', 'token': 'gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA', 'requestID': 'FB3Q34MV5JW9FJW0V959', 'activeItems': 'C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||', 'closeAddonUpsell': '1', 'flcExpanded': '0', 'quantity.C597157b4-0c21-4f19-bb82-9fad02d53426': '2', 'pageAction': 'update-quantity', 'submit.update-quantity.C597157b4-0c21-4f19-bb82-9fad02d53426': '1', 'displayedSavedItemNum': '0', 'actionItemID': 'C597157b4-0c21-4f19-bb82-9fad02d53426', 'actionType': 'update-quantity', 'asin': 'B017YEAJTG', 'encodedOffering': 'ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D'}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_update_quantity_1|1|2
+Response type: json
+
 
 Index = 14, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cart/desktop/ajax-lazy-load.html
+Response type: json
+
 
 Index = 15, Group = 10
 url query: {'cartItems': ['cart'], 'rid': ['FB3Q34MV5JW9FJW0V959'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139124439']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?cartItems=cart&rid=FB3Q34MV5JW9FJW0V959&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139124439
+Response type: json
+
 
 Index = 16, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139124446']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139124446&
+Response type: 
+
 
 Index = 17, Group = 11
 url query: {'isAUI': ['1'], 'relatedRequestId': ['FB3Q34MV5JW9FJW0V959'], '_': ['1538139124480']}
 content query: {}
 url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestId=FB3Q34MV5JW9FJW0V959&_=1538139124480
+Response type: html
+
 
 Index = 18, Group = 12
 url query: {}
 content query: {'path': '/gp/cart/view.html', 'queryString': '?ie=UTF8', 'pageType': 'ShoppingCart', 'referer': 'https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q'}
 url: https://www.amazon.com/gp/redirection/mexico.html
+Response type: 
+
 
 Index = 19, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'server', 'cs,dct,#1': 'www.amazon.com', 'cs,dct,#2': 'producerId', 'cs,dct,#3': 'csm', 'cs,dct,#4': 'schemaId', 'cs,dct,#5': 'csm.CSMUnloadBaselineEvent.2', 'cs,dct,#6': 'timestamp', 'cs,dct,#7': 'messageId', 'cs,dct,#8': 'sessionId', 'cs,dct,#9': '130-7417922-1464243', 'cs,dct,#10': 'requestId', 'cs,dct,#11': 'TWJYFVX493V7ZXKY9V51', 'cs,dct,#12': 'obfuscatedMarketplaceId', 'cs,dct,#13': 'ATVPDKIKX0DER', 'cs,dct,#14': 'violationType', 'cs,dct,#15': 'unresponsive-clicks', 'cs,dct,#16': 'violationCount', 'cs,dct,#17': 'totalScanned', 'cs,dct,#18': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '2018-09-28T12:52:06.769Z', 'events,0,data,#7': 'TWJYFVX493V7ZXKY9V51-1538139126769-2', 'events,0,data,#8': '#9', 'events,0,data,#10': '#11', 'events,0,data,#12': '#13', 'events,1,data,#14': '#15', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'csm', 'events,1,data,#4': '#18', 'events,1,data,#6': '2018-09-28T12:52:06.770Z', 'events,1,data,#7': 'TWJYFVX493V7ZXKY9V51-1538139126770-3', 'events,1,data,#8': '#9', 'events,1,data,#10': '#11', 'events,1,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 20, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/41QLuFkkhYL.js?AUIClients/CartD12nAssets
+Response type: 
+
 
 Index = 21, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/21pgLeYcIlL.js?AUIClients/P13NClientSideLoggingAuiJS
+Response type: html
+
 
 Index = 22, Group = 5
 url query: {'_': ['1538139130922']}
 content query: {}
 url: https://d2h8zr0m6mus4x.cloudfront.net/primesignup/package.json?_=1538139130922
+Response type: json
+
 
 Index = 23, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/71Hbt6sm1AL.js?AUIClients/GoldboxDealNotifierAssets
+Response type: html
+
 
 Index = 24, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q'], 'height': ['639'], 'width': ['1039'], '_': ['1538139130887']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2FAmazonBasics-Lightning-USB-Cable-Certified%2Fdp%2FB017YEAJTG%2Fref%3Dpd_cart_vw_2_1%3F_encoding%3DUTF8%26pd_rd_i%3DB017YEAJTG%26pd_rd_r%3D5H6X4HC2QSTR5BMAJ50Q%26pd_rd_w%3DG6cCM%26pd_rd_wg%3DYHW99%26psc%3D1%26refRID%3D5H6X4HC2QSTR5BMAJ50Q&height=639&width=1039&_=1538139130887
+Response type: json
+
 
 Index = 25, Group = 13
 url query: {}
 content query: {'hasMoreItems': '0', 'timeStamp': '1538139112', 'token': 'gC7ajo4wy/iu7zxSZRCrE2GZNhJRAwgr+8fSy4oAAAAJAAAAAFuuI+hyYXcAAAAA', 'requestID': 'FB3Q34MV5JW9FJW0V959', 'activeItems': 'C597157b4-0c21-4f19-bb82-9fad02d53426|1|0|1|11.99|||0||', 'closeAddonUpsell': '1', 'flcExpanded': '0', 'submit.delete.C597157b4-0c21-4f19-bb82-9fad02d53426': '1', 'pageAction': 'delete-active', 'displayedSavedItemNum': '0', 'actionItemID': 'C597157b4-0c21-4f19-bb82-9fad02d53426', 'actionType': 'delete', 'asin': 'B017YEAJTG', 'encodedOffering': 'ppEQHBt2fqxbPHQWvetfeqaTzSQweINaoNydHnr4hVGfVfaSD5FC9Vgpnn2a%2Fkno%2FculGc245XMza38H3VK1CGsMn07oMyz6RMacisfl9tfFpRMSI9ZZBg%3D%3D'}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_cart_delete_1
+Response type: json
+
 
 Index = 26, Group = 7
 url query: {}
 content query: {'parentSession': ['130-7417922-1464243'], 'currentSubPageType': ['Cart'], 'relatedRequestId': ['FB3Q34MV5JW9FJW0V959'], 'customerId': ['A1ZI30EZE3ZKCH'], 'currentPageType': ['ShoppingCart'], 'isAUI': ['1']}
 url: https://www.amazon.com/gp/recent-history-footer/external/rhf-handler.html
+Response type: json
+
 
 Index = 27, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139133200']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139133200&
+Response type: 
+
 
 Index = 28, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/61q3B0nT22L._RC|01bI2uWMSDL.css,016sJVBHsRL.css,310rAAnFCSL.css,118bDMikZGL.css,11EMohT-IeL.css,21LK7jaicML.css,11-2siEOStL.css,21g5fdSNE6L.css,01Xl9KigtzL.css,01YhS3Cs-hL.css,21oddBoVd4L.css,019SHZnt8RL.css,01gv-pABIRL.css,11vZhCgAHbL.css,219QX0pP-ZL.css,11GUWGxBPIL.css,01dU8+SPlFL.css,11a9yCU+klL.css,01SHjPML6tL.css,11mYL77nNvL.css,01QrWuRrZ-L.css,31667-RteRL.css,114KWZGKCVL.css,01cbS3UK11L.css,21J5CLG82gL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI
+Response type: 
+
 
 Index = 29, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/31bTBoBJB2L._RC|41QBEP30bjL.css_.css?AUIClients/SharedShoppingCartDesktopAsset
+Response type: 
+
 
 Index = 30, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/3175roWx7fL.css?AUIClients/CartD12nAssets
+Response type: 
+
 
 Index = 31, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/01QLqx4PXzL.css?AUIClients/LewisAssets
+Response type: 
+
 
 Index = 32, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/712ZhgZXQhL._RC|11qlbytjBCL.css,31IWMxDWXBL.css,21Wyw4UJQLL.css,31TMzWTidCL.css,11S8GiSgx9L.css,31UlxNhlUML.css,01XHMOHpK1L.css_.css?AUIClients/NavDesktopMetaAsset
+Response type: 
+
 
 Index = 33, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/31Kp9vcYoHL._RC|61d-QwUkEbL.js_.js?AUIClients/SharedShoppingCartDesktopAsset
+Response type: html
+
 
 Index = 34, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139134645']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139134645&
+Response type: 
+
 
 Index = 35, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/611lNbSiw8L._RC|11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRjL.js,01xMsWWFUQL.js,11aNYFFS5hL.js,116tgw9TSaL.js,21auxuI+dRL.js,01PoLXBDXWL.js,61xD4-MXbLL.js,01mi-J86cyL.js,110HZneHcZL.js,31LzSqSw4xL.js,01rpauTep4L.js,01iyxuSGj4L.js,01-KZRtKiSL.js_.js?AUIClients/AmazonUI
+Response type: html
+
 
 Index = 36, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/01XkmQM8mLL._RC|71ay-E3Lg3L.js,61L2dvOyb4L.js,41auSr815yL.js,01PngnMp3uL.js,01wBjiz9OvL.js,216el1NpxhL.js,31UH+ZKtQsL.js,51KWW-9uxcL.js,31kByMCr23L.js_.js?AUIClients/NavDesktopMetaAsset
+Response type: html
+
 
 Index = 37, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/41QLuFkkhYL.js?AUIClients/CartD12nAssets
+Response type: 
+
 
 Index = 38, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/21pgLeYcIlL.js?AUIClients/P13NClientSideLoggingAuiJS
+Response type: html
+
 
 Index = 39, Group = 5
 url query: {'_': ['1538139136807']}
 content query: {}
 url: https://d2h8zr0m6mus4x.cloudfront.net/primesignup/package.json?_=1538139136807
+Response type: json
+
 
 Index = 40, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/71Hbt6sm1AL.js?AUIClients/GoldboxDealNotifierAssets
+Response type: html
+
 
 Index = 41, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q'], 'height': ['639'], 'width': ['1039'], '_': ['1538139136920']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2FAmazonBasics-Lightning-USB-Cable-Certified%2Fdp%2FB017YEAJTG%2Fref%3Dpd_cart_vw_2_1%3F_encoding%3DUTF8%26pd_rd_i%3DB017YEAJTG%26pd_rd_r%3D5H6X4HC2QSTR5BMAJ50Q%26pd_rd_w%3DG6cCM%26pd_rd_wg%3DYHW99%26psc%3D1%26refRID%3D5H6X4HC2QSTR5BMAJ50Q&height=639&width=1039&_=1538139136920
+Response type: json
+
 
 Index = 42, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/41WN3xF8vCL.css?AUIClients/SDCXRetailAssets
+Response type: 
+
 
 Index = 43, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/216bx9jED1L._RC|015CyVTKgDL.css_.css?AUIClients/VasRcxCheckoutAsset
+Response type: 
+
 
 Index = 44, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/213ZLkDzPBL._RC|01cOCbOAb2L.css,01xswEO1qYL.css_.css?AUIClients/HeavyBulkyCheckoutAssets
+Response type: 
+
 
 Index = 45, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/01SqrMBQNjL.css?AUIClients/ShopWithPointsCheckoutAssets
+Response type: 
+
 
 Index = 46, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/21DKiuKAnTL.css?AUIClients/AmazonPopoversAUIShim
+Response type: 
+
 
 Index = 47, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/01rsB8v4cxL.css?AUIClients/FreshTipsAssets
+Response type: 
+
 
 Index = 48, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/01PUqBBxmJL.css?AUIClients/VASUpsellCheckoutAssets
+Response type: 
+
 
 Index = 49, Group = 7
 url query: {}
 content query: {'parentSession': ['130-7417922-1464243'], 'currentSubPageType': ['Cart'], 'relatedRequestId': ['0HAVWS3ATWK81CSV21XQ'], 'customerId': ['A1ZI30EZE3ZKCH'], 'currentPageType': ['ShoppingCart'], 'isAUI': ['1']}
 url: https://www.amazon.com/gp/recent-history-footer/external/rhf-handler.html
+Response type: json
+
 
 Index = 50, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/0126x4hY8FL.css?AUIClients/AmazonDayCheckoutAssets
+Response type: 
+
 
 Index = 51, Group = 0
 url query: {'cacheVersion': ['1']}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/G/01/orderApplication/aui/jquery-164-20131028._CB511593317_.js?cacheVersion=1
+Response type: html
+
 
 Index = 52, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/41ZksvrOdkL._RC|61ujxVX3ZBL.css_.css?AUIClients/CheckoutMultiPagePipeline
+Response type: 
+
 
 Index = 53, Group = 8
 url query: {'prefetchSPP': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/buy/prefetch/pipeline-assets.html?prefetchSPP=1
+Response type: html
+
 
 Index = 54, Group = 14
 url query: {'_encoding': ['UTF8'], 'pd_rd_i': ['B0778TY7XP'], 'pd_rd_r': ['0HAVWS3ATWK81CSV21XQ'], 'pd_rd_w': ['BEqcj'], 'pd_rd_wg': ['duEQ7'], 'psc': ['1'], 'refRID': ['0HAVWS3ATWK81CSV21XQ']}
 content query: {}
 url: https://www.amazon.com/Should-Have-Known-That-Trivia/dp/B0778TY7XP/ref=pd_cart_vw_1_2?_encoding=UTF8&pd_rd_i=B0778TY7XP&pd_rd_r=0HAVWS3ATWK81CSV21XQ&pd_rd_w=BEqcj&pd_rd_wg=duEQ7&psc=1&refRID=0HAVWS3ATWK81CSV21XQ
+Response type: html
+
 
 Index = 55, Group = 15
 url query: {'src': ['500'], 'slot': ['dp-ads-center-promo'], 'rid': ['0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=dp-ads-center-promo&rid=0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 56, Group = 15
 url query: {'src': ['500'], 'slot': ['customer-reviews-top'], 'rid': ['0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=customer-reviews-top&rid=0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 57, Group = 15
 url query: {'src': ['500'], 'slot': ['ad-endcap-1'], 'rid': ['0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=ad-endcap-1&rid=0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 58, Group = 16
 url query: {'pa': ['B0778TY7XP'], 'c': ['100'], 'pc': ['166220011'], 'pt': ['Detail'], 'u': ['https://www.amazon.com/gp/product/B0778TY7XP'], 'src': ['501'], 'sz': ['245x250'], 'ad-sid': ['010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648'], 'pj': ['{"asins":"B0778TY7XP","st":"amzn.us.dp.toys_games.games","prid":"0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8","bn":"166220011"}'], 'ad-uid': ['010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2'], 'slot': ['ams-detail-right-v2']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/x/getad?pa=B0778TY7XP&c=100&pc=166220011&pt=Detail&u=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB0778TY7XP&src=501&sz=245x250&ad-sid=010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648&pj=%7B%22asins%22%3A%22B0778TY7XP%22%2C%22st%22%3A%22amzn.us.dp.toys_games.games%22%2C%22prid%22%3A%220101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8%22%2C%22bn%22%3A%22166220011%22%7D&ad-uid=010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2&slot=ams-detail-right-v2
+Response type: html
+
 
 Index = 59, Group = 17
 url query: {'timelineTooltipContent': ['timelinetooltip'], 'metricKey': ['timelineTooltipMetric'], 'rid': ['C7GETPWTXV0H6TCFYC6Z'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139145688']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?timelineTooltipContent=timelinetooltip&metricKey=timelineTooltipMetric&rid=C7GETPWTXV0H6TCFYC6Z&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139145688
+Response type: json
+
 
 Index = 60, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/gp/cart/view.html/ref=attachSidesheet'], 'height': ['639'], 'width': ['1039'], '_': ['1538139145702']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcart%2Fview.html%2Fref%3DattachSidesheet&height=639&width=1039&_=1538139145702
+Response type: json
+
 
 Index = 61, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwNzc4VFk3WFA/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR","adElementId":"ape_Detail_dp-ads-center-promo_Desktop_placement","pageType":"Detail","slotName":"dp-ads-center-promo"},"adCreativeMetaData":{"adNetwork":"cs","adProgramId":1001,"adImpressionId":"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=QmU2F-5vH9FNJcvGbli1W-sAAAFmIDyzbwEAAAH0AReJDg8","adCreativeId":6913124901,"adId":4010915001}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwNzc4VFk3WFA%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR%22%2C%22adElementId%22%3A%22ape_Detail_dp-ads-center-promo_Desktop_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22dp-ads-center-promo%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1001%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQmU2F-5vH9FNJcvGbli1W-sAAAFmIDyzbwEAAAH0AReJDg8%22%2C%22adCreativeId%22%3A6913124901%2C%22adId%22%3A4010915001%7D%7D
+Response type: json
+
 
 Index = 62, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwNzc4VFk3WFA/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR","adElementId":"ape_Detail_ad-endcap-1_Glance_placement","pageType":"Detail","slotName":"ad-endcap-1"},"adCreativeMetaData":{"adNetwork":"cs","adProgramId":1001,"adImpressionId":"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=QkLdBEGyp_-H2vP58Ygh7oAAAAFmIDyzbwEAAAH0AXPbBkI","adCreativeId":3296841901,"adId":3374475001}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwNzc4VFk3WFA%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR%22%2C%22adElementId%22%3A%22ape_Detail_ad-endcap-1_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22ad-endcap-1%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1001%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQkLdBEGyp_-H2vP58Ygh7oAAAAFmIDyzbwEAAAH0AXPbBkI%22%2C%22adCreativeId%22%3A3296841901%2C%22adId%22%3A3374475001%7D%7D
+Response type: json
+
 
 Index = 63, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9yZW1vdGUvZHAvcmVtb3RlLXJldmlld3M/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR","adElementId":"ape_Detail_customer-reviews-top_Glance_placement","pageType":"Detail","slotName":"customer-reviews-top"},"adCreativeMetaData":{"adNetwork":"cs","adProgramId":1024,"adImpressionId":"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=Qrx9L_AQjVZJ4fs8sPr7gZ0AAAFmIDyyAAEAAAH0AXUyq00","adCreativeId":-1924146692,"adId":200005375164221,"adCreativeDetails":[{"asin":"B077FJCHGV","title":"I Gotta Go With... The ULTIMATE Party Game That Has Everyone Talking POP CULTURE!","price":"$25.00","merchantName":"I Gotta Go With...","merchantCustomerID":"AM3UETLXTP87V","sku":"3Q-PKPX-S6KX","adId":"A021143313TQ2O22O3MHN","campaignId":"A0065207B1MH0GLT9I5C"}]}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9yZW1vdGUvZHAvcmVtb3RlLXJldmlld3M%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR%22%2C%22adElementId%22%3A%22ape_Detail_customer-reviews-top_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22customer-reviews-top%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1024%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQrx9L_AQjVZJ4fs8sPr7gZ0AAAFmIDyyAAEAAAH0AXUyq00%22%2C%22adCreativeId%22%3A-1924146692%2C%22adId%22%3A200005375164221%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B077FJCHGV%22%2C%22title%22%3A%22I%20Gotta%20Go%20With...%20The%20ULTIMATE%20Party%20Game%20That%20Has%20Everyone%20Talking%20POP%20CULTURE!%22%2C%22price%22%3A%22%2425.00%22%2C%22merchantName%22%3A%22I%20Gotta%20Go%20With...%22%2C%22merchantCustomerID%22%3A%22AM3UETLXTP87V%22%2C%22sku%22%3A%223Q-PKPX-S6KX%22%2C%22adId%22%3A%22A021143313TQ2O22O3MHN%22%2C%22campaignId%22%3A%22A0065207B1MH0GLT9I5C%22%7D%5D%7D%7D
+Response type: json
+
 
 Index = 64, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwNzc4VFk3WFA/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR","adElementId":"ape_Detail_ams-detail-right-v2_desktop_placement","pageType":"Detail","slotName":"ams-detail-right-v2"},"adCreativeMetaData":{"adNetwork":"cs"}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwNzc4VFk3WFA%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjA3NzhUWTdYUCZwZCU1RnJkJTVGcj0wSEFWV1MzQVRXSzgxQ1NWMjFYUSZwZCU1RnJkJTVGdz1CRXFjaiZwZCU1RnJkJTVGd2c9ZHVFUTcmcHNjPTEmcmVmUklEPTBIQVZXUzNBVFdLODFDU1YyMVhR%22%2C%22adElementId%22%3A%22ape_Detail_ams-detail-right-v2_desktop_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22ams-detail-right-v2%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%7D%7D
+Response type: json
+
 
 Index = 65, Group = 19
 url query: {'d': ['forester-did'], 'ex-fch': ['416731613'], 'ex-fargs': ['?i=qT77ExNhioc1yRlqfzrMgQ&client_imp=1'], 'cb': ['1538139146333']}
 content query: {}
 url: https://s.amazon-adsystem.com/iu3?d=forester-did&ex-fch=416731613&ex-fargs=?i%3DqT77ExNhioc1yRlqfzrMgQ%26client_imp%3D1&cb=1538139146333
+Response type: html
+
 
 Index = 66, Group = 20
 url query: {'hitType': ['popUp']}
 content query: {}
 url: https://www.amazon.com/gp/ls/impress.html/ref=vas_lux_zip_refresh_T1?hitType=popUp
+Response type: 
+
 
 Index = 67, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139140', 'events,0,data,id': '8965639334433615', 'events,0,data,widgetName': 'sp_detail', 'events,0,data,adId': '200005697042761', 'events,0,data,adIndex': '0', 'events,0,data,eventType': '2', 'events,1,data,qualifier': '1538139140', 'events,1,data,id': '8965639334433615', 'events,1,data,widgetName': 'sp_detail', 'events,1,data,adId': '200005697244461', 'events,1,data,adIndex': '1', 'events,1,data,eventType': '2', 'events,2,data,qualifier': '1538139140', 'events,2,data,id': '8965639334433615', 'events,2,data,widgetName': 'sp_detail', 'events,2,data,adId': '200007568604021', 'events,2,data,adIndex': '2', 'events,2,data,eventType': '2', 'events,3,data,qualifier': '1538139140', 'events,3,data,id': '8965639334433615', 'events,3,data,widgetName': 'sp_detail', 'events,3,data,adId': '200006785140071', 'events,3,data,adIndex': '3', 'events,3,data,eventType': '2', 'events,4,data,qualifier': '1538139140', 'events,4,data,id': '8965639334433615', 'events,4,data,widgetName': 'sp_detail', 'events,4,data,adId': '200005375164221', 'events,4,data,adIndex': '4', 'events,4,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 68, Group = 21
 url query: {'pageType': ['LocalServicesWidget'], 'hitType': ['popUp']}
 content query: {}
 url: https://www.amazon.com/gp/ls/impress.html/ref=vas_nobb_d_ppd_B0778TY7XP_?pageType=LocalServicesWidget&hitType=popUp
+Response type: 
+
 
 Index = 69, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139140', 'events,0,data,id': '8965639334433615', 'events,0,data,widgetName': 'sp_detail', 'events,0,data,adId': '200003363710431', 'events,0,data,adIndex': '5', 'events,0,data,eventType': '2', 'events,1,data,qualifier': '1538139140', 'events,1,data,id': '8965639334433615', 'events,1,data,widgetName': 'sp_detail', 'events,1,data,adId': '200003618758551', 'events,1,data,adIndex': '6', 'events,1,data,eventType': '2', 'events,2,data,qualifier': '1538139140', 'events,2,data,id': '8965639334433615', 'events,2,data,widgetName': 'sp_detail', 'events,2,data,adId': '200005160304161', 'events,2,data,adIndex': '7', 'events,2,data,eventType': '2', 'events,3,data,qualifier': '1538139140', 'events,3,data,id': '8965639334433615', 'events,3,data,widgetName': 'sp_detail', 'events,3,data,adId': '200009019543031', 'events,3,data,adIndex': '8', 'events,3,data,eventType': '2', 'events,4,data,qualifier': '1538139140', 'events,4,data,id': '8965639334433615', 'events,4,data,widgetName': 'sp_detail', 'events,4,data,adId': '200011429355741', 'events,4,data,adIndex': '9', 'events,4,data,eventType': '2', 'events,5,data,qualifier': '1538139140', 'events,5,data,id': '5568996880823540', 'events,5,data,widgetName': 'sp_detail2', 'events,5,data,adId': '200005022942261', 'events,5,data,adIndex': '0', 'events,5,data,eventType': '2', 'events,6,data,qualifier': '1538139140', 'events,6,data,id': '5568996880823540', 'events,6,data,widgetName': 'sp_detail2', 'events,6,data,adId': '200001994947721', 'events,6,data,adIndex': '1', 'events,6,data,eventType': '2', 'events,7,data,qualifier': '1538139140', 'events,7,data,id': '5568996880823540', 'events,7,data,widgetName': 'sp_detail2', 'events,7,data,adId': '200006371813171', 'events,7,data,adIndex': '2', 'events,7,data,eventType': '2', 'events,8,data,qualifier': '1538139140', 'events,8,data,id': '5568996880823540', 'events,8,data,widgetName': 'sp_detail2', 'events,8,data,adId': '200008135474831', 'events,8,data,adIndex': '3', 'events,8,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 70, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139140', 'events,0,data,id': '5568996880823540', 'events,0,data,widgetName': 'sp_detail2', 'events,0,data,adId': '200007138413371', 'events,0,data,adIndex': '4', 'events,0,data,eventType': '2', 'events,1,data,qualifier': '1538139140', 'events,1,data,id': '5568996880823540', 'events,1,data,widgetName': 'sp_detail2', 'events,1,data,adId': '200004346238131', 'events,1,data,adIndex': '5', 'events,1,data,eventType': '2', 'events,2,data,qualifier': '1538139140', 'events,2,data,id': '5568996880823540', 'events,2,data,widgetName': 'sp_detail2', 'events,2,data,adId': '200007107884211', 'events,2,data,adIndex': '6', 'events,2,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 71, Group = 19
 url query: {'d': ['forester-did'], 'ex-fch': ['416731613'], 'ex-fargs': ['?i=qT77ExNhioc1yRlqfzrMgQ&view=2'], 'cb': ['1538139151666']}
 content query: {}
 url: https://s.amazon-adsystem.com/iu3?d=forester-did&ex-fch=416731613&ex-fargs=?i%3DqT77ExNhioc1yRlqfzrMgQ%26view%3D2&cb=1538139151666
+Response type: html
+
 
 Index = 72, Group = 19
 url query: {'d': ['forester-did'], 'ex-fch': ['416731613'], 'ex-fargs': ['?i=qT77ExNhioc1yRlqfzrMgQ&view=1'], 'cb': ['1538139156345']}
 content query: {}
 url: https://s.amazon-adsystem.com/iu3?d=forester-did&ex-fch=416731613&ex-fargs=?i%3DqT77ExNhioc1yRlqfzrMgQ%26view%3D1&cb=1538139156345
+Response type: html
+
 
 Index = 73, Group = 12
 url query: {}
 content query: {'path': ['/Should-Have-Known-That-Trivia/dp/B0778TY7XP'], 'queryString': ['?ie=UTF8&pd%5Frd%5Fi=B0778TY7XP&pd%5Frd%5Fr=0HAVWS3ATWK81CSV21XQ&refRID=0HAVWS3ATWK81CSV21XQ&psc=1&%5Fencoding=UTF8&pd%5Frd%5Fwg=duEQ7&pd%5Frd%5Fw=BEqcj'], 'pageType': ['Detail'], 'referer': ['https://www.amazon.com/gp/cart/view.html/ref=attachSidesheet']}
 url: https://www.amazon.com/gp/redirection/mexico.html
+Response type: 
+
 
 Index = 74, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139140', 'events,0,data,id': '8965639334433615', 'events,0,data,widgetName': 'sp_detail', 'events,0,data,adId': '200005697042761', 'events,0,data,adIndex': '0', 'events,0,data,eventType': '1', 'events,1,data,qualifier': '1538139140', 'events,1,data,id': '8965639334433615', 'events,1,data,widgetName': 'sp_detail', 'events,1,data,adId': '200005697244461', 'events,1,data,adIndex': '1', 'events,1,data,eventType': '1', 'events,2,data,qualifier': '1538139140', 'events,2,data,id': '8965639334433615', 'events,2,data,widgetName': 'sp_detail', 'events,2,data,adId': '200007568604021', 'events,2,data,adIndex': '2', 'events,2,data,eventType': '1', 'events,3,data,qualifier': '1538139140', 'events,3,data,id': '8965639334433615', 'events,3,data,widgetName': 'sp_detail', 'events,3,data,adId': '200006785140071', 'events,3,data,adIndex': '3', 'events,3,data,eventType': '1', 'events,4,data,qualifier': '1538139140', 'events,4,data,id': '8965639334433615', 'events,4,data,widgetName': 'sp_detail', 'events,4,data,adId': '200005375164221', 'events,4,data,adIndex': '4', 'events,4,data,eventType': '1'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 75, Group = 1
 url query: {}
 content query: {'asinList': ['[B079997BXY, B01EARLQKQ]'], 'marketplaceId': ['ATVPDKIKX0DER'], 'asin': ['B0778TY7XP'], 'deviceType': ['desktop'], 'attachWeblabsToTrigger': ['ATTACH_DSS_ACCESSORY_ONLY_IMPACT_159972']}
 url: https://www.amazon.com/gp/product/features/aloha-ppd/udp-ajax-handler/attach-render-desktop.html
+Response type: html
+
 
 Index = 76, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cobrandcard/dss-maple-banner.html
+Response type: 
+
 
 Index = 77, Group = 2
 url query: {}
 content query: {'session-id': ['130-7417922-1464243'], 'ASIN': ['B0778TY7XP'], 'offerListingID': ['yF0B8CXy8xGddE%2FaA5ZggelVYKmQJS%2FUAKgGzm1dGiz7esQnsuIUAkJLpa30tii59QIR07y0YGqtC%2BcUntpDi%2By6bJ%2FRlm%2Fk6JCgykylrwHUybouqHYVnw%3D%3D'], 'isMerchantExclusive': ['0'], 'merchantID': ['ATVPDKIKX0DER'], 'isAddon': ['0'], 'nodeID': ['165793011'], 'sellingCustomerID': ['A2R2RITDJNW1Q6'], 'storeID': ['toys-and-games'], 'tagActionCode': ['165793011'], 'viewID': ['glance'], 'rsid': ['130-7417922-1464243'], 'quantity': ['1'], 'dropdown-selection': ['jmonothuqqkq'], 'dropdown-selection-ubb': ['jmonothuqqkq']}
 url: https://www.amazon.com/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance
+Response type: html
+
 
 Index = 78, Group = 3
 url query: {}
 content query: {'marketplaceId': ['ATVPDKIKX0DER'], 'customerId': ['A1ZI30EZE3ZKCH'], 'sessionId': ['130-7417922-1464243'], 'asin': ['B0778TY7XP'], 'languageOfPreference': ['en_US']}
 url: https://www.amazon.com/gp/product/features/aloha-ppd/udp-ajax-handler/attach-get-cart-description.html
+Response type: json
+
 
 Index = 79, Group = 22
 url query: {'ref': ['nav_cart']}
 content query: {}
 url: https://www.amazon.com/gp/cart/view.html?ref=nav_cart
+Response type: html
+
 
 Index = 80, Group = 0
 url query: {'client': ['navclient-auto-ffox'], 'appver': ['61.0'], 'pver': ['2.2']}
 content query: {}
 url: https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=61.0&pver=2.2
+Response type: 
+
 
 Index = 81, Group = 16
 url query: {'pa': ['B0778TY7XP'], 'c': ['100'], 'pc': ['166220011'], 'pt': ['Detail'], 'u': ['https://www.amazon.com/gp/product/B0778TY7XP'], 'src': ['501'], 'sz': ['245x250'], 'ad-sid': ['010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648'], 'pj': ['{"asins":"B0778TY7XP","st":"amzn.us.dp.toys_games.games","prid":"0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8","bn":"166220011"}'], 'ad-uid': ['010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2'], 'slot': ['ams-detail-right-v2']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/x/getad?pa=B0778TY7XP&c=100&pc=166220011&pt=Detail&u=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB0778TY7XP&src=501&sz=245x250&ad-sid=010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648&pj=%7B%22asins%22%3A%22B0778TY7XP%22%2C%22st%22%3A%22amzn.us.dp.toys_games.games%22%2C%22prid%22%3A%220101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8%22%2C%22bn%22%3A%22166220011%22%7D&ad-uid=010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2&slot=ams-detail-right-v2
+Response type: 
+
 
 Index = 82, Group = 15
 url query: {'src': ['500'], 'slot': ['dp-ads-center-promo'], 'rid': ['0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=dp-ads-center-promo&rid=0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 83, Group = 15
 url query: {'src': ['500'], 'slot': ['customer-reviews-top'], 'rid': ['0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=customer-reviews-top&rid=0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 84, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139140', 'events,0,data,id': '8965639334433615', 'events,0,data,widgetName': 'sp_detail', 'events,0,data,adId': '200005697042761', 'events,0,data,adIndex': '0', 'events,0,data,eventType': '2', 'events,1,data,qualifier': '1538139140', 'events,1,data,id': '8965639334433615', 'events,1,data,widgetName': 'sp_detail', 'events,1,data,adId': '200005697244461', 'events,1,data,adIndex': '1', 'events,1,data,eventType': '2', 'events,2,data,qualifier': '1538139140', 'events,2,data,id': '8965639334433615', 'events,2,data,widgetName': 'sp_detail', 'events,2,data,adId': '200007568604021', 'events,2,data,adIndex': '2', 'events,2,data,eventType': '2', 'events,3,data,qualifier': '1538139140', 'events,3,data,id': '8965639334433615', 'events,3,data,widgetName': 'sp_detail', 'events,3,data,adId': '200006785140071', 'events,3,data,adIndex': '3', 'events,3,data,eventType': '2', 'events,4,data,qualifier': '1538139140', 'events,4,data,id': '8965639334433615', 'events,4,data,widgetName': 'sp_detail', 'events,4,data,adId': '200005375164221', 'events,4,data,adIndex': '4', 'events,4,data,eventType': '2', 'events,5,data,qualifier': '1538139140', 'events,5,data,id': '8965639334433615', 'events,5,data,widgetName': 'sp_detail', 'events,5,data,adId': '200003363710431', 'events,5,data,adIndex': '5', 'events,5,data,eventType': '2', 'events,6,data,qualifier': '1538139140', 'events,6,data,id': '8965639334433615', 'events,6,data,widgetName': 'sp_detail', 'events,6,data,adId': '200003618758551', 'events,6,data,adIndex': '6', 'events,6,data,eventType': '2', 'events,7,data,qualifier': '1538139140', 'events,7,data,id': '8965639334433615', 'events,7,data,widgetName': 'sp_detail', 'events,7,data,adId': '200005160304161', 'events,7,data,adIndex': '7', 'events,7,data,eventType': '2', 'events,8,data,qualifier': '1538139140', 'events,8,data,id': '8965639334433615', 'events,8,data,widgetName': 'sp_detail', 'events,8,data,adId': '200009019543031', 'events,8,data,adIndex': '8', 'events,8,data,eventType': '2', 'events,9,data,qualifier': '1538139140', 'events,9,data,id': '8965639334433615', 'events,9,data,widgetName': 'sp_detail', 'events,9,data,adId': '200011429355741', 'events,9,data,adIndex': '9', 'events,9,data,eventType': '2', 'events,10,data,qualifier': '1538139140', 'events,10,data,id': '5568996880823540', 'events,10,data,widgetName': 'sp_detail2', 'events,10,data,adId': '200005022942261', 'events,10,data,adIndex': '0', 'events,10,data,eventType': '2', 'events,11,data,qualifier': '1538139140', 'events,11,data,id': '5568996880823540', 'events,11,data,widgetName': 'sp_detail2', 'events,11,data,adId': '200001994947721', 'events,11,data,adIndex': '1', 'events,11,data,eventType': '2', 'events,12,data,qualifier': '1538139140', 'events,12,data,id': '5568996880823540', 'events,12,data,widgetName': 'sp_detail2', 'events,12,data,adId': '200006371813171', 'events,12,data,adIndex': '2', 'events,12,data,eventType': '2', 'events,13,data,qualifier': '1538139140', 'events,13,data,id': '5568996880823540', 'events,13,data,widgetName': 'sp_detail2', 'events,13,data,adId': '200008135474831', 'events,13,data,adIndex': '3', 'events,13,data,eventType': '2', 'events,14,data,qualifier': '1538139140', 'events,14,data,id': '5568996880823540', 'events,14,data,widgetName': 'sp_detail2', 'events,14,data,adId': '200007138413371', 'events,14,data,adIndex': '4', 'events,14,data,eventType': '2', 'events,15,data,qualifier': '1538139140', 'events,15,data,id': '5568996880823540', 'events,15,data,widgetName': 'sp_detail2', 'events,15,data,adId': '200004346238131', 'events,15,data,adIndex': '5', 'events,15,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 85, Group = 17
 url query: {'timelineTooltipContent': ['timelinetooltip'], 'metricKey': ['timelineTooltipMetric'], 'rid': ['C7GETPWTXV0H6TCFYC6Z'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139311741']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?timelineTooltipContent=timelinetooltip&metricKey=timelineTooltipMetric&rid=C7GETPWTXV0H6TCFYC6Z&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139311741
+Response type: json
+
 
 Index = 86, Group = 15
 url query: {'src': ['500'], 'slot': ['ad-endcap-1'], 'rid': ['0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=ad-endcap-1&rid=0101f8c153b6a4aa0470b9e4dc928b91d8bce9fb927a7d48685446ec09e3ce6e8cc8&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 87, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139140', 'events,0,data,id': '5568996880823540', 'events,0,data,widgetName': 'sp_detail2', 'events,0,data,adId': '200007107884211', 'events,0,data,adIndex': '6', 'events,0,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 88, Group = 0
 url query: {'type': ['load'], 'isPrime': ['false'], 'height': ['639'], 'width': ['1039'], '_': ['1538139311765']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=&height=639&width=1039&_=1538139311765
+Response type: json
+
 
 Index = 89, Group = 22
 url query: {'ref': ['nav_cart']}
 content query: {}
 url: https://www.amazon.com/gp/cart/view.html?ref=nav_cart
+Response type: html
+
 
 Index = 90, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/61q3B0nT22L._RC|01bI2uWMSDL.css,016sJVBHsRL.css,310rAAnFCSL.css,118bDMikZGL.css,11EMohT-IeL.css,21LK7jaicML.css,11-2siEOStL.css,21g5fdSNE6L.css,01Xl9KigtzL.css,01YhS3Cs-hL.css,21oddBoVd4L.css,019SHZnt8RL.css,01gv-pABIRL.css,11vZhCgAHbL.css,219QX0pP-ZL.css,11GUWGxBPIL.css,01dU8+SPlFL.css,11a9yCU+klL.css,01SHjPML6tL.css,11mYL77nNvL.css,01QrWuRrZ-L.css,31667-RteRL.css,114KWZGKCVL.css,01cbS3UK11L.css,21J5CLG82gL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI
+Response type: 
+
 
 Index = 91, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139318439']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139318439&
+Response type: 
+
 
 Index = 92, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/Should-Have-Known-That-Trivia/dp/B0778TY7XP/ref=pd_cart_vw_1_2?_encoding=UTF8&pd_rd_i=B0778TY7XP&pd_rd_r=0HAVWS3ATWK81CSV21XQ&pd_rd_w=BEqcj&pd_rd_wg=duEQ7&psc=1&refRID=0HAVWS3ATWK81CSV21XQ'], 'height': ['639'], 'width': ['1039'], '_': ['1538139319202']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2FShould-Have-Known-That-Trivia%2Fdp%2FB0778TY7XP%2Fref%3Dpd_cart_vw_1_2%3F_encoding%3DUTF8%26pd_rd_i%3DB0778TY7XP%26pd_rd_r%3D0HAVWS3ATWK81CSV21XQ%26pd_rd_w%3DBEqcj%26pd_rd_wg%3DduEQ7%26psc%3D1%26refRID%3D0HAVWS3ATWK81CSV21XQ&height=639&width=1039&_=1538139319202
+Response type: json
+
 
 Index = 93, Group = 5
 url query: {'_': ['1538139319889']}
 content query: {}
 url: https://d2h8zr0m6mus4x.cloudfront.net/primesignup/package.json?_=1538139319889
+Response type: json
+
 
 Index = 94, Group = 7
 url query: {}
 content query: {'parentSession': ['130-7417922-1464243'], 'currentSubPageType': ['Cart'], 'relatedRequestId': ['J710DM1V0X29XXFG2ES8'], 'customerId': ['A1ZI30EZE3ZKCH'], 'currentPageType': ['ShoppingCart'], 'isAUI': ['1']}
 url: https://www.amazon.com/gp/recent-history-footer/external/rhf-handler.html
+Response type: json
+
 
 Index = 95, Group = 8
 url query: {'prefetchSPP': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/buy/prefetch/pipeline-assets.html?prefetchSPP=1
+Response type: html
+
 
 Index = 96, Group = 9
 url query: {}
 content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139316'], 'token': ['gO5akecwPMDFMOLz45w2GDYEHBs859m3BMAJgfsAAAAJAAAAAFuuJLRyYXcAAAAA'], 'requestID': ['J710DM1V0X29XXFG2ES8'], 'activeItems': ['Cd93e35e0-b8a9-4e04-a09a-01ca50acee05|1|0|1|20|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'quantity.Cd93e35e0-b8a9-4e04-a09a-01ca50acee05': ['4'], 'pageAction': ['update-quantity'], 'submit.update-quantity.Cd93e35e0-b8a9-4e04-a09a-01ca50acee05': ['1'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['Cd93e35e0-b8a9-4e04-a09a-01ca50acee05'], 'actionType': ['update-quantity'], 'asin': ['B0778TY7XP'], 'encodedOffering': ['yF0B8CXy8xGddE%2FaA5ZggelVYKmQJS%2FUAKgGzm1dGiz7esQnsuIUAkJLpa30tii59QIR07y0YGqtC%2BcUntpDi%2By6bJ%2FRlm%2Fk6JCgykylrwHUybouqHYVnw%3D%3D']}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_update_quantity_1|1|4
+Response type: json
+
 
 Index = 97, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cart/desktop/ajax-lazy-load.html
+Response type: json
+
 
 Index = 98, Group = 10
 url query: {'cartItems': ['cart'], 'rid': ['J710DM1V0X29XXFG2ES8'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139323171']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?cartItems=cart&rid=J710DM1V0X29XXFG2ES8&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139323171
+Response type: json
+
 
 Index = 99, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139323180']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139323180&
+Response type: 
+
 
 Index = 100, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': 'F1YYG3R15FY9V6ADRY9J', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'cs,dct,#14': 'violationType', 'cs,dct,#15': 'unresponsive-clicks', 'cs,dct,#16': 'violationCount', 'cs,dct,#17': 'totalScanned', 'cs,dct,#18': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '2018-09-28T12:52:06.769Z', 'events,0,data,#7': 'TWJYFVX493V7ZXKY9V51-1538139126769-2', 'events,0,data,#8': '#9', 'events,0,data,#10': '#11', 'events,0,data,#12': '#13', 'events,1,data,#14': '#15', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'csm', 'events,1,data,#4': '#18', 'events,1,data,#6': '2018-09-28T12:52:06.770Z', 'events,1,data,#7': 'TWJYFVX493V7ZXKY9V51-1538139126770-3', 'events,1,data,#8': '#9', 'events,1,data,#10': '#11', 'events,1,data,#12': '#13', 'events,2,data,#0': '#1', 'events,2,data,#2': '#3', 'events,2,data,#4': '#5', 'events,2,data,#6': '#7', 'events,2,data,#8': '#9', 'events,2,data,#10': '2018-09-28T12:55:22.464Z', 'events,2,data,#11': 'F1YYG3R15FY9V6ADRY9J-1538139322464-1', 'events,2,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 101, Group = 11
 url query: {'isAUI': ['1'], 'relatedRequestId': ['J710DM1V0X29XXFG2ES8'], '_': ['1538139323223']}
 content query: {}
 url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestId=J710DM1V0X29XXFG2ES8&_=1538139323223
+Response type: html
+
 
 Index = 102, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': 'X9BDA0HKWXT2MG2JGZVG', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '#7', 'events,0,data,#8': '#9', 'events,0,data,#10': '2018-09-28T12:55:23.738Z', 'events,0,data,#11': 'X9BDA0HKWXT2MG2JGZVG-1538139323738-1', 'events,0,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 103, Group = 12
 url query: {}
 content query: {'path': ['/gp/cart/view.html'], 'queryString': ['?ie=UTF8&ref=nav%5Fcart'], 'pageType': ['ShoppingCart'], 'referer': ['https://www.amazon.com/Should-Have-Known-That-Trivia/dp/B0778TY7XP/ref=pd_cart_vw_1_2?_encoding=UTF8&pd_rd_i=B0778TY7XP&pd_rd_r=0HAVWS3ATWK81CSV21XQ&pd_rd_w=BEqcj&pd_rd_wg=duEQ7&psc=1&refRID=0HAVWS3ATWK81CSV21XQ']}
 url: https://www.amazon.com/gp/redirection/mexico.html
+Response type: 
+
 
 Index = 104, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'server', 'cs,dct,#1': 'www.amazon.com', 'cs,dct,#2': 'producerId', 'cs,dct,#3': 'csm', 'cs,dct,#4': 'schemaId', 'cs,dct,#5': 'csm.CSMUnloadBaselineEvent.2', 'cs,dct,#6': 'timestamp', 'cs,dct,#7': 'messageId', 'cs,dct,#8': 'sessionId', 'cs,dct,#9': '130-7417922-1464243', 'cs,dct,#10': 'requestId', 'cs,dct,#11': 'F1YYG3R15FY9V6ADRY9J', 'cs,dct,#12': 'obfuscatedMarketplaceId', 'cs,dct,#13': 'ATVPDKIKX0DER', 'cs,dct,#14': 'violationType', 'cs,dct,#15': 'unresponsive-clicks', 'cs,dct,#16': 'violationCount', 'cs,dct,#17': 'totalScanned', 'cs,dct,#18': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '2018-09-28T12:55:29.767Z', 'events,0,data,#7': 'F1YYG3R15FY9V6ADRY9J-1538139329767-2', 'events,0,data,#8': '#9', 'events,0,data,#10': '#11', 'events,0,data,#12': '#13', 'events,1,data,#14': '#15', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'csm', 'events,1,data,#4': '#18', 'events,1,data,#6': '2018-09-28T12:55:29.767Z', 'events,1,data,#7': 'F1YYG3R15FY9V6ADRY9J-1538139329767-3', 'events,1,data,#8': '#9', 'events,1,data,#10': '#11', 'events,1,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 105, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'server', 'cs,dct,#1': 'www.amazon.com', 'cs,dct,#2': 'producerId', 'cs,dct,#3': 'csm', 'cs,dct,#4': 'schemaId', 'cs,dct,#5': 'csm.CSMUnloadBaselineEvent.2', 'cs,dct,#6': 'timestamp', 'cs,dct,#7': 'messageId', 'cs,dct,#8': 'sessionId', 'cs,dct,#9': '130-7417922-1464243', 'cs,dct,#10': 'requestId', 'cs,dct,#11': 'X9BDA0HKWXT2MG2JGZVG', 'cs,dct,#12': 'obfuscatedMarketplaceId', 'cs,dct,#13': 'ATVPDKIKX0DER', 'cs,dct,#14': 'violationType', 'cs,dct,#15': 'unresponsive-clicks', 'cs,dct,#16': 'violationCount', 'cs,dct,#17': 'totalScanned', 'cs,dct,#18': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '2018-09-28T12:55:29.762Z', 'events,0,data,#7': 'X9BDA0HKWXT2MG2JGZVG-1538139329762-2', 'events,0,data,#8': '#9', 'events,0,data,#10': '#11', 'events,0,data,#12': '#13', 'events,1,data,#14': '#15', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'csm', 'events,1,data,#4': '#18', 'events,1,data,#6': '2018-09-28T12:55:29.764Z', 'events,1,data,#7': 'X9BDA0HKWXT2MG2JGZVG-1538139329764-3', 'events,1,data,#8': '#9', 'events,1,data,#10': '#11', 'events,1,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 106, Group = 14
 url query: {'_encoding': ['UTF8'], 'pd_rd_i': ['B004S8F7QM'], 'pd_rd_r': ['35X63K1AP64WE4Q33QYB'], 'pd_rd_w': ['YgQN9'], 'pd_rd_wg': ['XOw5o'], 'psc': ['1'], 'refRID': ['35X63K1AP64WE4Q33QYB']}
 content query: {}
 url: https://www.amazon.com/Cards-Against-Humanity-LLC-CAHUS/dp/B004S8F7QM/ref=pd_cart_vw_1_2?_encoding=UTF8&pd_rd_i=B004S8F7QM&pd_rd_r=35X63K1AP64WE4Q33QYB&pd_rd_w=YgQN9&pd_rd_wg=XOw5o&psc=1&refRID=35X63K1AP64WE4Q33QYB
+Response type: html
+
 
 Index = 107, Group = 16
 url query: {'pa': ['B004S8F7QM'], 'c': ['100'], 'pc': ['165793011'], 'pt': ['Detail'], 'u': ['https://www.amazon.com/gp/product/B004S8F7QM'], 'src': ['501'], 'sz': ['245x250'], 'ad-sid': ['010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648'], 'pj': ['{"asins":"B004S8F7QM","st":"amzn.us.dp.toys_games","prid":"01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99","bn":"165793011"}'], 'ad-uid': ['010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2'], 'slot': ['ams-detail-right-v2']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/x/getad?pa=B004S8F7QM&c=100&pc=165793011&pt=Detail&u=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB004S8F7QM&src=501&sz=245x250&ad-sid=010179de0ab7b065792be973f61834d75d55e46829209b49b68269f76b37d349b648&pj=%7B%22asins%22%3A%22B004S8F7QM%22%2C%22st%22%3A%22amzn.us.dp.toys_games%22%2C%22prid%22%3A%2201017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99%22%2C%22bn%22%3A%22165793011%22%7D&ad-uid=010168100d33147c9716ff447a63400321a63ac363846ed4ef9c64187f3ba7249cb2&slot=ams-detail-right-v2
+Response type: html
+
 
 Index = 108, Group = 15
 url query: {'src': ['500'], 'slot': ['dp-ads-center-promo'], 'rid': ['01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=dp-ads-center-promo&rid=01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 109, Group = 15
 url query: {'src': ['500'], 'slot': ['customer-reviews-top'], 'rid': ['01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=customer-reviews-top&rid=01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 110, Group = 15
 url query: {'src': ['500'], 'slot': ['ad-endcap-1'], 'rid': ['01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99'], 'callback': ['aax_xsp_render_ad']}
 content query: {}
 url: https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=ad-endcap-1&rid=01017fc4b16ca1c19dac9f000d8aab8ea536fe13b38980644273b60d59ffee566f99&callback=aax_xsp_render_ad
+Response type: html
+
 
 Index = 111, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwMDRTOEY3UU0/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC","adElementId":"ape_Detail_ams-detail-right-v2_desktop_placement","pageType":"Detail","slotName":"ams-detail-right-v2"},"adCreativeMetaData":{"adNetwork":"cs"}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwMDRTOEY3UU0%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC%22%2C%22adElementId%22%3A%22ape_Detail_ams-detail-right-v2_desktop_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22ams-detail-right-v2%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%7D%7D
+Response type: json
+
 
 Index = 112, Group = 19
 url query: {'d': ['forester-did'], 'ex-fch': ['416731613'], 'ex-fargs': ['?i=riJc.HchtqoQ7ZTDNvl3Dw&client_imp=1'], 'cb': ['1538139334471']}
 content query: {}
 url: https://s.amazon-adsystem.com/iu3?d=forester-did&ex-fch=416731613&ex-fargs=?i%3DriJc.HchtqoQ7ZTDNvl3Dw%26client_imp%3D1&cb=1538139334471
+Response type: html
+
 
 Index = 113, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9yZW1vdGUvZHAvcmVtb3RlLXJldmlld3M/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC","adElementId":"ape_Detail_customer-reviews-top_Glance_placement","pageType":"Detail","slotName":"customer-reviews-top"},"adCreativeMetaData":{"adNetwork":"cs","adProgramId":1024,"adImpressionId":"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=Qn4VZ1KJXMWrYYoMtO-5KSwAAAFmID-Y8gEAAAH0ATUAZNc","adCreativeId":-1924146692,"adId":200002893416061,"adCreativeDetails":[{"asin":"B01MRG7T0D","title":"What Do You Meme? Adult Party Game","price":"$29.99","merchantName":"What Do You Meme, LLC","merchantCustomerID":"A2SG141FI6XZPD","sku":"Listing 2.0","adId":"A09273262XDQ6BAF6S1I2","campaignId":"A01910493R27048P35Y44"}]}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9yZW1vdGUvZHAvcmVtb3RlLXJldmlld3M%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC%22%2C%22adElementId%22%3A%22ape_Detail_customer-reviews-top_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22customer-reviews-top%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1024%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQn4VZ1KJXMWrYYoMtO-5KSwAAAFmID-Y8gEAAAH0ATUAZNc%22%2C%22adCreativeId%22%3A-1924146692%2C%22adId%22%3A200002893416061%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B01MRG7T0D%22%2C%22title%22%3A%22What%20Do%20You%20Meme%3F%20Adult%20Party%20Game%22%2C%22price%22%3A%22%2429.99%22%2C%22merchantName%22%3A%22What%20Do%20You%20Meme%2C%20LLC%22%2C%22merchantCustomerID%22%3A%22A2SG141FI6XZPD%22%2C%22sku%22%3A%22Listing%202.0%22%2C%22adId%22%3A%22A09273262XDQ6BAF6S1I2%22%2C%22campaignId%22%3A%22A01910493R27048P35Y44%22%7D%5D%7D%7D
+Response type: json
+
 
 Index = 114, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwMDRTOEY3UU0/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC","adElementId":"ape_Detail_dp-ads-center-promo_Desktop_placement","pageType":"Detail","slotName":"dp-ads-center-promo"},"adCreativeMetaData":{"adNetwork":"cs","adProgramId":1001,"adImpressionId":"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=QjvJqjd5Hf3rmuc4kEkpD00AAAFmID-aFQEAAAH0AUfFxcU","adCreativeId":14270660701,"adId":3082562001}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwMDRTOEY3UU0%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC%22%2C%22adElementId%22%3A%22ape_Detail_dp-ads-center-promo_Desktop_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22dp-ads-center-promo%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1001%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQjvJqjd5Hf3rmuc4kEkpD00AAAFmID-aFQEAAAH0AUfFxcU%22%2C%22adCreativeId%22%3A14270660701%2C%22adId%22%3A3082562001%7D%7D
+Response type: json
+
 
 Index = 115, Group = 18
 url query: {'pl': ['{"adPlacementMetaData":{"pageUrl":"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwMDRTOEY3UU0/cmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC","adElementId":"ape_Detail_ad-endcap-1_Glance_placement","pageType":"Detail","slotName":"ad-endcap-1"},"adCreativeMetaData":{"adNetwork":"cs","adProgramId":1001,"adImpressionId":"https://aax-us-east.amazon-adsystem.com/e/xsp/imp?b=QoKun111C6wHGwIwbG272e0AAAFmID-aFQEAAAH0AYgejpg","adCreativeId":14272478701,"adId":3082562001}}']}
 content query: {}
 url: https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9wcm9kdWN0L0IwMDRTOEY3UU0%2FcmVmJTVGPXBkJTVGY2FydCU1RnZ3JTVGMSU1RjImcGQlNUZyZCU1Rmk9QjAwNFM4RjdRTSZwZCU1RnJkJTVGcj0zNVg2M0sxQVA2NFdFNFEzM1FZQiZwZCU1RnJkJTVGdz1ZZ1FOOSZwZCU1RnJkJTVGd2c9WE93NW8mcHNjPTEmcmVmUklEPTM1WDYzSzFBUDY0V0U0UTMzUVlC%22%2C%22adElementId%22%3A%22ape_Detail_ad-endcap-1_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22ad-endcap-1%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adNetwork%22%3A%22cs%22%2C%22adProgramId%22%3A1001%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQoKun111C6wHGwIwbG272e0AAAFmID-aFQEAAAH0AYgejpg%22%2C%22adCreativeId%22%3A14272478701%2C%22adId%22%3A3082562001%7D%7D
+Response type: json
+
 
 Index = 116, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/gp/cart/view.html?ref=nav_cart'], 'height': ['639'], 'width': ['1039'], '_': ['1538139335218']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcart%2Fview.html%3Fref%3Dnav_cart&height=639&width=1039&_=1538139335218
+Response type: json
+
 
 Index = 117, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139330', 'events,0,data,id': '6534996488253788', 'events,0,data,widgetName': 'sp_detail', 'events,0,data,adId': '200005697048161', 'events,0,data,adIndex': '0', 'events,0,data,eventType': '2', 'events,1,data,qualifier': '1538139330', 'events,1,data,id': '6534996488253788', 'events,1,data,widgetName': 'sp_detail', 'events,1,data,adId': '200005697244561', 'events,1,data,adIndex': '1', 'events,1,data,eventType': '2', 'events,2,data,qualifier': '1538139330', 'events,2,data,id': '6534996488253788', 'events,2,data,widgetName': 'sp_detail', 'events,2,data,adId': '200002046870461', 'events,2,data,adIndex': '2', 'events,2,data,eventType': '2', 'events,3,data,qualifier': '1538139330', 'events,3,data,id': '6534996488253788', 'events,3,data,widgetName': 'sp_detail', 'events,3,data,adId': '200005897296731', 'events,3,data,adIndex': '3', 'events,3,data,eventType': '2', 'events,4,data,qualifier': '1538139330', 'events,4,data,id': '6534996488253788', 'events,4,data,widgetName': 'sp_detail', 'events,4,data,adId': '200009426514311', 'events,4,data,adIndex': '4', 'events,4,data,eventType': '2', 'events,5,data,qualifier': '1538139330', 'events,5,data,id': '6534996488253788', 'events,5,data,widgetName': 'sp_detail', 'events,5,data,adId': '200007795588471', 'events,5,data,adIndex': '5', 'events,5,data,eventType': '2', 'events,6,data,qualifier': '1538139330', 'events,6,data,id': '6534996488253788', 'events,6,data,widgetName': 'sp_detail', 'events,6,data,adId': '200011567094941', 'events,6,data,adIndex': '6', 'events,6,data,eventType': '2', 'events,7,data,qualifier': '1538139330', 'events,7,data,id': '6534996488253788', 'events,7,data,widgetName': 'sp_detail', 'events,7,data,adId': '200008262861121', 'events,7,data,adIndex': '7', 'events,7,data,eventType': '2', 'events,8,data,qualifier': '1538139330', 'events,8,data,id': '6534996488253788', 'events,8,data,widgetName': 'sp_detail', 'events,8,data,adId': '200006650053381', 'events,8,data,adIndex': '8', 'events,8,data,eventType': '2', 'events,9,data,qualifier': '1538139330', 'events,9,data,id': '6534996488253788', 'events,9,data,widgetName': 'sp_detail', 'events,9,data,adId': '200007833243561', 'events,9,data,adIndex': '9', 'events,9,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 118, Group = 17
 url query: {'timelineTooltipContent': ['timelinetooltip'], 'metricKey': ['timelineTooltipMetric'], 'rid': ['RBH7R80QVX0E3BNZPCJK'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139336274']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?timelineTooltipContent=timelinetooltip&metricKey=timelineTooltipMetric&rid=RBH7R80QVX0E3BNZPCJK&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139336274
+Response type: json
+
 
 Index = 119, Group = 0
 url query: {}
-content query: {}
+content query: {'events,0,data,qualifier': '1538139331', 'events,0,data,id': '3266451703762085', 'events,0,data,widgetName': 'sp_detail2', 'events,0,data,adId': '200006613214061', 'events,0,data,adIndex': '6', 'events,0,data,eventType': '2'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod
+Response type: json
+
 
 Index = 120, Group = 20
 url query: {'hitType': ['popUp']}
 content query: {}
 url: https://www.amazon.com/gp/ls/impress.html/ref=vas_lux_zip_refresh_T1?hitType=popUp
+Response type: 
+
 
 Index = 121, Group = 21
 url query: {'pageType': ['LocalServicesWidget'], 'hitType': ['popUp']}
 content query: {}
 url: https://www.amazon.com/gp/ls/impress.html/ref=vas_nobb_d_ppd_B004S8F7QM_?pageType=LocalServicesWidget&hitType=popUp
+Response type: 
+
 
 Index = 122, Group = 0
 url query: {}
 content query: {'session-id': ['130-7417922-1464243'], 'ASIN': ['B004S8F7QM'], 'offerListingID': ['cgWElqdIt%2BYRlvjs1Q%2B5AO80Clr4GFEcsiHGi10WiSDsPGR11otnUegcWc4VsG%2BsVn9hI1JN1PNjI%2F57YHJcyIqDl%2FNTPC80E5%2Bzo%2Bks%2F6CCtz0sw5dUODIf2iULkiAxsqP7jN7MgDNBShHWdqjc2w%3D%3D'], 'isMerchantExclusive': ['0'], 'merchantID': ['A8KF1VABUBXXL'], 'isAddon': ['0'], 'nodeID': ['165793011'], 'sellingCustomerID': ['A8KF1VABUBXXL'], 'storeID': ['toys-and-games'], 'tagActionCode': ['165793011'], 'viewID': ['glance'], 'rsid': ['130-7417922-1464243'], 'quantity': ['1'], 'submit.add-to-cart': ['Add to Cart'], 'dropdown-selection': ['jmonothuqqkq'], 'dropdown-selection-ubb': ['jmonothuqqkq']}
 url: https://www.amazon.com/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance
+Response type: html
+
 
 Index = 123, Group = 0
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'isToBeGiftWrapped': ['0'], 'cartInitiateId': ['1538139338427']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&isToBeGiftWrapped=0&cartInitiateId=1538139338427
+Response type: 
+
 
 Index = 124, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/Cards-Against-Humanity-LLC-CAHUS/dp/B004S8F7QM/ref=pd_cart_vw_1_2?_encoding=UTF8&pd_rd_i=B004S8F7QM&pd_rd_r=35X63K1AP64WE4Q33QYB&pd_rd_w=YgQN9&pd_rd_wg=XOw5o&psc=1&refRID=35X63K1AP64WE4Q33QYB'], 'height': ['639'], 'width': ['1039'], '_': ['1538139338739']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2FCards-Against-Humanity-LLC-CAHUS%2Fdp%2FB004S8F7QM%2Fref%3Dpd_cart_vw_1_2%3F_encoding%3DUTF8%26pd_rd_i%3DB004S8F7QM%26pd_rd_r%3D35X63K1AP64WE4Q33QYB%26pd_rd_w%3DYgQN9%26pd_rd_wg%3DXOw5o%26psc%3D1%26refRID%3D35X63K1AP64WE4Q33QYB&height=639&width=1039&_=1538139338739
+Response type: json
+
 
 Index = 125, Group = 8
 url query: {'prefetchSPP': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/buy/prefetch/pipeline-assets.html?prefetchSPP=1
+Response type: html
 
-Index = 126, Group = 0
-url query: {}
-content query: {}
-url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
 
-Index = 127, Group = 0
+Index = 126, Group = 23
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'r', 'cs,dct,#1': '2', 'cs,dct,#2': 's', 'cs,dct,#3': 'w', 'cs,dct,#4': 'o', 'cs,dct,#5': 'A', 'cs,dct,#6': 'p', 'cs,dct,#7': 'c', 'cs,dct,#8': 's', 'cs,dct,#9': 'c', 'cs,dct,#10': 't', 'cs,dct,#11': 'm', 'cs,dct,#12': 's', 'cs,dct,#13': '1', 'cs,dct,#14': 'c', 'cs,dct,#15': 'v', 'cs,dct,#16': 'u', 'cs,dct,#17': 'v', 'cs,dct,#18': 't', 'cs,dct,#19': 'c', 'events,0,data,#0': '#', 'events,0,data,#2': '#', 'events,0,data,#4': '#', 'events,0,data,#6': '2', 'events,0,data,#7': 'F', 'events,0,data,#8': '#', 'events,0,data,#10': '#', 'events,0,data,#12': '#', 'events,1,data,#14': '#', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'c', 'events,1,data,#4': '#', 'events,1,data,#6': '2', 'events,1,data,#7': 'F', 'events,1,data,#8': '#', 'events,1,data,#10': '#', 'events,1,data,#12': '#', 'events,2,data,#0': '#', 'events,2,data,#2': '#', 'events,2,data,#4': '#', 'events,2,data,#6': '#', 'events,2,data,#8': '#', 'events,2,data,#10': '2', 'events,2,data,#11': '2', 'events,2,data,#12': '#', 'events,3,data,#2': '#', 'events,3,data,#6': 'c', 'events,3,data,#8': '#', 'events,3,data,#10': '2', 'events,3,data,#11': '2', 'events,3,data,#12': '#', 'events,3,data,#0': '#', 'events,3,data,#4': '#', 'events,4,data,#15': '#', 'events,4,data,#17': 0, 'events,4,data,#18': 0, 'events,4,data,#6': 'c', 'events,4,data,#8': '#', 'events,4,data,#10': '2', 'events,4,data,#11': '2', 'events,4,data,#12': '#', 'events,4,data,#0': '#', 'events,4,data,#4': '#'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
 
-Index = 128, Group = 0
-url query: {}
-content query: {}
-url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
 
-Index = 129, Group = 0
+Index = 127, Group = 24
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'r', 'cs,dct,#1': 'T', 'cs,dct,#2': 's', 'cs,dct,#3': 'w', 'cs,dct,#4': 'o', 'cs,dct,#5': 'A', 'cs,dct,#6': 'p', 'cs,dct,#7': 'c', 'cs,dct,#8': 's', 'cs,dct,#9': 'c', 'cs,dct,#10': 't', 'cs,dct,#11': 'm', 'cs,dct,#12': 's', 'cs,dct,#13': '1', 'cs,dct,#14': 'c', 'cs,dct,#15': 'v', 'cs,dct,#16': 'u', 'cs,dct,#17': 'v', 'cs,dct,#18': 't', 'cs,dct,#19': 'c', 'events,0,data,#0': '#', 'events,0,data,#2': '#', 'events,0,data,#4': '#', 'events,0,data,#6': '#', 'events,0,data,#8': '#', 'events,0,data,#10': '2', 'events,0,data,#11': 'T', 'events,0,data,#12': '#', 'events,1,data,#2': '#', 'events,1,data,#6': 'c', 'events,1,data,#8': '#', 'events,1,data,#10': '2', 'events,1,data,#11': 'T', 'events,1,data,#12': '#', 'events,1,data,#0': '#', 'events,1,data,#4': '#', 'events,2,data,#15': '#', 'events,2,data,#17': 0, 'events,2,data,#18': 0, 'events,2,data,#6': 'c', 'events,2,data,#8': '#', 'events,2,data,#10': '2', 'events,2,data,#11': 'T', 'events,2,data,#12': '#', 'events,2,data,#0': '#', 'events,2,data,#4': '#'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
+
+Index = 128, Group = 23
+url query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': '2T14B438P9JRQNB3W2AA', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'cs,dct,#14': 'csm.CSMUnloadBaselineEvent.2', 'cs,dct,#15': 'violationType', 'cs,dct,#16': 'unresponsive-clicks', 'cs,dct,#17': 'violationCount', 'cs,dct,#18': 'totalScanned', 'cs,dct,#19': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '2018-09-28T12:55:29.767Z', 'events,0,data,#7': 'F1YYG3R15FY9V6ADRY9J-1538139329767-2', 'events,0,data,#8': '#9', 'events,0,data,#10': '#11', 'events,0,data,#12': '#13', 'events,1,data,#14': '#15', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'csm', 'events,1,data,#4': '#18', 'events,1,data,#6': '2018-09-28T12:55:29.767Z', 'events,1,data,#7': 'F1YYG3R15FY9V6ADRY9J-1538139329767-3', 'events,1,data,#8': '#9', 'events,1,data,#10': '#11', 'events,1,data,#12': '#13', 'events,2,data,#0': '#1', 'events,2,data,#2': '#3', 'events,2,data,#4': '#5', 'events,2,data,#6': '#7', 'events,2,data,#8': '#9', 'events,2,data,#10': '2018-09-28T12:55:41.278Z', 'events,2,data,#11': '2T14B438P9JRQNB3W2AA-1538139341278-1', 'events,2,data,#12': '#13', 'events,3,data,#2': '#3', 'events,3,data,#6': 'csm', 'events,3,data,#8': '#14', 'events,3,data,#10': '2018-09-28T12:55:41.603Z', 'events,3,data,#11': '2T14B438P9JRQNB3W2AA-1538139341603-2', 'events,3,data,#12': '#13', 'events,3,data,#0': '#1', 'events,3,data,#4': '#5', 'events,4,data,#15': '#16', 'events,4,data,#17': 0, 'events,4,data,#18': 0, 'events,4,data,#6': 'csm', 'events,4,data,#8': '#19', 'events,4,data,#10': '2018-09-28T12:55:41.603Z', 'events,4,data,#11': '2T14B438P9JRQNB3W2AA-1538139341603-3', 'events,4,data,#12': '#13', 'events,4,data,#0': '#1', 'events,4,data,#4': '#5'}
+url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
+
+Index = 129, Group = 24
+url query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': 'T31K4VD7T7XD7QHQR5RJ', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'cs,dct,#14': 'csm.CSMUnloadBaselineEvent.2', 'cs,dct,#15': 'violationType', 'cs,dct,#16': 'unresponsive-clicks', 'cs,dct,#17': 'violationCount', 'cs,dct,#18': 'totalScanned', 'cs,dct,#19': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '#7', 'events,0,data,#8': '#9', 'events,0,data,#10': '2018-09-28T12:55:41.422Z', 'events,0,data,#11': 'T31K4VD7T7XD7QHQR5RJ-1538139341422-1', 'events,0,data,#12': '#13', 'events,1,data,#2': '#3', 'events,1,data,#6': 'csm', 'events,1,data,#8': '#14', 'events,1,data,#10': '2018-09-28T12:55:41.599Z', 'events,1,data,#11': 'T31K4VD7T7XD7QHQR5RJ-1538139341599-2', 'events,1,data,#12': '#13', 'events,1,data,#0': '#1', 'events,1,data,#4': '#5', 'events,2,data,#15': '#16', 'events,2,data,#17': 0, 'events,2,data,#18': 0, 'events,2,data,#6': 'csm', 'events,2,data,#8': '#19', 'events,2,data,#10': '2018-09-28T12:55:41.599Z', 'events,2,data,#11': 'T31K4VD7T7XD7QHQR5RJ-1538139341599-3', 'events,2,data,#12': '#13', 'events,2,data,#0': '#1', 'events,2,data,#4': '#5'}
+url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 130, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139343467']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139343467&
+Response type: 
+
 
 Index = 131, Group = 5
 url query: {'_': ['1538139344224']}
 content query: {}
 url: https://d2h8zr0m6mus4x.cloudfront.net/primesignup/package.json?_=1538139344224
+Response type: json
+
 
 Index = 132, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/gp/huc/view.html?ie=UTF8&newItems=C679af13b-3ecf-424b-9df8-0fd31493556f%2C1'], 'height': ['639'], 'width': ['1039'], '_': ['1538139343918']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fhuc%2Fview.html%3Fie%3DUTF8%26newItems%3DC679af13b-3ecf-424b-9df8-0fd31493556f%252C1&height=639&width=1039&_=1538139343918
+Response type: json
+
 
 Index = 133, Group = 8
 url query: {'prefetchSPP': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/buy/prefetch/pipeline-assets.html?prefetchSPP=1
+Response type: html
+
 
 Index = 134, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': 'R8JMMN7NN2FQ5X4NYFRT', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'cs,dct,#14': 'csm.CSMUnloadBaselineEvent.2', 'cs,dct,#15': 'violationType', 'cs,dct,#16': 'unresponsive-clicks', 'cs,dct,#17': 'violationCount', 'cs,dct,#18': 'totalScanned', 'cs,dct,#19': 'csm.ArmoredCXGuardrailsViolation.3', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '2018-09-28T12:55:29.767Z', 'events,0,data,#7': 'F1YYG3R15FY9V6ADRY9J-1538139329767-2', 'events,0,data,#8': '#9', 'events,0,data,#10': '#11', 'events,0,data,#12': '#13', 'events,1,data,#14': '#15', 'events,1,data,#16': 0, 'events,1,data,#17': 0, 'events,1,data,#2': 'csm', 'events,1,data,#4': '#18', 'events,1,data,#6': '2018-09-28T12:55:29.767Z', 'events,1,data,#7': 'F1YYG3R15FY9V6ADRY9J-1538139329767-3', 'events,1,data,#8': '#9', 'events,1,data,#10': '#11', 'events,1,data,#12': '#13', 'events,2,data,#0': '#1', 'events,2,data,#2': '#3', 'events,2,data,#4': '#5', 'events,2,data,#6': '#7', 'events,2,data,#8': '#9', 'events,2,data,#10': '2018-09-28T12:55:41.278Z', 'events,2,data,#11': '2T14B438P9JRQNB3W2AA-1538139341278-1', 'events,2,data,#12': '#13', 'events,3,data,#2': '#3', 'events,3,data,#6': 'csm', 'events,3,data,#8': '#14', 'events,3,data,#10': '2018-09-28T12:55:41.603Z', 'events,3,data,#11': '2T14B438P9JRQNB3W2AA-1538139341603-2', 'events,3,data,#12': '#13', 'events,3,data,#0': '#1', 'events,3,data,#4': '#5', 'events,4,data,#15': '#16', 'events,4,data,#17': 0, 'events,4,data,#18': 0, 'events,4,data,#6': 'csm', 'events,4,data,#8': '#19', 'events,4,data,#10': '2018-09-28T12:55:41.603Z', 'events,4,data,#11': '2T14B438P9JRQNB3W2AA-1538139341603-3', 'events,4,data,#12': '#13', 'events,4,data,#0': '#1', 'events,4,data,#4': '#5', 'events,5,data,#0': '#1', 'events,5,data,#2': '#3', 'events,5,data,#4': '#5', 'events,5,data,#6': '#7', 'events,5,data,#8': '#9', 'events,5,data,#10': '2018-09-28T12:55:46.161Z', 'events,5,data,#11': 'R8JMMN7NN2FQ5X4NYFRT-1538139346161-1', 'events,5,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 135, Group = 0
 url query: {}
-content query: {}
+content query: {'cs,dct,#0': 'requestId', 'cs,dct,#1': 'MS6TPH2JNQXWMPKP0WYB', 'cs,dct,#2': 'server', 'cs,dct,#3': 'www.amazon.com', 'cs,dct,#4': 'obfuscatedMarketplaceId', 'cs,dct,#5': 'ATVPDKIKX0DER', 'cs,dct,#6': 'producerId', 'cs,dct,#7': 'csm', 'cs,dct,#8': 'schemaId', 'cs,dct,#9': 'csm.CSMBaselineEvent.4', 'cs,dct,#10': 'timestamp', 'cs,dct,#11': 'messageId', 'cs,dct,#12': 'sessionId', 'cs,dct,#13': '130-7417922-1464243', 'events,0,data,#0': '#1', 'events,0,data,#2': '#3', 'events,0,data,#4': '#5', 'events,0,data,#6': '#7', 'events,0,data,#8': '#9', 'events,0,data,#10': '2018-09-28T12:55:46.170Z', 'events,0,data,#11': 'MS6TPH2JNQXWMPKP0WYB-1538139346170-1', 'events,0,data,#12': '#13'}
 url: https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod
+Response type: json
+
 
 Index = 136, Group = 9
 url query: {}
 content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139342'], 'token': ['gG9rKIMfJ8NAFnrLt9h4e8xSSbfiNB6cuSOnnpAAAAAJAAAAAFuuJM5yYXcAAAAA'], 'requestID': ['3WFDS00XR7HQNM9GC3K9'], 'activeItems': ['C679af13b-3ecf-424b-9df8-0fd31493556f|1|0|1|25|||0||', 'Cd93e35e0-b8a9-4e04-a09a-01ca50acee05|1|0|4|20|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'quantity.C679af13b-3ecf-424b-9df8-0fd31493556f': ['2'], 'pageAction': ['update-quantity'], 'submit.update-quantity.C679af13b-3ecf-424b-9df8-0fd31493556f': ['1'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['C679af13b-3ecf-424b-9df8-0fd31493556f'], 'actionType': ['update-quantity'], 'asin': ['B004S8F7QM'], 'encodedOffering': ['cgWElqdIt%2BYRlvjs1Q%2B5AO80Clr4GFEcsiHGi10WiSDsPGR11otnUegcWc4VsG%2BsVn9hI1JN1PNjI%2F57YHJcyIqDl%2FNTPC80E5%2Bzo%2Bks%2F6CCtz0sw5dUODIf2iULkiAxsqP7jN7MgDNBShHWdqjc2w%3D%3D']}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_update_quantity_1|1|2
+Response type: json
+
 
 Index = 137, Group = 10
 url query: {'cartItems': ['cart'], 'rid': ['3WFDS00XR7HQNM9GC3K9'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139349072']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?cartItems=cart&rid=3WFDS00XR7HQNM9GC3K9&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139349072
+Response type: json
+
 
 Index = 138, Group = 11
 url query: {'isAUI': ['1'], 'relatedRequestId': ['3WFDS00XR7HQNM9GC3K9'], '_': ['1538139349123']}
 content query: {}
 url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestId=3WFDS00XR7HQNM9GC3K9&_=1538139349123
+Response type: html
+
 
 Index = 139, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cart/desktop/ajax-lazy-load.html
+Response type: json
+
 
 Index = 140, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139349086']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139349086&
+Response type: 
+
 
 Index = 141, Group = 13
 url query: {}
 content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139342'], 'token': ['gG9rKIMfJ8NAFnrLt9h4e8xSSbfiNB6cuSOnnpAAAAAJAAAAAFuuJM5yYXcAAAAA'], 'requestID': ['3WFDS00XR7HQNM9GC3K9'], 'activeItems': ['C679af13b-3ecf-424b-9df8-0fd31493556f|1|0|2|25|||0||', 'Cd93e35e0-b8a9-4e04-a09a-01ca50acee05|1|0|4|20|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'submit.delete.C679af13b-3ecf-424b-9df8-0fd31493556f': ['1'], 'pageAction': ['delete-active'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['C679af13b-3ecf-424b-9df8-0fd31493556f'], 'actionType': ['delete'], 'asin': ['B004S8F7QM'], 'encodedOffering': ['cgWElqdIt%2BYRlvjs1Q%2B5AO80Clr4GFEcsiHGi10WiSDsPGR11otnUegcWc4VsG%2BsVn9hI1JN1PNjI%2F57YHJcyIqDl%2FNTPC80E5%2Bzo%2Bks%2F6CCtz0sw5dUODIf2iULkiAxsqP7jN7MgDNBShHWdqjc2w%3D%3D']}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_cart_delete_1
+Response type: json
+
 
 Index = 142, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cart/desktop/ajax-lazy-load.html
+Response type: json
+
 
 Index = 143, Group = 10
 url query: {'cartItems': ['cart'], 'rid': ['3WFDS00XR7HQNM9GC3K9'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139352961']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?cartItems=cart&rid=3WFDS00XR7HQNM9GC3K9&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139352961
+Response type: json
+
 
 Index = 144, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139352994']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139352994&
+Response type: 
+
 
 Index = 145, Group = 11
 url query: {'isAUI': ['1'], 'relatedRequestId': ['3WFDS00XR7HQNM9GC3K9'], '_': ['1538139353007']}
 content query: {}
 url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestId=3WFDS00XR7HQNM9GC3K9&_=1538139353007
+Response type: html
+
 
 Index = 146, Group = 12
 url query: {}
 content query: {'path': ['/gp/cart/view.html'], 'queryString': ['?ie=UTF8'], 'pageType': ['ShoppingCart'], 'referer': ['https://www.amazon.com/gp/huc/view.html?ie=UTF8&newItems=C679af13b-3ecf-424b-9df8-0fd31493556f%2C1']}
 url: https://www.amazon.com/gp/redirection/mexico.html
+Response type: 
+
 
 Index = 147, Group = 13
 url query: {}
 content query: {'hasMoreItems': ['0'], 'timeStamp': ['1538139342'], 'token': ['gG9rKIMfJ8NAFnrLt9h4e8xSSbfiNB6cuSOnnpAAAAAJAAAAAFuuJM5yYXcAAAAA'], 'requestID': ['3WFDS00XR7HQNM9GC3K9'], 'activeItems': ['Cd93e35e0-b8a9-4e04-a09a-01ca50acee05|1|0|4|20|||0||'], 'closeAddonUpsell': ['1'], 'flcExpanded': ['0'], 'submit.delete.Cd93e35e0-b8a9-4e04-a09a-01ca50acee05': ['1'], 'pageAction': ['delete-active'], 'displayedSavedItemNum': ['0'], 'actionItemID': ['Cd93e35e0-b8a9-4e04-a09a-01ca50acee05'], 'actionType': ['delete'], 'asin': ['B0778TY7XP'], 'encodedOffering': ['yF0B8CXy8xGddE%2FaA5ZggelVYKmQJS%2FUAKgGzm1dGiz7esQnsuIUAkJLpa30tii59QIR07y0YGqtC%2BcUntpDi%2By6bJ%2FRlm%2Fk6JCgykylrwHUybouqHYVnw%3D%3D']}
 url: https://www.amazon.com/gp/cart/ajax-update.html/ref=ox_sc_cart_delete_1
+Response type: json
+
 
 Index = 148, Group = 7
 url query: {}
 content query: {'parentSession': ['130-7417922-1464243'], 'currentSubPageType': ['Cart'], 'relatedRequestId': ['3WFDS00XR7HQNM9GC3K9'], 'customerId': ['A1ZI30EZE3ZKCH'], 'currentPageType': ['ShoppingCart'], 'isAUI': ['1']}
 url: https://www.amazon.com/gp/recent-history-footer/external/rhf-handler.html
+Response type: json
+
 
 Index = 149, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cart/desktop/ajax-lazy-load.html
+Response type: json
+
 
 Index = 150, Group = 10
 url query: {'cartItems': ['cart'], 'rid': ['3WFDS00XR7HQNM9GC3K9'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139357367']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?cartItems=cart&rid=3WFDS00XR7HQNM9GC3K9&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139357367
+Response type: json
+
 
 Index = 151, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139357391']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139357391&
+Response type: 
+
 
 Index = 152, Group = 11
 url query: {'isAUI': ['1'], 'relatedRequestId': ['3WFDS00XR7HQNM9GC3K9'], '_': ['1538139357409']}
 content query: {}
 url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestId=3WFDS00XR7HQNM9GC3K9&_=1538139357409
+Response type: html
+
 
 Index = 153, Group = 0
 url query: {'pop-up': ['1'], 'nodeId': ['759346']}
 content query: {}
 url: https://www.amazon.com/gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=759346
+Response type: 
 
-Index = 154, Group = 23
+
+Index = 154, Group = 25
 url query: {'params': ['[{"qualifier":"1538139140","id":"5568996880823540","widgetName":"sp_detail2","adId":"200007138413371","adIndex":"4","eventType":"2"},{"qualifier":"1538139140","id":"5568996880823540","widgetName":"sp_detail2","adId":"200004346238131","adIndex":"5","eventType":"2"},{"qualifier":"1538139140","id":"5568996880823540","widgetName":"sp_detail2","adId":"200007107884211","adIndex":"6","eventType":"2"}]']}
 content query: {}
 url: https://www.amazon.com/gp/sponsored-products/logging/log-action.html?params=[{%22qualifier%22:%221538139140%22,%22id%22:%225568996880823540%22,%22widgetName%22:%22sp_detail2%22,%22adId%22:%22200007138413371%22,%22adIndex%22:%224%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139140%22,%22id%22:%225568996880823540%22,%22widgetName%22:%22sp_detail2%22,%22adId%22:%22200004346238131%22,%22adIndex%22:%225%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139140%22,%22id%22:%225568996880823540%22,%22widgetName%22:%22sp_detail2%22,%22adId%22:%22200007107884211%22,%22adIndex%22:%226%22,%22eventType%22:%222%22}]
+Response type: 
+
 
 Index = 155, Group = 0
 url query: {'v': ['0.201809.0'], 'id': ['FBGCSX8H1SGYW100GW4Z'], 'ctb': ['1'], 'm': ['1'], 'sc': ['FBGCSX8H1SGYW100GW4Z'], 'pc': ['33408'], 'tc': ['-607'], 'hob': ['8'], 'hoe': ['9'], 'ul': ['33409'], 't': ['1538139112085'], 'csmtags': ['mouseHit'], 'pty': ['Detail'], 'spty': ['Glance'], 'pti': ['B017YEAJTG'], 'tid': ['JSM8137AJ3TYPRJTPBA5'], 'aftb': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/uedata?ul&v=0.201809.0&id=FBGCSX8H1SGYW100GW4Z&ctb=1&m=1&sc=FBGCSX8H1SGYW100GW4Z&pc=33408&tc=-607&hob=8&hoe=9&ul=33409&t=1538139112085&csmtags=mouseHit&pty=Detail&spty=Glance&pti=B017YEAJTG&tid=JSM8137AJ3TYPRJTPBA5&aftb=1
+Response type: 
+
 
 Index = 156, Group = 11
 url query: {'isAUI': ['1'], 'relatedRequestId': ['FB3Q34MV5JW9FJW0V959'], '_': ['1538139133211']}
 content query: {}
 url: https://www.amazon.com/gp/cart/recently-viewed.html?isAUI=1&relatedRequestId=FB3Q34MV5JW9FJW0V959&_=1538139133211
+Response type: 
+
 
 Index = 157, Group = 0
 url query: {'v': ['0.201808.0'], 'id': ['T31K4VD7T7XD7QHQR5RJ'], 'ctb': ['1'], 'ifr': ['1'], 'm': ['1'], 'sc': ['T31K4VD7T7XD7QHQR5RJ'], 'pc': ['1848'], 'tc': ['-1063'], 'hob': ['2'], 'hoe': ['6'], 'ld': ['1848'], 't': ['1538139341351'], 'pty': ['CheckoutPrefetch'], 'spty': ['prefetch-assets'], 'tid': ['JSM8137AJ3TYPRJTPBA5'], 'aftb': ['1']}
 content query: {}
 url: https://www.amazon.com/gp/buy/prefetch/pipeline-assets.html/uedata/nvp/unsticky/130-7417922-1464243/Checkout/ntpoffrw?ld&v=0.201808.0&id=T31K4VD7T7XD7QHQR5RJ&ctb=1&ifr=1&m=1&sc=T31K4VD7T7XD7QHQR5RJ&pc=1848&tc=-1063&hob=2&hoe=6&ld=1848&t=1538139341351&pty=CheckoutPrefetch&spty=prefetch-assets&pti=&tid=JSM8137AJ3TYPRJTPBA5&aftb=1
+Response type: 
 
-Index = 158, Group = 23
+
+Index = 158, Group = 25
 url query: {'params': ['[{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200005697048161","adIndex":"0","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200005697244561","adIndex":"1","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200002046870461","adIndex":"2","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200005897296731","adIndex":"3","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200009426514311","adIndex":"4","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200007795588471","adIndex":"5","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200011567094941","adIndex":"6","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200008262861121","adIndex":"7","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200006650053381","adIndex":"8","eventType":"2"},{"qualifier":"1538139330","id":"6534996488253788","widgetName":"sp_detail","adId":"200007833243561","adIndex":"9","eventType":"2"}]']}
 content query: {}
 url: https://www.amazon.com/gp/sponsored-products/logging/log-action.html?params=[{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200005697048161%22,%22adIndex%22:%220%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200005697244561%22,%22adIndex%22:%221%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200002046870461%22,%22adIndex%22:%222%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200005897296731%22,%22adIndex%22:%223%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200009426514311%22,%22adIndex%22:%224%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200007795588471%22,%22adIndex%22:%225%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200011567094941%22,%22adIndex%22:%226%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200008262861121%22,%22adIndex%22:%227%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200006650053381%22,%22adIndex%22:%228%22,%22eventType%22:%222%22},{%22qualifier%22:%221538139330%22,%22id%22:%226534996488253788%22,%22widgetName%22:%22sp_detail%22,%22adId%22:%22200007833243561%22,%22adIndex%22:%229%22,%22eventType%22:%222%22}]
+Response type: 
+
 
 Index = 159, Group = 6
 url query: {'type': ['load'], 'isPrime': ['false'], 'referrer': ['https://www.amazon.com/AmazonBasics-Lightning-USB-Cable-Certified/dp/B017YEAJTG/ref=pd_cart_vw_2_1?_encoding=UTF8&pd_rd_i=B017YEAJTG&pd_rd_r=5H6X4HC2QSTR5BMAJ50Q&pd_rd_w=G6cCM&pd_rd_wg=YHW99&psc=1&refRID=5H6X4HC2QSTR5BMAJ50Q'], 'height': ['639'], 'width': ['1039'], '_': ['1538139130389']}
 content query: {}
 url: https://www.amazon.com/gp/prime/digital-adoption/navigation-bar?type=load&isPrime=false&referrer=https%3A%2F%2Fwww.amazon.com%2FAmazonBasics-Lightning-USB-Cable-Certified%2Fdp%2FB017YEAJTG%2Fref%3Dpd_cart_vw_2_1%3F_encoding%3DUTF8%26pd_rd_i%3DB017YEAJTG%26pd_rd_r%3D5H6X4HC2QSTR5BMAJ50Q%26pd_rd_w%3DG6cCM%26pd_rd_wg%3DYHW99%26psc%3D1%26refRID%3D5H6X4HC2QSTR5BMAJ50Q&height=639&width=1039&_=1538139130389
+Response type: 
+
 
 Index = 160, Group = 17
 url query: {'timelineTooltipContent': ['timelinetooltip'], 'metricKey': ['timelineTooltipMetric'], 'rid': ['RBH7R80QVX0E3BNZPCJK'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139335201']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?timelineTooltipContent=timelinetooltip&metricKey=timelineTooltipMetric&rid=RBH7R80QVX0E3BNZPCJK&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139335201
+Response type: 
+
 
 Index = 161, Group = 0
 url query: {'v': ['0.201808.0'], 'id': ['FB3Q34MV5JW9FJW0V959'], 'bf': ['dall_1-dcm_1-xhr_1-qs_1-ael_1-atob_1-pjs_0-njs_0-cjs_0-rhn_0-sel_0-chrm_0-plg_1-no_0-'], 'm': ['1'], 'sc': ['FB3Q34MV5JW9FJW0V959'], 'ue': ['6'], 'cb': ['72'], 'ns': ['216'], 'af': ['230'], 'cf': ['232'], 'ne': ['341'], 'be': ['402'], 'pc': ['934'], 'tc': ['-54'], 'na_': ['-54'], 'ul_': ['-37'], '_ul': ['-34'], 'rd_': ['-1538139129616'], '_rd': ['-1538139129616'], 'fe_': ['-54'], 'lk_': ['-54'], '_lk': ['-54'], 'co_': ['-54'], '_co': ['-54'], 'sc_': ['-54'], 'rq_': ['-54'], 'rs_': ['-46'], '_rs': ['-36'], 'dl_': ['-37'], 'di_': ['407'], 'de_': ['538'], '_de': ['559'], '_dc': ['-1538139129616'], 'ld_': ['-1538139129616'], '_ld': ['-1538139129616'], 'ntd': ['0'], 'ty': ['2'], 'rc': ['0'], 'hob': ['3'], 'hoe': ['7'], 'ul': ['935'], 't': ['1538139130551'], 'ctb': ['1'], 'bfnt': ['1'], 'nrbf': ['0'], 'bft': ['1'], 'csmtags': ['aui|aui:aui_build_date:3.18.13-2018-09-11|navbar|fls-na|adblk_no|iss-on-time'], 'viz': ['visible:6'], 'pty': ['ShoppingCart'], 'spty': ['Cart'], 'tid': ['JSM8137AJ3TYPRJTPBA5'], 'aftb': ['1'], 'ui': ['3']}
 content query: {}
 url: https://www.amazon.com/gp/cart/view.html/ref=attachSidesheet/uedata/nvp/unsticky/130-7417922-1464243/ShoppingCart/ntpoffrw?ul&v=0.201808.0&id=FB3Q34MV5JW9FJW0V959&bf=dall_1-dcm_1-xhr_1-qs_1-ael_1-atob_1-pjs_0-njs_0-cjs_0-rhn_0-sel_0-chrm_0-plg_1-no_0-&m=1&sc=FB3Q34MV5JW9FJW0V959&ue=6&cb=72&ns=216&af=230&cf=232&ne=341&be=402&pc=934&tc=-54&na_=-54&ul_=-37&_ul=-34&rd_=-1538139129616&_rd=-1538139129616&fe_=-54&lk_=-54&_lk=-54&co_=-54&_co=-54&sc_=-54&rq_=-54&rs_=-46&_rs=-36&dl_=-37&di_=407&de_=538&_de=559&_dc=-1538139129616&ld_=-1538139129616&_ld=-1538139129616&ntd=0&ty=2&rc=0&hob=3&hoe=7&ul=935&t=1538139130551&ctb=1&bfnt=1&nrbf=0&bft=1&csmtags=aui|aui:aui_build_date:3.18.13-2018-09-11|navbar|fls-na|adblk_no|iss-on-time&viz=visible:6&pty=ShoppingCart&spty=Cart&pti=&tid=JSM8137AJ3TYPRJTPBA5&aftb=1&ui=3
+Response type: 
+
 
 Index = 162, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/61q3B0nT22L._RC|01bI2uWMSDL.css,016sJVBHsRL.css,310rAAnFCSL.css,118bDMikZGL.css,11EMohT-IeL.css,21LK7jaicML.css,11-2siEOStL.css,21g5fdSNE6L.css,01Xl9KigtzL.css,01YhS3Cs-hL.css,21oddBoVd4L.css,019SHZnt8RL.css,01gv-pABIRL.css,11vZhCgAHbL.css,219QX0pP-ZL.css,11GUWGxBPIL.css,01dU8+SPlFL.css,11a9yCU+klL.css,01SHjPML6tL.css,11mYL77nNvL.css,01QrWuRrZ-L.css,31667-RteRL.css,114KWZGKCVL.css,01cbS3UK11L.css,21J5CLG82gL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI
+Response type: 
+
 
 Index = 163, Group = 4
 url query: {'ie': ['UTF8'], 'checkAuthentication': ['1'], 'checkDefaults': ['1'], 'cartInitiateId': ['1538139129917']}
 content query: {}
 url: https://www.amazon.com/gp/cart/checkout-prefetch.html?ie=UTF8&checkAuthentication=1&checkDefaults=1&cartInitiateId=1538139129917&
+Response type: 
+
 
 Index = 164, Group = 0
 url query: {}
-content query: {'{"rid":"FBGCSX8H1SGYW100GW4Z","sid":"130-7417922-1464243","mid":"ATVPDKIKX0DER","sn":"www.amazon.com","reqs":[{"cel":{"k":"mmm1","e":[{"x":866,"y":588,"t":25240},{"x":866,"y":571,"t":25269},{"x":866,"y":561,"t":25523},{"x":866,"y":574,"t":25599},{"x":854,"y":542,"t":25711},{"x":747,"y":515,"t":25779},{"x":277,"y":443,"t":25839},{"x":49,"y":392,"t":25917},{"x":23,"y":336,"t":25980},{"x":70,"y":558,"t":26194},{"x":70,"y":614,"t":26283},{"x":70,"y":615,"t":26384},{"x":56,"y":634,"t":26603},{"x":56,"y":648,"t":26734},{"x":198,"y":567,"t":27167},{"x":409,"y":499,"t":27235},{"x":499,"y":484,"t":27294},{"x":583,"y":481,"t":27432},{"x":616,"y":446,"t":27523}],"min":0,"max":1000,"avg":200}},{"cel":{"k":"mmm1","e":[{"x":615,"y":448,"t":28355},{"x":576,"y":426,"t":28587},{"x":573,"y":426,"t":28818},{"x":555,"y":396,"t":28921},{"x":546,"y":370,"t":29096},{"x":520,"y":377,"t":29346},{"x":538,"y":393,"t":29372},{"x":527,"y":446,"t":29440},{"x":480,"y":560,"t":29589},{"x":480,"y":572,"t":29643},{"x":538,"y":494,"t":30306},{"x":522,"y":587,"t":30597},{"x":542,"y":479,"t":30971},{"x":576,"y":390,"t":31037},{"x":639,"y":386,"t":31201}],"min":0,"max":1000,"avg":166}},{"cel":{"w":1054,"h":639,"x":0,"y":126.13333129882812,"t":32659,"k":"vpi"}},{"cel":{"w":1054,"h":639,"x":0,"y":111.80000305175781,"t":32873,"k":"vpi"}},{"cel":{"k":"mcm","w":1039,"h":13124,"t":33270,"x":658,"y":215,"p":"//*[@id': ['\'attach-sidesheet-view-cart-button\']/SPAN/INPUT","n":"INPUT","dt":3,"c":["a-button-input"]}},{"cel":{"k":"res_mcm","t":33271,"m":8}},{"csmcount":{"counter":"A11yScore","value":0,"t":33282}},{"csmcount":{"counter":"cel.PDM.TotalExecutions","value":49,"t":33430}},{"csmcount":{"counter":"cel.VPI.TotalExecutions","value":8,"t":33430}},{"csmcount":{"counter":"cel.VPI.TotalExecutionTime","value":0,"t":33430}},{"csmcount":{"counter":"cel.VPI.AverageExecutionTime","value":0,"t":33430}},{"csmcount":{"counter":"cel.widgets.batchesProcessed","value":168,"t":33430}},{"cel":{"k":"mmm1","e":[{"x":641,"y":386,"t":31343},{"x":654,"y":375,"t":31427},{"x":656,"y":359,"t":31912},{"x":642,"y":350,"t":32032},{"x":582,"y":410,"t":32092},{"x":562,"y":438,"t":32224},{"x":568,"y":433,"t":32269},{"x":570,"y":365,"t":32408},{"x":658,"y":238,"t":32672},{"x":674,"y":227,"t":32905},{"x":658,"y":215,"t":33038},{"x":658,"y":215,"t":33435}],"min":0,"max":1000,"avg":142}},{"cel":{"k":"hrt","t":33436}},{"cel":{"k":"eod","t0":1538139078676,"t":33436}},{"csmcount":{"counter":"armored-cxguardrails.unresponsive-clicks.violations","value":0,"t":33437}},{"csmcount":{"counter":"armored-cxguardrails.unresponsive-clicks.violationRate","value":0,"t":33437}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheHit","value":0,"t":33438}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheMiss","value":0,"t":33438}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheUsed","value":0,"t":33438}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheUnused","value":0,"t":33438}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:HoverCount","value":0,"t":33438}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:ReqDimChangeCount","value":0,"t":33438}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheHit","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheMiss","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheUsed","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheUnused","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:HoverCount","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:ReqDimChangeCount","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheHit","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheMiss","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheUsed","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:CacheUnused","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:HoverCount","value":0,"t":33439}},{"csmcount":{"counter":"TwisterDimensionViewsSwatch:ReqDimChangeCount","value":0,"t":33439}},{"csmcount":{"counter":":CacheHit","value":0,"t":33440}},{"csmcount":{"counter":":CacheMiss","value":0,"t":33440}},{"csmcount":{"counter":":CacheUsed","value":0,"t":33440}},{"csmcount":{"counter":":CacheUnused","value":0,"t":33440}},{"csmcount":{"counter":":HoverCount","value":0,"t":33440}},{"csmcount":{"counter":":ReqDimChangeCount","value":0,"t":33440}},{"csm":{"k":"chk","f":7,"l":{"csmcount":375,"cel":195,"navigation":4,"csm":8},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":4703}}]}']}
+content query: {'rid': 'FBGCSX8H1SGYW100GW4Z', 'sid': '130-7417922-1464243', 'mid': 'ATVPDKIKX0DER', 'sn': 'www.amazon.com', 'reqs,0,cel,k': 'mmm1', 'reqs,0,cel,e,0,x': 866, 'reqs,0,cel,e,0,y': 588, 'reqs,0,cel,e,0,t': 25240, 'reqs,0,cel,e,1,x': 866, 'reqs,0,cel,e,1,y': 571, 'reqs,0,cel,e,1,t': 25269, 'reqs,0,cel,e,2,x': 866, 'reqs,0,cel,e,2,y': 561, 'reqs,0,cel,e,2,t': 25523, 'reqs,0,cel,e,3,x': 866, 'reqs,0,cel,e,3,y': 574, 'reqs,0,cel,e,3,t': 25599, 'reqs,0,cel,e,4,x': 854, 'reqs,0,cel,e,4,y': 542, 'reqs,0,cel,e,4,t': 25711, 'reqs,0,cel,e,5,x': 747, 'reqs,0,cel,e,5,y': 515, 'reqs,0,cel,e,5,t': 25779, 'reqs,0,cel,e,6,x': 277, 'reqs,0,cel,e,6,y': 443, 'reqs,0,cel,e,6,t': 25839, 'reqs,0,cel,e,7,x': 49, 'reqs,0,cel,e,7,y': 392, 'reqs,0,cel,e,7,t': 25917, 'reqs,0,cel,e,8,x': 23, 'reqs,0,cel,e,8,y': 336, 'reqs,0,cel,e,8,t': 25980, 'reqs,0,cel,e,9,x': 70, 'reqs,0,cel,e,9,y': 558, 'reqs,0,cel,e,9,t': 26194, 'reqs,0,cel,e,10,x': 70, 'reqs,0,cel,e,10,y': 614, 'reqs,0,cel,e,10,t': 26283, 'reqs,0,cel,e,11,x': 70, 'reqs,0,cel,e,11,y': 615, 'reqs,0,cel,e,11,t': 26384, 'reqs,0,cel,e,12,x': 56, 'reqs,0,cel,e,12,y': 634, 'reqs,0,cel,e,12,t': 26603, 'reqs,0,cel,e,13,x': 56, 'reqs,0,cel,e,13,y': 648, 'reqs,0,cel,e,13,t': 26734, 'reqs,0,cel,e,14,x': 198, 'reqs,0,cel,e,14,y': 567, 'reqs,0,cel,e,14,t': 27167, 'reqs,0,cel,e,15,x': 409, 'reqs,0,cel,e,15,y': 499, 'reqs,0,cel,e,15,t': 27235, 'reqs,0,cel,e,16,x': 499, 'reqs,0,cel,e,16,y': 484, 'reqs,0,cel,e,16,t': 27294, 'reqs,0,cel,e,17,x': 583, 'reqs,0,cel,e,17,y': 481, 'reqs,0,cel,e,17,t': 27432, 'reqs,0,cel,e,18,x': 616, 'reqs,0,cel,e,18,y': 446, 'reqs,0,cel,e,18,t': 27523, 'reqs,0,cel,min': 0, 'reqs,0,cel,max': 1000, 'reqs,0,cel,avg': 200, 'reqs,1,cel,k': 'mmm1', 'reqs,1,cel,e,0,x': 615, 'reqs,1,cel,e,0,y': 448, 'reqs,1,cel,e,0,t': 28355, 'reqs,1,cel,e,1,x': 576, 'reqs,1,cel,e,1,y': 426, 'reqs,1,cel,e,1,t': 28587, 'reqs,1,cel,e,2,x': 573, 'reqs,1,cel,e,2,y': 426, 'reqs,1,cel,e,2,t': 28818, 'reqs,1,cel,e,3,x': 555, 'reqs,1,cel,e,3,y': 396, 'reqs,1,cel,e,3,t': 28921, 'reqs,1,cel,e,4,x': 546, 'reqs,1,cel,e,4,y': 370, 'reqs,1,cel,e,4,t': 29096, 'reqs,1,cel,e,5,x': 520, 'reqs,1,cel,e,5,y': 377, 'reqs,1,cel,e,5,t': 29346, 'reqs,1,cel,e,6,x': 538, 'reqs,1,cel,e,6,y': 393, 'reqs,1,cel,e,6,t': 29372, 'reqs,1,cel,e,7,x': 527, 'reqs,1,cel,e,7,y': 446, 'reqs,1,cel,e,7,t': 29440, 'reqs,1,cel,e,8,x': 480, 'reqs,1,cel,e,8,y': 560, 'reqs,1,cel,e,8,t': 29589, 'reqs,1,cel,e,9,x': 480, 'reqs,1,cel,e,9,y': 572, 'reqs,1,cel,e,9,t': 29643, 'reqs,1,cel,e,10,x': 538, 'reqs,1,cel,e,10,y': 494, 'reqs,1,cel,e,10,t': 30306, 'reqs,1,cel,e,11,x': 522, 'reqs,1,cel,e,11,y': 587, 'reqs,1,cel,e,11,t': 30597, 'reqs,1,cel,e,12,x': 542, 'reqs,1,cel,e,12,y': 479, 'reqs,1,cel,e,12,t': 30971, 'reqs,1,cel,e,13,x': 576, 'reqs,1,cel,e,13,y': 390, 'reqs,1,cel,e,13,t': 31037, 'reqs,1,cel,e,14,x': 639, 'reqs,1,cel,e,14,y': 386, 'reqs,1,cel,e,14,t': 31201, 'reqs,1,cel,min': 0, 'reqs,1,cel,max': 1000, 'reqs,1,cel,avg': 166, 'reqs,2,cel,w': 1054, 'reqs,2,cel,h': 639, 'reqs,2,cel,x': 0, 'reqs,2,cel,y': 126.13333129882812, 'reqs,2,cel,t': 32659, 'reqs,2,cel,k': 'vpi', 'reqs,3,cel,w': 1054, 'reqs,3,cel,h': 639, 'reqs,3,cel,x': 0, 'reqs,3,cel,y': 111.80000305175781, 'reqs,3,cel,t': 32873, 'reqs,3,cel,k': 'vpi', 'reqs,4,cel,k': 'mcm', 'reqs,4,cel,w': 1039, 'reqs,4,cel,h': 13124, 'reqs,4,cel,t': 33270, 'reqs,4,cel,x': 658, 'reqs,4,cel,y': 215, 'reqs,4,cel,p': "//*[@id='attach-sidesheet-view-cart-button']/SPAN/INPUT", 'reqs,4,cel,n': 'INPUT', 'reqs,4,cel,dt': 3, 'reqs,5,cel,k': 'res_mcm', 'reqs,5,cel,t': 33271, 'reqs,5,cel,m': 8, 'reqs,6,csmcount,counter': 'A11yScore', 'reqs,6,csmcount,value': 0, 'reqs,6,csmcount,t': 33282, 'reqs,7,csmcount,counter': 'cel.PDM.TotalExecutions', 'reqs,7,csmcount,value': 49, 'reqs,7,csmcount,t': 33430, 'reqs,8,csmcount,counter': 'cel.VPI.TotalExecutions', 'reqs,8,csmcount,value': 8, 'reqs,8,csmcount,t': 33430, 'reqs,9,csmcount,counter': 'cel.VPI.TotalExecutionTime', 'reqs,9,csmcount,value': 0, 'reqs,9,csmcount,t': 33430, 'reqs,10,csmcount,counter': 'cel.VPI.AverageExecutionTime', 'reqs,10,csmcount,value': 0, 'reqs,10,csmcount,t': 33430, 'reqs,11,csmcount,counter': 'cel.widgets.batchesProcessed', 'reqs,11,csmcount,value': 168, 'reqs,11,csmcount,t': 33430, 'reqs,12,cel,k': 'mmm1', 'reqs,12,cel,e,0,x': 641, 'reqs,12,cel,e,0,y': 386, 'reqs,12,cel,e,0,t': 31343, 'reqs,12,cel,e,1,x': 654, 'reqs,12,cel,e,1,y': 375, 'reqs,12,cel,e,1,t': 31427, 'reqs,12,cel,e,2,x': 656, 'reqs,12,cel,e,2,y': 359, 'reqs,12,cel,e,2,t': 31912, 'reqs,12,cel,e,3,x': 642, 'reqs,12,cel,e,3,y': 350, 'reqs,12,cel,e,3,t': 32032, 'reqs,12,cel,e,4,x': 582, 'reqs,12,cel,e,4,y': 410, 'reqs,12,cel,e,4,t': 32092, 'reqs,12,cel,e,5,x': 562, 'reqs,12,cel,e,5,y': 438, 'reqs,12,cel,e,5,t': 32224, 'reqs,12,cel,e,6,x': 568, 'reqs,12,cel,e,6,y': 433, 'reqs,12,cel,e,6,t': 32269, 'reqs,12,cel,e,7,x': 570, 'reqs,12,cel,e,7,y': 365, 'reqs,12,cel,e,7,t': 32408, 'reqs,12,cel,e,8,x': 658, 'reqs,12,cel,e,8,y': 238, 'reqs,12,cel,e,8,t': 32672, 'reqs,12,cel,e,9,x': 674, 'reqs,12,cel,e,9,y': 227, 'reqs,12,cel,e,9,t': 32905, 'reqs,12,cel,e,10,x': 658, 'reqs,12,cel,e,10,y': 215, 'reqs,12,cel,e,10,t': 33038, 'reqs,12,cel,e,11,x': 658, 'reqs,12,cel,e,11,y': 215, 'reqs,12,cel,e,11,t': 33435, 'reqs,12,cel,min': 0, 'reqs,12,cel,max': 1000, 'reqs,12,cel,avg': 142, 'reqs,13,cel,k': 'hrt', 'reqs,13,cel,t': 33436, 'reqs,14,cel,k': 'eod', 'reqs,14,cel,t0': 1538139078676, 'reqs,14,cel,t': 33436, 'reqs,15,csmcount,counter': 'armored-cxguardrails.unresponsive-clicks.violations', 'reqs,15,csmcount,value': 0, 'reqs,15,csmcount,t': 33437, 'reqs,16,csmcount,counter': 'armored-cxguardrails.unresponsive-clicks.violationRate', 'reqs,16,csmcount,value': 0, 'reqs,16,csmcount,t': 33437, 'reqs,17,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheHit', 'reqs,17,csmcount,value': 0, 'reqs,17,csmcount,t': 33438, 'reqs,18,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheMiss', 'reqs,18,csmcount,value': 0, 'reqs,18,csmcount,t': 33438, 'reqs,19,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheUsed', 'reqs,19,csmcount,value': 0, 'reqs,19,csmcount,t': 33438, 'reqs,20,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheUnused', 'reqs,20,csmcount,value': 0, 'reqs,20,csmcount,t': 33438, 'reqs,21,csmcount,counter': 'TwisterDimensionViewsSwatch:HoverCount', 'reqs,21,csmcount,value': 0, 'reqs,21,csmcount,t': 33438, 'reqs,22,csmcount,counter': 'TwisterDimensionViewsSwatch:ReqDimChangeCount', 'reqs,22,csmcount,value': 0, 'reqs,22,csmcount,t': 33438, 'reqs,23,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheHit', 'reqs,23,csmcount,value': 0, 'reqs,23,csmcount,t': 33439, 'reqs,24,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheMiss', 'reqs,24,csmcount,value': 0, 'reqs,24,csmcount,t': 33439, 'reqs,25,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheUsed', 'reqs,25,csmcount,value': 0, 'reqs,25,csmcount,t': 33439, 'reqs,26,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheUnused', 'reqs,26,csmcount,value': 0, 'reqs,26,csmcount,t': 33439, 'reqs,27,csmcount,counter': 'TwisterDimensionViewsSwatch:HoverCount', 'reqs,27,csmcount,value': 0, 'reqs,27,csmcount,t': 33439, 'reqs,28,csmcount,counter': 'TwisterDimensionViewsSwatch:ReqDimChangeCount', 'reqs,28,csmcount,value': 0, 'reqs,28,csmcount,t': 33439, 'reqs,29,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheHit', 'reqs,29,csmcount,value': 0, 'reqs,29,csmcount,t': 33439, 'reqs,30,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheMiss', 'reqs,30,csmcount,value': 0, 'reqs,30,csmcount,t': 33439, 'reqs,31,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheUsed', 'reqs,31,csmcount,value': 0, 'reqs,31,csmcount,t': 33439, 'reqs,32,csmcount,counter': 'TwisterDimensionViewsSwatch:CacheUnused', 'reqs,32,csmcount,value': 0, 'reqs,32,csmcount,t': 33439, 'reqs,33,csmcount,counter': 'TwisterDimensionViewsSwatch:HoverCount', 'reqs,33,csmcount,value': 0, 'reqs,33,csmcount,t': 33439, 'reqs,34,csmcount,counter': 'TwisterDimensionViewsSwatch:ReqDimChangeCount', 'reqs,34,csmcount,value': 0, 'reqs,34,csmcount,t': 33439, 'reqs,35,csmcount,counter': ':CacheHit', 'reqs,35,csmcount,value': 0, 'reqs,35,csmcount,t': 33440, 'reqs,36,csmcount,counter': ':CacheMiss', 'reqs,36,csmcount,value': 0, 'reqs,36,csmcount,t': 33440, 'reqs,37,csmcount,counter': ':CacheUsed', 'reqs,37,csmcount,value': 0, 'reqs,37,csmcount,t': 33440, 'reqs,38,csmcount,counter': ':CacheUnused', 'reqs,38,csmcount,value': 0, 'reqs,38,csmcount,t': 33440, 'reqs,39,csmcount,counter': ':HoverCount', 'reqs,39,csmcount,value': 0, 'reqs,39,csmcount,t': 33440, 'reqs,40,csmcount,counter': ':ReqDimChangeCount', 'reqs,40,csmcount,value': 0, 'reqs,40,csmcount,t': 33440, 'reqs,41,csm,k': 'chk', 'reqs,41,csm,f': 7, 'reqs,41,csm,l,csmcount': 375, 'reqs,41,csm,l,cel': 195, 'reqs,41,csm,l,navigation': 4, 'reqs,41,csm,l,csm': 8, 'reqs,41,csm,s': 'full', 'reqs,42,csmcount,counter': 'foresterPayloadSize', 'reqs,42,csmcount,t': 0, 'reqs,42,csmcount,value': 4703}
 url: https://fls-na.amazon.com/1/batch/1/OE/
+Response type: 
+
 
 Index = 165, Group = 10
 url query: {'cartItems': ['cart'], 'rid': ['FB3Q34MV5JW9FJW0V959'], 'isFullWidthPrime': ['0'], 'isPrime': ['0'], 'dynamicRequest': ['1'], 'primeMenuWidth': ['310'], '_': ['1538139133170']}
 content query: {}
 url: https://www.amazon.com/gp/navigation/ajax/dynamic-menu.html?cartItems=cart&rid=FB3Q34MV5JW9FJW0V959&isFullWidthPrime=0&isPrime=0&dynamicRequest=1&weblabs=&isFreshRegionAndCustomer=&primeMenuWidth=310&_=1538139133170
+Response type: 
+
 
 Index = 166, Group = 0
 url query: {'v': ['0.201809.0'], 'id': ['RBH7R80QVX0E3BNZPCJK'], 'm': ['1'], 'sc': ['RBH7R80QVX0E3BNZPCJK'], 'ue': ['18'], 'bb': ['345'], 'ns': ['356'], 'x1': ['374'], 'af': ['427'], 'ne': ['617'], 'cf': ['1218'], 'be': ['1805'], 'pc': ['3931'], 'tc': ['-2366'], 'na_': ['-2366'], 'ul_': ['-1538139332146'], '_ul': ['-1538139332146'], 'rd_': ['-1538139332146'], '_rd': ['-1538139332146'], 'fe_': ['-2366'], 'lk_': ['-2366'], '_lk': ['-2366'], 'co_': ['-2366'], '_co': ['-2366'], 'sc_': ['-2366'], 'rq_': ['-2285'], 'rs_': ['-48'], '_rs': ['-39'], 'dl_': ['-38'], 'di_': ['1875'], 'de_': ['1950'], '_de': ['2075'], '_dc': ['-1538139332146'], 'ld_': ['-1538139332146'], '_ld': ['-1538139332146'], 'ntd': ['0'], 'ty': ['0'], 'rc': ['0'], 'hob': ['15'], 'hoe': ['18'], 'ul': ['3932'], 't': ['1538139336078'], 'ctb': ['1'], 'rt': ['cf:68-12-11-43-1-12-0_af:53-1-11-41-1-1-1_'], 'csmtags': ['aui|aui:aui_build_date:3.18.12-2018-09-20|navbar|desktop-html-atf-marker|ABPStatusNotEnabled:Detail:ams-detail-right-v2:desktop|ABPStatusNotEnabled:Detail:dp-ads-center-promo:Desktop|pwFeatureToggleJSLoaded|ABPStatusNotEnabled:Detail:customer-reviews-top:Glance|ABPStatusNotEnabled:Detail:ad-endcap-1:Glance|USHardlinesDetailPageMetaAssetFixedNotCached|USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOPNotCached|auiNotCached|fls-na|adblk_no|csm-feature-touch-enabled:false|adRender:Detail:dp-ads-center-promo:Desktop|adRender:32fc627e-b509-489a-93e0-f2589ab00826|adRender:Detail:dp-ads-center-promo:Desktop:creativeId:14270660701|adRender:32fc627e-b509-489a-93e0-f2589ab00826:creativeId:14270660701|adRender:Detail:dp-ads-center-promo:Desktop:programId:1001|adRender:32fc627e-b509-489a-93e0-f2589ab00826:programId:1001|adRender:Detail:ad-endcap-1:Glance|adRender:6e8849f7-64c3-45e5-a732-d4ef8c06246b|adRender:Detail:ad-endcap-1:Glance:creativeId:14272478701|adRender:6e8849f7-64c3-45e5-a732-d4ef8c06246b:creativeId:14272478701|adRender:Detail:ad-endcap-1:Glance:programId:1001|adRender:6e8849f7-64c3-45e5-a732-d4ef8c06246b:programId:1001|adRender:Detail:customer-reviews-top:Glance|adRender:a5a58631-9157-450d-8b12-21b15ea5926d|adRender:Detail:customer-reviews-top:Glance:creativeId:-1924146692|adRender:a5a58631-9157-450d-8b12-21b15ea5926d:creativeId:-1924146692|adRender:Detail:customer-reviews-top:Glance:programId:1024|adRender:a5a58631-9157-450d-8b12-21b15ea5926d:programId:1024|isNotPWExperienceEnabled|iss-on-time'], 'viz': ['visible:18'], 'pty': ['Detail'], 'spty': ['Glance'], 'pti': ['B004S8F7QM'], 'tid': ['JSM8137AJ3TYPRJTPBA5'], 'aftb': ['1'], 'ui': ['2']}
 content query: {}
 url: https://www.amazon.com/gp/uedata?ul&v=0.201809.0&id=RBH7R80QVX0E3BNZPCJK&m=1&sc=RBH7R80QVX0E3BNZPCJK&ue=18&bb=345&ns=356&x1=374&af=427&ne=617&cf=1218&be=1805&pc=3931&tc=-2366&na_=-2366&ul_=-1538139332146&_ul=-1538139332146&rd_=-1538139332146&_rd=-1538139332146&fe_=-2366&lk_=-2366&_lk=-2366&co_=-2366&_co=-2366&sc_=-2366&rq_=-2285&rs_=-48&_rs=-39&dl_=-38&di_=1875&de_=1950&_de=2075&_dc=-1538139332146&ld_=-1538139332146&_ld=-1538139332146&ntd=0&ty=0&rc=0&hob=15&hoe=18&ul=3932&t=1538139336078&ctb=1&rt=cf:68-12-11-43-1-12-0_af:53-1-11-41-1-1-1_&csmtags=aui|aui:aui_build_date:3.18.12-2018-09-20|navbar|desktop-html-atf-marker|ABPStatusNotEnabled:Detail:ams-detail-right-v2:desktop|ABPStatusNotEnabled:Detail:dp-ads-center-promo:Desktop|pwFeatureToggleJSLoaded|ABPStatusNotEnabled:Detail:customer-reviews-top:Glance|ABPStatusNotEnabled:Detail:ad-endcap-1:Glance|USHardlinesDetailPageMetaAssetFixedNotCached|USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOPNotCached|auiNotCached|fls-na|adblk_no|csm-feature-touch-enabled:false|adRender:Detail:dp-ads-center-promo:Desktop|adRender:32fc627e-b509-489a-93e0-f2589ab00826|adRender:Detail:dp-ads-center-promo:Desktop:creativeId:14270660701|adRender:32fc627e-b509-489a-93e0-f2589ab00826:creativeId:14270660701|adRender:Detail:dp-ads-center-promo:Desktop:programId:1001|adRender:32fc627e-b509-489a-93e0-f2589ab00826:programId:1001|adRender:Detail:ad-endcap-1:Glance|adRender:6e8849f7-64c3-45e5-a732-d4ef8c06246b|adRender:Detail:ad-endcap-1:Glance:creativeId:14272478701|adRender:6e8849f7-64c3-45e5-a732-d4ef8c06246b:creativeId:14272478701|adRender:Detail:ad-endcap-1:Glance:programId:1001|adRender:6e8849f7-64c3-45e5-a732-d4ef8c06246b:programId:1001|adRender:Detail:customer-reviews-top:Glance|adRender:a5a58631-9157-450d-8b12-21b15ea5926d|adRender:Detail:customer-reviews-top:Glance:creativeId:-1924146692|adRender:a5a58631-9157-450d-8b12-21b15ea5926d:creativeId:-1924146692|adRender:Detail:customer-reviews-top:Glance:programId:1024|adRender:a5a58631-9157-450d-8b12-21b15ea5926d:programId:1024|isNotPWExperienceEnabled|iss-on-time&viz=visible:18&pty=Detail&spty=Glance&pti=B004S8F7QM&tid=JSM8137AJ3TYPRJTPBA5&aftb=1&ui=2
+Response type: 
+
 
 Index = 167, Group = 0
 url query: {}
 content query: {}
 url: https://www.amazon.com/gp/cart/desktop/ajax-lazy-load.html
+Response type: 
+
 
 Index = 168, Group = 0
 url query: {}
 content query: {}
 url: https://images-na.ssl-images-amazon.com/images/I/61q3B0nT22L._RC|01bI2uWMSDL.css,016sJVBHsRL.css,310rAAnFCSL.css,118bDMikZGL.css,11EMohT-IeL.css,21LK7jaicML.css,11-2siEOStL.css,21g5fdSNE6L.css,01Xl9KigtzL.css,01YhS3Cs-hL.css,21oddBoVd4L.css,019SHZnt8RL.css,01gv-pABIRL.css,11vZhCgAHbL.css,219QX0pP-ZL.css,11GUWGxBPIL.css,01dU8+SPlFL.css,11a9yCU+klL.css,01SHjPML6tL.css,11mYL77nNvL.css,01QrWuRrZ-L.css,31667-RteRL.css,114KWZGKCVL.css,01cbS3UK11L.css,21J5CLG82gL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI
+Response type: 
+
 
 Index = 169, Group = 0
 url query: {}
-content query: {}
+content query: {'rid': 'FBGCSX8H1SGYW100GW4Z', 'sid': '130-7417922-1464243', 'mid': 'ATVPDKIKX0DER', 'sn': 'www.amazon.com', 'reqs,0,csmcount,counter': 'nav-flyout-shopAll-dwellTime', 'reqs,0,csmcount,value': 1482, 'reqs,0,csmcount,t': 16827, 'reqs,1,csmcount,counter': 'nav-flyout-shopAll-bounceCount', 'reqs,1,csmcount,value': 1, 'reqs,1,csmcount,t': 16827, 'reqs,2,csmcount,counter': 'timelineMetric-AjaxCallCount', 'reqs,2,csmcount,value': 1, 'reqs,2,csmcount,t': 17154, 'reqs,3,csmcount,counter': 'timelineMetric-AjaxLatency', 'reqs,3,csmcount,value': 1794, 'reqs,3,csmcount,t': 17154, 'reqs,4,csmcount,counter': 'dppc_hoverTime', 'reqs,4,csmcount,value': 1, 'reqs,4,csmcount,t': 17244, 'reqs,5,csmcount,counter': 'dppc_hoverMain', 'reqs,5,csmcount,value': 1, 'reqs,5,csmcount,t': 17244, 'reqs,6,cel,w': 1054, 'reqs,6,cel,h': 639, 'reqs,6,cel,x': 0, 'reqs,6,cel,y': 169.13333129882812, 'reqs,6,cel,t': 18120, 'reqs,6,cel,k': 'vpi', 'reqs,7,csmcount,counter': 'dppc_hoverZoomOpened', 'reqs,7,csmcount,value': 1, 'reqs,7,csmcount,t': 18398, 'reqs,8,cel,w': 1054, 'reqs,8,cel,h': 639, 'reqs,8,cel,x': 0, 'reqs,8,cel,y': 223.60000610351562, 'reqs,8,cel,t': 18401, 'reqs,8,cel,k': 'vpi', 'reqs,9,cel,w': 1054, 'reqs,9,cel,h': 639, 'reqs,9,cel,x': 0, 'reqs,9,cel,y': 269.4666748046875, 'reqs,9,cel,t': 19017, 'reqs,9,cel,k': 'vpi', 'reqs,10,csmcount,counter': 'adplacements:htmlviewed:loaded:Detail:ams-detail-right-v2:desktop', 'reqs,10,csmcount,value': 1, 'reqs,10,csmcount,t': 19099, 'reqs,11,csmcount,counter': 'adplacements:htmlviewed:Detail:ams-detail-right-v2:desktop', 'reqs,11,csmcount,value': 1, 'reqs,11,csmcount,t': 19099, 'reqs,12,cel,w': 1054, 'reqs,12,cel,h': 639, 'reqs,12,cel,x': 0, 'reqs,12,cel,y': 279.5, 'reqs,12,cel,t': 19139, 'reqs,12,cel,k': 'vpi', 'reqs,13,cel,k': 'mmm1', 'reqs,13,cel,e,0,x': 691, 'reqs,13,cel,e,0,y': 290, 'reqs,13,cel,e,0,t': 16667, 'reqs,13,cel,e,1,x': 695, 'reqs,13,cel,e,1,y': 283, 'reqs,13,cel,e,1,t': 16727, 'reqs,13,cel,e,2,x': 239, 'reqs,13,cel,e,2,y': 230, 'reqs,13,cel,e,2,t': 16784, 'reqs,13,cel,e,3,x': 60, 'reqs,13,cel,e,3,y': 230, 'reqs,13,cel,e,3,t': 16816, 'reqs,13,cel,e,4,x': 27, 'reqs,13,cel,e,4,y': 265, 'reqs,13,cel,e,4,t': 16969, 'reqs,13,cel,e,5,x': 36, 'reqs,13,cel,e,5,y': 274, 'reqs,13,cel,e,5,t': 17047, 'reqs,13,cel,e,6,x': 108, 'reqs,13,cel,e,6,y': 350, 'reqs,13,cel,e,6,t': 17424, 'reqs,13,cel,e,7,x': 169, 'reqs,13,cel,e,7,y': 410, 'reqs,13,cel,e,7,t': 17744, 'reqs,13,cel,e,8,x': 178, 'reqs,13,cel,e,8,y': 470, 'reqs,13,cel,e,8,t': 18027, 'reqs,13,cel,e,9,x': 280, 'reqs,13,cel,e,9,y': 561, 'reqs,13,cel,e,9,t': 18421, 'reqs,13,cel,e,10,x': 301, 'reqs,13,cel,e,10,y': 585, 'reqs,13,cel,e,10,t': 18537, 'reqs,13,cel,e,11,x': 317, 'reqs,13,cel,e,11,y': 655, 'reqs,13,cel,e,11,t': 18678, 'reqs,13,cel,e,12,x': 318, 'reqs,13,cel,e,12,y': 684, 'reqs,13,cel,e,12,t': 18844, 'reqs,13,cel,e,13,x': 364, 'reqs,13,cel,e,13,y': 721, 'reqs,13,cel,e,13,t': 19137, 'reqs,13,cel,e,14,x': 371, 'reqs,13,cel,e,14,y': 754, 'reqs,13,cel,e,14,t': 19202, 'reqs,13,cel,min': 0, 'reqs,13,cel,max': 1000, 'reqs,13,cel,avg': 500, 'reqs,14,csmcount,counter': 'dppc_hoverZoomOpened', 'reqs,14,csmcount,value': 2, 'reqs,14,csmcount,t': 20550, 'reqs,15,csmcount,counter': 'TwisterDimensionViewsSwatch:Twister.swatch.event', 'reqs,15,csmcount,value': 1, 'reqs,15,csmcount,t': 22216, 'reqs,16,csmcount,counter': 'TwisterDimensionViewsSwatch:Twister.swatch.event', 'reqs,16,csmcount,value': 1, 'reqs,16,csmcount,t': 22216, 'reqs,17,csmcount,counter': 'TwisterDimensionViewsSwatch:Twister.swatch.event', 'reqs,17,csmcount,value': 1, 'reqs,17,csmcount,t': 22217, 'reqs,18,cel,k': 'mmm1', 'reqs,18,cel,e,0,x': 367, 'reqs,18,cel,e,0,y': 772, 'reqs,18,cel,e,0,t': 19234, 'reqs,18,cel,e,1,x': 364, 'reqs,18,cel,e,1,y': 792, 'reqs,18,cel,e,1,t': 19370, 'reqs,18,cel,e,2,x': 366, 'reqs,18,cel,e,2,y': 799, 'reqs,18,cel,e,2,t': 19474, 'reqs,18,cel,e,3,x': 482, 'reqs,18,cel,e,3,y': 744, 'reqs,18,cel,e,3,t': 19497, 'reqs,18,cel,e,4,x': 446, 'reqs,18,cel,e,4,y': 356, 'reqs,18,cel,e,4,t': 19550, 'reqs,18,cel,e,5,x': 1036, 'reqs,18,cel,e,5,y': 350, 'reqs,18,cel,e,5,t': 21635, 'reqs,18,cel,e,6,x': 546, 'reqs,18,cel,e,6,y': 724, 'reqs,18,cel,e,6,t': 22218, 'reqs,18,cel,min': 0, 'reqs,18,cel,max': 1000, 'reqs,18,cel,avg': 333, 'reqs,19,csmcount,counter': 'TwisterDimensionViewsSwatch:Twister.swatch.event', 'reqs,19,csmcount,value': 1, 'reqs,19,csmcount,t': 22395, 'reqs,20,csmcount,counter': 'TwisterDimensionViewsSwatch:Twister.swatch.event', 'reqs,20,csmcount,value': 1, 'reqs,20,csmcount,t': 22401, 'reqs,21,csmcount,counter': 'TwisterDimensionViewsSwatch:Twister.swatch.event', 'reqs,21,csmcount,value': 1, 'reqs,21,csmcount,t': 22404, 'reqs,22,csmcount,counter': 'swatchHover', 'reqs,22,csmcount,value': 1, 'reqs,22,csmcount,t': 22428, 'reqs,23,csmcount,counter': 'swatchHover', 'reqs,23,csmcount,value': 2, 'reqs,23,csmcount,t': 22435, 'reqs,24,csmcount,counter': 'swatchHover', 'reqs,24,csmcount,value': 3, 'reqs,24,csmcount,t': 22442, 'reqs,25,cel,k': 'hrt', 'reqs,25,cel,t': 24132, 'reqs,26,csm,k': 'chk', 'reqs,26,csm,f': 5, 'reqs,26,csm,l,csmcount': 341, 'reqs,26,csm,l,cel': 182, 'reqs,26,csm,l,navigation': 4, 'reqs,26,csm,l,csm': 6, 'reqs,26,csm,s': 'full', 'reqs,27,csmcount,counter': 'foresterPayloadSize', 'reqs,27,csmcount,t': 0, 'reqs,27,csmcount,value': 2855}
 url: https://fls-na.amazon.com/1/batch/1/OE/
+Response type: 
+
 

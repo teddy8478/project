@@ -12,7 +12,6 @@ class AddHeader:
             default = False,
             help = "Add a count header to responses",
         )
-
     def response(self, flow):
         if ctx.options.addheader:
             self.num = self.num + 1
